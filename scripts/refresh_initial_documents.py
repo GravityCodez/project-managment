@@ -1,6 +1,8 @@
 """Refresh the archived A-C coursework, keeping editorial records outside submissions."""
 from pathlib import Path
 from docx import Document
+from copy import deepcopy
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'archive/2026-09-17-before-reorganization/ClassMic_C1_Completed'
@@ -72,6 +74,23 @@ for source,target in ITEMS:
         for p in d.paragraphs:
             if p.text.startswith('[1]'):
                 p.text='[1] Biamp Crowd Mics product overview, accessed 17 September 2026. https://www.biamp.com/products/families/crowd-mics'
+    edits=json.loads((ROOT/'scripts/editorial_copy.json').read_text())['documents'][Path(target).stem]
+    seen=set()
+    for para in paragraphs(d):
+        old=para.text
+        if old not in edits: continue
+        seen.add(old)
+        runs=[run for run in para.runs if run.text]
+        properties=deepcopy(runs[0]._r.rPr) if runs and runs[0]._r.rPr is not None else None
+        mixed_bold=any(run.bold is True for run in runs) and not all(run.bold is True for run in runs)
+        para.clear()
+        run=para.add_run(edits[old])
+        if properties is not None: run._r.insert(0,properties)
+        if mixed_bold: run.bold=False
+    assert seen==set(edits), 'Unmatched editorial replacements: '+str(set(edits)-seen)
+    for section in d.sections:
+        for para in section.footer.paragraphs:
+            for run in para.runs: run.text=run.text.replace('C1 draft for review','C1')
     d.core_properties.author='Temiko Machavariani and Nurtore Arynuruly'
     d.core_properties.last_modified_by=''
     d.core_properties.comments=''

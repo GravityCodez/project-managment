@@ -1,8 +1,8 @@
 [
   {
     "path": "submissions/ClassMic_Initial_Phases.zip",
-    "bytes": 3295881,
-    "sha256": "9228599d80877705e83a36cfd48616af71d607b1eb09ae021e7d77e988849291"
+    "bytes": 3309285,
+    "sha256": "aa71e4f3bea92d7dd6c5a931a5e5150000525e1cd11fb79c2d05e123e344631d"
   },
   {
     "path": "submissions/ClassMic_WBS_Lab.zip",
@@ -11,48 +11,48 @@
   },
   {
     "path": "submissions/initial-phases/A_Aspiration/ClassMic_A2_Aspiration.docx",
-    "bytes": 38331,
-    "sha256": "f30e2a33e454e61f23e17dc0b68fe6a79c8afcacf33f4250a08af6fd236bf4b3"
+    "bytes": 40441,
+    "sha256": "20a1537d78bdf01bb93bfcfd8ef32c687f856c09fa0e525202e89dbd33a40d3b"
   },
   {
     "path": "submissions/initial-phases/A_Aspiration/ClassMic_A2_Aspiration.pdf",
-    "bytes": 88315,
-    "sha256": "ae5fd783c4333c9fbc89f9c7d0d5cadcbb4637ca1606d9cdcacdb74bd6569be3"
+    "bytes": 90074,
+    "sha256": "1718078ffc52fc2f614cebba7aec3012c1131aa072bf3f14b6c555484bf586e1"
   },
   {
     "path": "submissions/initial-phases/A_Aspiration/ClassMic_A2_Three_Slides.pptx",
-    "bytes": 980842,
-    "sha256": "6eaf75699008492faab481733a601bf04adb5f0b2fe34a7a1585dec0d8fa6c97"
+    "bytes": 980912,
+    "sha256": "e751e9fb905b139afb2ba0fc3cf611f573e792fb3d8e3fab72b25da0d027ca9d"
   },
   {
     "path": "submissions/initial-phases/B_Business_Case/ClassMic_B2_Business_Case.docx",
-    "bytes": 41364,
-    "sha256": "000fa6e4cc405d7e599040b05426d1a3ec5037fc14d7efefa6cd2500a2267184"
+    "bytes": 43637,
+    "sha256": "695cd0033c2fe87c2bf1db976f308a5ba2798e916523fb7b26e2ac4d391dff1f"
   },
   {
     "path": "submissions/initial-phases/B_Business_Case/ClassMic_B2_Business_Case.pdf",
-    "bytes": 178372,
-    "sha256": "e684acb367fcfe92832e4fdc4c99ab6107b519e2361d35033347572e052a9150"
+    "bytes": 179623,
+    "sha256": "a25351f96150c2f864a18f3c64bdb75181022f7bf8fb11c6bb58552ff52f6479"
   },
   {
     "path": "submissions/initial-phases/B_Business_Case/ClassMic_B2_Three_Slides.pptx",
-    "bytes": 981071,
-    "sha256": "ae058b25f2f8aa31549ab2496e43f48f9534285eb5b837d21d430e9cbb7bd457"
+    "bytes": 981139,
+    "sha256": "92da53febdf0608cdfb5d2aac56b810aa35d5df598b8d4ff6cb03794d1acfb3d"
   },
   {
     "path": "submissions/initial-phases/C_Charter/ClassMic_C1_Project_Charter.docx",
-    "bytes": 38854,
-    "sha256": "2a986c67d52ae7398c2f03aa83bd588f5eaff0e8b08b5e0ade275a42075038f6"
+    "bytes": 40923,
+    "sha256": "5805e7a1932ce0e54c39dbea68fde81a5995d8c4039401ac126da262f69e1c2d"
   },
   {
     "path": "submissions/initial-phases/C_Charter/ClassMic_C1_Project_Charter.pdf",
-    "bytes": 100294,
-    "sha256": "f80f75138260e16c84061b0e8c3b91d9322b1b0e2b06855af32d147dc33b4805"
+    "bytes": 104347,
+    "sha256": "6837edd1b005c4a6a4c5086751dd7f690e1cb08116057104c8f84a06fa874de7"
   },
   {
     "path": "submissions/initial-phases/C_Charter/ClassMic_C1_Three_Slides.pptx",
-    "bytes": 981073,
-    "sha256": "f5b707527a4455bcf1ec0d4d00e2be317690963e389613d7d42c6ddc09a05de3"
+    "bytes": 981144,
+    "sha256": "e64af9cc8f676705c7b3e908d1ced2caf75c80e2d7a214d1856af2e7a96d6ed1"
   },
   {
     "path": "submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.csv",

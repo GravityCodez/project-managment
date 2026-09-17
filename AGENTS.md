@@ -8,6 +8,8 @@ All files under submissions/ and every upload package must stand alone as course
 
 Do not add unsolicited AI labels. Retain disclosures and attribution explicitly required by the assignment, course, or source license. Never fabricate human brainstorming, signatures, approval, interviews, tests, results, or teammate agreement, and never claim sole human authorship. Keep real assumptions and limitations where they affect the project's conclusions. Record preparation issues and evidence gaps separately in docs/STATUS.md.
 
+Use direct sentences and specific task names. Remove filler, duplicated claims and commentary about drafting. Keep assumptions beside the decisions they affect rather than repeating them in every row. Check stale previews, generic export labels and slide-count metadata as well as visible text. A keyword scan does not replace reading the finished work.
+
 Before release, run scripts/check_submissions.py, visually inspect every changed Word/PDF page and slide, and inspect ZIP members. A text scan alone does not prove clean layout. Use an explicit file allowlist for packages; never zip the repository or a working folder wholesale.
 
 ## Organization

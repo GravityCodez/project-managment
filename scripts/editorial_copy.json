@@ -1,0 +1,183 @@
+{
+  "documents": {
+    "ClassMic_A2_Aspiration": {
+      "A2   Revised project opportunity": "A2   Project opportunity",
+      "Our aim is to make student contributions easier for the whole classroom to hear while the instructor keeps control of the discussion. We propose a small ClassMic prototype to test whether phones can support that aim through the room speakers.": "ClassMic would let an instructor approve a student’s phone as a classroom microphone. We will build a small browser prototype and test whether it makes questions easier to hear without slowing the discussion.",
+      "A question from one student can help the whole class only if others hear it. When a voice does not carry across the room, the instructor may need to repeat the question or wait while a microphone reaches the student. Those workarounds can interrupt discussion. The size and frequency of this problem in our classes still need to be measured.": "A question from one student can help the whole class only if others hear it. When a voice does not carry across the room, the instructor may need to repeat the question or wait while a microphone reaches the student. We have not yet measured how often this happens in our classes.",
+      "ClassMic addresses the CONNECT theme through shared learning and direct classroom participation. The opportunity is to improve how people hear and respond to one another during an existing class.": "The project supports the CONNECT theme by helping students hear and respond to one another during class.",
+      "The proposed concept uses an instructor-controlled phone microphone using existing Wi-Fi and speakers, with one active speaker, low delay and 75% positive feedback. Local demand and technical performance still need evaluation.": "The prototype will use existing Wi-Fi and speakers, with only one phone transmitting at a time. We will test audio delay and ask volunteer reviewers whether it improves audibility.",
+      "A commercial example, Biamp Crowd Mics, already supports phone microphones and moderator control [1]. This makes it a useful alternative to investigate. ClassMic must demonstrate the value of its proposed browser workflow before the team recommends a larger investment.": "Biamp Crowd Mics already offers phone microphones and moderator controls [1]. It provides a commercial alternative to consider alongside the prototype and current classroom practice.",
+      "For students and instructors who find peer contributions hard to hear, ClassMic would provide a temporary speaking channel from a student phone to a room speaker. Students request a turn. The instructor approves the speaker and can stop the audio. The prototype will test whether this process is easier than the current classroom workaround.": "Students would join a temporary session, request a turn and speak through the room speakers after instructor approval. The instructor could mute the microphone or end the session. The intended benefit is clearer questions with less time spent passing a microphone.",
+      "The course project covers requirements, a focused prototype, controlled tests and a recommendation. Development uses two weekly sprints. A live classroom rollout, paid infrastructure and a six-week institutional pilot require a later decision.": "The course project covers requirements, a small prototype, controlled tests and a recommendation. Development will use two weekly sprints. A classroom rollout, paid infrastructure or a longer institutional pilot would require a separate decision.",
+      "Temiko leads the prototype. Nurtore coordinates requirements and delivery. These responsibilities form the proposed staffing plan.": "Proposed roles: Temiko leads development and testing. Nurtore coordinates requirements and delivery.",
+      "Review the revised idea, charter and course deliverables. The instructor reviews the course proposal.": "Review the project scope and assess course deliverables.",
+      "Review device, network, sound and access issues if a real room test becomes available. Participation is unconfirmed.": "Advise on device compatibility, room sound and accessibility if a room test can be arranged.",
+      "Proposed evaluation targets include a 95th percentile one-way audio delay of no more than 150 milliseconds, alongside the measures below.": "The one-way audio-delay target is a 95th percentile of 150 milliseconds or less. The remaining targets are listed below.",
+      "Working scope": "Prototype scope",
+      "Complete five priority user stories and all Must acceptance checks.": "Complete five priority user stories and pass all required acceptance checks.",
+      "At least 75% positive feedback from at least 5 volunteer reviewers. Report the actual numerator and denominator.": "At least 75% positive feedback from at least 5 volunteer reviewers. Include the response counts.",
+      "ClassMic is a classroom microphone concept that lets students request a turn from their phones and speak through the room speakers after instructor approval. We want to test whether it makes student questions easier to hear without adding classroom friction. Our course project will build and evaluate a small prototype in two weekly sprints, then recommend whether a larger pilot is worthwhile.": "ClassMic lets students request a speaking turn from their phones. After instructor approval, their voice plays through the room speakers. We want to test whether this makes questions easier to hear without slowing the discussion. In two weekly sprints, we will build a small prototype, test it with volunteers and decide whether a larger pilot is worth pursuing."
+    },
+    "ClassMic_B2_Business_Case": {
+      "GO for a limited course prototype using existing resources. Build the browser workflow to test the ClassMic idea and complete the course learning objectives. Keep any funded classroom pilot at REVISE until local need, audio performance, support effort and a commercial comparison are established.": "GO for a two-sprint course prototype using existing equipment. We will test whether students can speak clearly through their phones while the instructor controls the queue. A funded classroom pilot remains at REVISE until we establish local demand, audio performance, support needs and the cost of commercial alternatives.",
+      "The decision sought is authorization to investigate, prototype and evaluate. The preliminary resource budget is 100 student hours with no incremental cash spending, conditional on available team capacity and existing equipment.": "We request approval to develop and evaluate the prototype with an estimated 100 student hours. We plan no additional cash spending, assuming the team has enough time and the required equipment is available.",
+      "Expected value is easier audibility and less interruption during discussion. The course also gains a concrete way to study requirements, project control and iterative delivery. Improved grades, increased participation and institutional savings remain hypotheses. The present evidence cannot support a monetary return calculation.": "The expected benefit is clearer questions with fewer pauses to repeat a question or pass a microphone. Local demand and performance still need testing, so we cannot yet estimate gains in participation or financial savings.",
+      "Evidence and its limits": "Basis for the decision",
+      "Evidence": "Basis",
+      "Initial classroom concept": "Proposed workflow",
+      "The phone microphone concept and intended outcomes.": "Phone microphones with instructor approval and stop controls.",
+      "Proposed course prototype scope": "Course scope",
+      "A starting scope and list of risks.": "Five priority user stories built in two weekly sprints.",
+      "Local price, room fit and comparison with our prototype.": "Local price, classroom fit and performance compared with the prototype.",
+      "Alternatives appraisal": "Comparison of alternatives",
+      "Benefit must be demonstrated against the current workaround.": "Test audibility and ease of use against the current speaking process.",
+      "No new platform. Staff time and equipment availability still matter.": "Uses existing teaching practices and equipment. Staff time still matters.",
+      "Proposed 100 student hours. No incremental cash assumed. Maintenance is unresolved.": "Estimated 100 student hours and AED 0 additional cash. Long-term maintenance is outside the estimate.",
+      "Control data capture and avoid saved speech. The team owns testing.": "Require microphone permission and instructor control. Store no audio.",
+      "No-install browser access is a hypothesis to validate with students.": "Test whether students can join and use the browser workflow easily.",
+      "A custom prototype fits the course requirement to build and evaluate selected user stories. That educational reason does not establish that a university should build its own microphone service. A commercial trial and an improved current process remain credible options for a later institutional decision.": "Building a prototype meets the course requirement to develop and evaluate selected user stories. A later campus decision should also compare a commercial product with improvements to current classroom practice.",
+      "Reviewed project direction, requirements and development plan before the first sprint.": "Project scope, requirements and schedule reviewed before development.",
+      "Temporary sessions, permission flow, queue and instructor controls. Review the working flow.": "Session access, microphone permissions, speaking queue and instructor controls.",
+      "Integrate audio, test misuse and recovery, collect volunteer feedback and report results.": "Audio integration, misuse and recovery tests, volunteer feedback and the product report.",
+      "Assess delivery against the charter and prepare the final recommendation.": "Assess results against the project objectives and prepare the final recommendation.",
+      "Planning review is scheduled for 18 September, before two full weekly build sprints. The planning cutoff is 22 September at 00:00. The final product report is due 3 October at 00:00, so prototype development and evaluation must finish on 2 October. Execution evidence is due 4 October at 00:00 and closing work on 10 October at 00:00. These are proposed internal work dates, subject to available team capacity.": "The proposed plan review is on 18 September, followed by two weekly sprints. The planning assignment is due 22 September at 00:00. Development, testing and the product report must finish by 2 October for the report deadline of 3 October at 00:00. Execution evidence is due 4 October at 00:00 and closing work on 10 October at 00:00.",
+      "The cash forecast is AED 0, conditional on reusing available phones, laptops, speakers and permitted tools. Student effort has an opportunity cost, but no cash equivalent is estimated because an agreed labor rate is unavailable. Paid hosting, equipment or account upgrades would require a revised budget and approval.": "The AED 0 cash estimate assumes we can reuse available phones, a laptop, speakers and permitted tools. The 100 student hours are an effort estimate; no hourly pay rate has been assigned. Paid hosting, equipment or account upgrades would require a revised budget and approval.",
+      "The selected prototype target is a 95th percentile one-way audio delay of no more than 150 ms across 30 timing trials. This is a planning target, not a tested result. Also assess intelligibility and sustained feedback; a delay number alone does not establish usable room sound. A commercial comparison gives context [2].": "We will measure one-way audio delay in 30 trials, aiming for a 95th percentile of 150 ms or less. Tests must also check whether speech is intelligible and whether speaker feedback occurs.",
+      "All Must checks. 9/10 setups within 2 minutes, 27/30 speaking trials within 3 seconds, and at least 75% positive feedback from at least 5 reviewers. No critical defect.": "All required checks must pass, with no open critical defect. At least 9/10 setups within 2 minutes, 27/30 speaking trials within 3 seconds and 75% positive feedback from at least 5 reviewers.",
+      "Feedback or network delay may make the audio unsuitable. Browser differences may prevent some students from using it. Weak instructor controls could permit unwanted transmission. Limited student time or unavailable reviewers could prevent a useful evaluation. Stop an affected test if control or privacy fails, preserve a physical or instructor-repeat alternative, and narrow the prototype before adding resources.": "Speaker feedback or long network delays could make speech hard to follow. Some phones or browsers may be incompatible, and weak instructor controls could allow unwanted transmission. Limited team time or unavailable reviewers could reduce testing. Stop tests if control or privacy fails, keep a physical microphone or instructor repetition as a fallback, and reduce optional work if time is short.",
+      "The present evidence supports a bounded learning project. It does not justify a funded institutional rollout or a claim that custom development is the best long-term purchase decision. At closeout, recommend further testing only if the prototype demonstrates useful audibility, workable instructor control and a realistic support path.": "Proceed with the course prototype using available equipment and an estimated 100 student hours. Consider a larger pilot only if the tests show clearer questions, reliable instructor control and a feasible support plan.",
+      "Sources reviewed 17 September 2026. The concept originated in classroom planning. The proposed schedule follows the BUS 2010 course deadlines. Local demand, supplier pricing and pilot performance remain unmeasured.": "Sources accessed 17 September 2026."
+    },
+    "ClassMic_C1_Project_Charter": {
+      "Proposed project charter. ClassMic will test a browser microphone workflow through two weekly development sprints and a controlled evaluation.": "Proposed charter for a ClassMic browser prototype, developed and evaluated in two weekly sprints.",
+      "Test whether student phones can make classroom questions easier to hear while the instructor controls speaking turns. The proposed course project uses existing resources for a small prototype. Comparing it with current practice will inform a later pilot decision. The project supports the CONNECT theme through shared classroom learning.": "The project will test whether student phones can make classroom questions easier to hear while the instructor controls speaking turns. We will compare the prototype with the current speaking process before recommending a larger pilot. This supports the CONNECT theme through classroom discussion.",
+      "Complete five priority user stories. Pass all Must acceptance checks with no open critical defect.": "Complete five priority user stories. Pass all required acceptance checks with no open critical defect.",
+      "At least 75% positive audibility feedback from at least 5 volunteer reviewers. Report counts and sample limits.": "At least 75% positive audibility feedback from at least 5 volunteer reviewers. Include response counts and sample limitations.",
+      "Zero unauthorized transmissions in misuse tests. No saved audio or transcripts. Preserve an alternative speaking route.": "Zero unauthorized transmissions in misuse tests. No saved audio or transcripts. Keep a physical microphone or instructor repetition available.",
+      "Use scripted trials with a ready speaker. Measure audio transport delay separately and report its median and 95th percentile. The selected prototype target is a 95th percentile one-way delay of no more than 150 milliseconds. The three-second target includes speaking activation, not just network delay.": "Use scripted trials with a ready speaker to measure setup and speaking activation. Measure one-way audio delay separately and report its median and 95th percentile. The 95th-percentile target is 150 milliseconds or less; the three-second activation target includes the time from instructor approval until speech is audible.",
+      "Excluded: live teaching deployment, a six-week institutional pilot, recording or transcripts, permanent profiles, speech-based grading or attendance, simultaneous microphones, remote learning and paid production infrastructure.": "Excluded: live teaching deployment, an extended classroom pilot, recording or transcripts, permanent profiles, speech-based grading or attendance, simultaneous microphones, remote learning and paid production infrastructure.",
+      "Reviewed project direction, requirements, scope and development plan.": "Project purpose, requirements, scope and development plan reviewed.",
+      "Sprint 2 audio prototype, test record, feedback and evaluation.": "Sprint 2 audio prototype, test results, volunteer feedback and product report.",
+      "Course cutoffs are 22 September for planning, 3 October for the final product report, 4 October for execution evidence and 10 October for closing, all at 00:00. Complete the product report by the evening of 2 October.": "Course deadlines are 22 September for planning, 3 October for the product report, 4 October for execution evidence and 10 October for closing, all at 00:00. The product report must be ready by the evening of 2 October.",
+      "The browser requests explicit permission before microphone capture. Only an instructor-approved participant can transmit. Releasing push to talk, muting, disconnecting or ending the session must stop transmission. Expired sessions reject access. The prototype saves no audio or transcripts. Keep anonymous test counts, timings and defect records until 30 days after course feedback, then delete participant-level records. Participants who cannot use the phone workflow can ask the instructor to repeat their question or use an available physical microphone.": "The browser must request microphone permission before capture. Only an instructor-approved participant may transmit. Releasing push to talk, muting, disconnecting or ending the session must stop transmission. Expired sessions must reject access. The prototype will store no audio or transcripts. Delete participant-level test records 30 days after course feedback and retain aggregate results. Students who cannot use the phone workflow must be able to use a physical microphone or ask the instructor to repeat their question.",
+      "6 Initial risks assumptions and constraints": "6 Risks and planning assumptions",
+      "Risks: feedback, network delay, device incompatibility, unwanted transmission, insufficient testing and limited team capacity. Test the audio path early, retain instructor stop controls, record defects and remove optional work if the schedule slips. Stop affected tests for suspected privacy or control failures.": "Risks: speaker feedback, network delay, incompatible devices, unwanted transmission and insufficient testing time. Test the audio path early and keep instructor stop controls. Reduce optional work if the schedule slips. Stop affected tests when a control or privacy failure occurs.",
+      "Assumptions: suitable phones, a laptop and speaker are available; volunteers can review the prototype; the team can provide about 100 hours in total; and the course instructor accepts the proposed sequence. Equipment access, reviewer availability and team capacity require confirmation.": "Assumptions: suitable phones, a laptop and a speaker are available; volunteers can review the prototype; the team can provide 100 hours in total; and the course instructor accepts the proposed sequence.",
+      "Constraints: two weekly construction sprints, five priority stories, the published course deadlines and no new spending without approval. The initial cash forecast is AED 0 because existing resources are assumed. Live classroom use requires a separate authorization.": "Constraints: two weekly development sprints, five priority stories and the course deadlines. The AED 0 cash estimate assumes reuse of existing equipment. New spending and live classroom use require separate approval.",
+      "Course acceptance authority: the BUS 2010 instructor. The proposed charter takes effect after course approval. Stakeholders are students as speakers and listeners, instructors as operators, and the two-person project team. IT, AV, privacy and accessibility advisers may support reviews if available. No university department or external sponsor is committed by this draft.": "The BUS 2010 instructor reviews the charter and accepts course deliverables. The charter takes effect after course approval. Main stakeholders are student speakers and listeners, instructors and the project team. IT, AV, privacy and accessibility advisers may support a review if available.",
+      "Planning roles: Nurtore Arynuruly is project manager. Temiko Machavariani is technical lead. On approval, the project manager coordinates work, tracks risks and changes, and reviews work against the agreed requirements. Temiko leads implementation and technical testing. The course instructor accepts assessed deliverables and material changes to scope or timing. Neither team member may commit university funds or authorize live deployment.": "Proposed roles: Nurtore Arynuruly manages the project and requirements. Temiko Machavariani leads development and technical testing. The project manager tracks work, risks and changes against the agreed requirements. The course instructor reviews material scope and schedule changes. Neither team member may commit university funds or authorize live deployment."
+    }
+  },
+  "slides": {
+    "A2": {
+      "When a question is hard to hear, the instructor may need to repeat it or pass a microphone. Local frequency is unmeasured.": "Quiet questions may need repeating or a microphone. We have not yet measured how often this happens in our classes.",
+      "The proposed phone microphone workflow needs local demand and performance testing.": "Test whether students can use phone microphones easily and whether the room can hear them clearly.",
+      "Speakers need a simple way to request a turn. Listeners need clear audio. Participation stays optional, with an alternative speaking path.": "Students need an easy way to request a turn and hear one another. A physical microphone or instructor repetition remains available.",
+      "Operators need approval, mute and end controls that fit classroom discussion. Their feedback will shape the workflow.": "Instructors need to approve a speaker, mute the microphone and end a session without disrupting discussion.",
+      "Temiko leads the prototype. Nurtore coordinates requirements, delivery and evaluation. These are proposed planning responsibilities.": "Proposed roles: Temiko leads development and testing. Nurtore coordinates requirements, delivery and evaluation.",
+      "The course instructor is the proposed acceptance authority. Device, sound and accessibility advice depends on available reviewers.": "The course instructor reviews deliverables. Technical and accessibility advisers may help if a room test can be arranged.",
+      "Course feasibility test": "Prototype evaluation",
+      "Five priority user stories, two weekly sprints and a report of actual results. These targets are proposals, not measured outcomes.": "Build five priority user stories in two weekly sprints. Evaluate the prototype against these targets.",
+      "People and decisions": "Stakeholders"
+    },
+    "B2": {
+      "Test whether phone microphones make student contributions easier to hear than the current classroom workaround.": "Test whether phone microphones make questions easier to hear than the current speaking process.",
+      "The course gains a focused project to investigate, build and evaluate. Institutional savings remain unproven.": "The expected benefit is clearer questions with fewer interruptions. Local benefits and costs still need testing.",
+      "Biamp offers a similar core workflow. The case for custom work rests on course learning and testing the browser experience.": "Biamp already offers phone microphones and moderation. A small custom prototype lets us test browser access and instructor controls.",
+      "A bounded comparison": "Three options",
+      "Commercial capability is documented. Prices, local fit and adoption still need validation. Compare classroom fit, costs, feasibility and support.": "Compare changes to current practice, a commercial product and a custom prototype. Local costs and classroom performance are still unknown.",
+      "The evidence does not establish that custom development is cheaper or better for a university.": "A campus purchase decision needs local tests and supplier quotes.",
+      "Complete five Must stories, timed trials and volunteer feedback. Report unmet targets, defects and the limits of the evidence.": "Complete five required stories, run timed trials and collect volunteer feedback. Report defects and any missed targets.",
+      "A live pilot needs validated demand, acceptable sound, a commercial comparison, named support and a funded authorization.": "A classroom pilot needs evidence of demand, usable audio, a support owner and an approved budget. Compare commercial alternatives first.",
+      "Product report due 3 October at 00:00; finish testing by 2 October.": "Product report due 3 October at 00:00. Finish testing by 2 October."
+    },
+    "C1": {
+      "Test student phones as instructor-controlled microphones through a limited prototype and controlled evaluation. Use the findings to assess a future pilot.": "Test whether instructor-controlled phone microphones make classroom questions easier to hear. Use the results to assess a larger pilot.",
+      "Explicit microphone permission, instructor approval and push to talk. Mute, disconnect and end must stop audio. Preserve an alternative speaking route.": "Require microphone permission, instructor approval and push to talk. Mute, disconnect and end must stop audio. Keep a physical microphone or instructor repetition available.",
+      "Two weekly construction sprints, after the planned review on 18 September.": "Two weekly development sprints follow the proposed plan review on 18 September.",
+      "Feedback, delay, incompatible devices, unwanted transmission and limited time. Test early and retain a fallback.": "Speaker feedback, delays, incompatible devices and unwanted transmission. Test early and keep a physical microphone or instructor repetition available.",
+      "No live deployment or paid commitment is authorized by this draft.": "New spending and live classroom use require separate approval.",
+      "The PM coordinates daily work. The instructor reviews material scope and schedule changes. No university spending authority is implied.": "The project manager coordinates daily work. The instructor reviews material scope and schedule changes. The team cannot commit university funds."
+    }
+  },
+  "tables": {
+    "A2": [
+      [
+        3,
+        2,
+        "Feedback counts"
+      ],
+      [
+        1,
+        0,
+        "Prototype scope"
+      ],
+      [
+        1,
+        1,
+        "Five stories and all required checks"
+      ]
+    ],
+    "B2": [
+      [
+        1,
+        2,
+        "Uses existing equipment"
+      ],
+      [
+        3,
+        1,
+        "Test browser access and instructor control"
+      ],
+      [
+        3,
+        2,
+        "100 student hours\nAED 0 additional cash"
+      ],
+      [
+        0,
+        2,
+        "Cost"
+      ],
+      [
+        1,
+        0,
+        "Improve current practice"
+      ]
+    ],
+    "C1": [
+      [
+        1,
+        1,
+        "Five stories and all required checks"
+      ],
+      [
+        3,
+        2,
+        "Feedback counts"
+      ],
+      [
+        2,
+        0,
+        "O2  Setup and speaking"
+      ]
+    ]
+  },
+  "notes": {
+    "A2": [
+      "The prototype will test audibility and ease of use in a controlled setting. Local user feedback is needed before a classroom pilot.",
+      "The proposed role split puts development and testing with Temiko Machavariani and requirements and delivery coordination with Nurtore Arynuruly. The schedule assumes both have enough time for their assigned work.",
+      "Record positive and total feedback counts. Measure one-way audio delay separately from the time between instructor approval and audible speech. The delay target is a 95th percentile of 150 ms or less."
+    ],
+    "B2": [
+      "Biamp Crowd Mics offers phone microphones and moderator control. Source: https://www.biamp.com/products/families/crowd-mics (accessed 17 September 2026). A local supplier quote and classroom trial are still needed for a purchase comparison.",
+      "Sources: https://www.biamp.com/products/families/crowd-mics and https://www.biamp.com/products/families/crowd-mics/faq (accessed 17 September 2026). The prototype estimate assumes 100 available student hours and reuse of existing equipment.",
+      "The proposed planning review is on 18 September. Sprint 1 runs 19–25 September and Sprint 2 runs 26 September–2 October. The product report is due 3 October at 00:00, execution evidence on 4 October at 00:00 and closing work on 10 October at 00:00."
+    ],
+    "C1": [
+      "Speaking activation is the time from instructor approval until a ready speaker is audible. Measure one-way audio delay separately, with a 95th-percentile target of 150 ms or less.",
+      "The second sprint ends on 2 October so the product report can be ready before 3 October at 00:00. Classroom deployment requires separate approval.",
+      "The proposed effort split is 54 hours for Temiko Machavariani and 46 for Nurtore Arynuruly. The course instructor accepts assessed deliverables and reviews material scope and schedule changes."
+    ]
+  }
+}

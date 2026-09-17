@@ -2,6 +2,10 @@
 
 Updated 17 September 2026, Asia/Dubai.
 
+## Editorial follow-up
+
+The A–C bundle has passed an additional wording, layout and metadata review. The lab wording revision is staged in working/lab-review/ while another agent reinstalls Project Plan 365. Its MPP refresh is pending; the currently published lab package remains the previous consistent release. See [editorial review](EDITORIAL_REVIEW.md).
+
 ## This work
 
 - Repository initialized with AGENTS.md, README.md, CONTRIBUTING.md, ignore rules, a file index, recurring decisions, confirmed identities and an agent handoff.

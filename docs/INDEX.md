@@ -1,5 +1,7 @@
 # Repository index
 
+The A–C package includes the latest editorial pass. The lab package is the preceding consistent release while the revised native MPP save is pending. See [current status](STATUS.md).
+
 ## Current coursework
 
 | Deliverable | Location |
@@ -17,7 +19,7 @@
 
 - [Current status](STATUS.md), [deadlines](DEADLINES.md) and [handoff](AGENT_HANDOFF.md)
 - [Team identities](TEAM.md) and [decisions](DECISIONS.md)
-- [Submission standard](SUBMISSION_STANDARD.md), [validation](VALIDATION.md), [change log](CHANGELOG.md)
+- [Submission standard](SUBMISSION_STANDARD.md), [validation](VALIDATION.md), [editorial review](EDITORIAL_REVIEW.md), [change log](CHANGELOG.md)
 - [Tutorial notes](TUTORIAL_NOTES.md) and [setup and maintenance](SETUP.md)
 - [Release hashes](release-manifest.json), [original hashes](original-file-manifest.json), [archive preservation map](archive-preservation.json)
 
@@ -28,3 +30,5 @@ references/course/ contains the original generic ABCDEF brief, the current D bri
 working/phase-d/ contains the September 10 drafts, including the integrated plan, PRD text, requirements table, evaluation protocol and data templates. They have not been promoted to final submissions. Its older [schedule instructions](phase-d-schedule-guide-legacy.md) are kept with internal documentation. See STATUS.md before using them.
 
 archive/ preserves old versions. The ignored .local-archive/ preserves bulky generated build history. Neither is a source of current instructions or a submission destination.
+
+The latest lab wording revision is held in [working/lab-review/](../working/lab-review/) pending the native MPP save after installation. The currently published lab ZIP is the preceding consistent release.

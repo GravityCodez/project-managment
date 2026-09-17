@@ -1,7 +1,7 @@
 """Build the 19-element ClassMic ABCDEF WBS, Project XML and standalone PDF."""
 from pathlib import Path
 from datetime import date,timedelta
-import csv,json,xml.etree.ElementTree as ET
+import argparse,csv,json,xml.etree.ElementTree as ET
 from reportlab.pdfgen import canvas
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4,landscape
@@ -9,7 +9,9 @@ from reportlab.platypus import Paragraph
 from reportlab.lib.styles import ParagraphStyle
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'submissions/lab-2026-09-17'
+parser=argparse.ArgumentParser()
+parser.add_argument('--output-dir',type=Path,default=ROOT/'submissions/lab-2026-09-17')
+OUT=parser.parse_args().output_dir.resolve()
 OUT.mkdir(parents=True,exist_ok=True)
 TEAM='Temiko Machavariani and Nurtore Arynuruly'
 TM='Temiko Machavariani'; NA='Nurtore Arynuruly'
@@ -25,11 +27,11 @@ phases=[
  ('Objectives and project boundaries','2026-09-14',1,2,2),
  ('Roles and decision authority','2026-09-15',1,2,2)]),
  ('D','Develop Plans',[
- ('Requirements and linked work plan','2026-09-16',2,4,4),
- ('Risk cost quality and plan review','2026-09-18',1,4,4)]),
+ ('Requirements and schedule','2026-09-16',2,4,4),
+ ('Risk, quality and resource planning','2026-09-18',1,4,4)]),
  ('E','Execute',[
- ('Sprint 1 sessions queue and controls','2026-09-19',7,18,6),
- ('Sprint 2 audio testing and product report','2026-09-26',7,14,10)]),
+ ('Sprint 1 - Sessions and speaker queue','2026-09-19',7,18,6),
+ ('Sprint 2 - Audio and acceptance tests','2026-09-26',7,14,10)]),
  ('F','Finish',[
  ('Evaluation and lessons learned','2026-10-03',3,2,4),
  ('Final recommendation and presentation','2026-10-06',4,2,4)])]
@@ -61,6 +63,7 @@ for day in range(1,8):
     d=el(week,'WeekDay');el(d,'DayType',day);el(d,'DayWorking',1);times=el(d,'WorkingTimes')
     for start,finish in [('08:00:00','12:00:00'),('13:00:00','17:00:00')]:
         t=el(times,'WorkingTime');el(t,'FromTime',start);el(t,'ToTime',finish)
+task_notes={'0': 'ClassMic browser prototype and controlled evaluation. The plan assumes existing equipment, available volunteers and 100 student hours. Course review is required before development.', 'A': 'Define the classroom audibility problem, expected benefit and initial success measures.', 'A.1': 'Describe who has difficulty hearing classroom questions and record current workarounds. Identify students, instructors and other affected stakeholders.', 'A.2': 'Set the expected benefit and initial success measures. Prepare a 30-second explanation of the idea.', 'B': 'Compare current practice, commercial products and a custom prototype before recommending whether to proceed.', 'B.1': 'Compare classroom fit, likely benefits, resources, feasibility, privacy and support needs. Record which estimates still need evidence.', 'B.2': 'Recommend GO, REVISE or NO-GO for the course prototype and identify conditions for a larger pilot.', 'C': 'Set the project objectives, boundaries, responsibilities and decision authority.', 'C.1': 'Define the prototype objectives, acceptance targets, included work and exclusions.', 'C.2': 'Assign responsibilities and define who approves changes to scope, schedule and spending.', 'D': 'Complete the project plan before the first development sprint.', 'D.1': 'Agree on requirements and acceptance checks. Decompose the work and link its dependencies.', 'D.2': 'Review risks, quality checks, resource estimates and responsibilities. Complete the plan review before Sprint 1.', 'E': 'Build and evaluate the five priority user stories in two weekly sprints.', 'E.1': 'Develop session access, microphone permissions, the speaking queue and instructor approval and stop controls. Review the working flow.', 'E.2': 'Integrate audio, test permissions and recovery, and collect volunteer feedback. Complete the product report by 2 October.', 'F': 'Review the results and prepare the final recommendation.', 'F.1': 'Compare test results with the project targets. Record missed targets, defects and lessons learned.', 'F.2': 'Prepare the final presentation and recommend whether a larger classroom pilot is worth pursuing.'}
 tasks=el(p,'Tasks')
 for r in rows:
     t=el(tasks,'Task')
@@ -70,7 +73,7 @@ for r in rows:
         pr=el(t,'PredecessorLink');el(pr,'PredecessorUID',r['pred']);el(pr,'Type',1);el(pr,'CrossProject',0);el(pr,'LinkLag',0);el(pr,'LagFormat',7)
     if r['wbs'] in ['D.2','E.2','F.2']:
         el(t,'Deadline',{'D.2':'2026-09-22T00:00:00','E.2':'2026-10-03T00:00:00','F.2':'2026-10-10T00:00:00'}[r['wbs']])
-    el(t,'Notes',f"Proposed baseline. Team: {TEAM}. Estimated effort: Temiko {r['tm']} h; Nurtore {r['na']} h. Scheduled dates do not assert actual completion.")
+    el(t,'Notes',task_notes[r['wbs']])
 resources=el(p,'Resources')
 for uid,name,initials in [(1,TM,'TM'),(2,NA,'NA')]:
     r=el(resources,'Resource')
@@ -83,7 +86,7 @@ for r in leaves:
 ET.indent(p,space='  ')
 xml=OUT/'ClassMic_WBS_and_Schedule.xml';ET.ElementTree(p).write(xml,encoding='utf-8',xml_declaration=True)
 with (OUT/'ClassMic_WBS_and_Schedule.csv').open('w',newline='') as f:
-    w=csv.writer(f,lineterminator="\n");w.writerow(['ID','WBS','Task','Summary','Duration days','Start','Finish','Predecessor FS','Temiko hours','Nurtore hours','Total work hours'])
+    w=csv.writer(f,lineterminator="\n");w.writerow(['ID','WBS','Task','Summary','Duration days','Start','Finish','Predecessor FS','Temiko Machavariani hours','Nurtore Arynuruly hours','Total work hours'])
     for r in rows:w.writerow([r['id'],r['wbs'],r['name'],r['summary'],r['days'],r['start'],r['finish'],r['pred'] or '',r['tm'],r['na'],r['tm']+r['na']])
 # Standalone, readable coursework. 19 WBS elements; dependency logic on leaf tasks.
 W,H=landscape(A4);c=canvas.Canvas(str(OUT/'ClassMic_WBS_and_Schedule.pdf'),pagesize=(W,H))
@@ -94,7 +97,7 @@ def header(subtitle,page):
     c.setFillColor(colors.black);c.setFont('Helvetica',11);c.drawString(32,H-58,TEAM)
     c.setFont('Helvetica',9);c.drawString(32,H-74,'BUS 2010   17 September 2026   '+subtitle)
     c.setFont('Helvetica',8);c.drawRightString(W-32,20,f'ClassMic   {page}')
-header('ABCDEF work breakdown and linked baseline',1)
+header('ABCDEF work breakdown and proposed schedule',1)
 y=H-115;left=32;taskx=82;chartx=365;chartw=W-397;dx=chartw/30;rowh=19
 c.setFillColor(navy);c.rect(left,y-3,W-64,23,fill=1,stroke=0);c.setFillColor(colors.white);c.setFont('Helvetica-Bold',9);c.drawString(left+5,y+5,'WBS');c.drawString(taskx,y+5,'Phase or work package')
 start=date(2026,9,10)
@@ -117,10 +120,10 @@ for a,b in zip(leaves,leaves[1:]):
     pth=c.beginPath();pth.moveTo(x1,ya);pth.lineTo(mid,ya);pth.lineTo(mid,yb);pth.lineTo(x2,yb);c.drawPath(pth)
     c.line(x2,yb,x2+3,yb+2);c.line(x2,yb,x2+3,yb-2)
 c.setFont('Helvetica',9);c.setFillColor(colors.black)
-c.drawString(32,75,'19 WBS elements: one project root, six phases and 12 linked work packages. All dependencies are finish-to-start with zero lag.')
-c.drawString(32,59,'The 30-day baseline uses a seven-day calendar. Each build sprint spans seven days; effort totals 100 student hours.')
-c.drawString(32,43,'Dates and effort are planning estimates. This schedule does not report completed project work.')
-c.showPage();header('Durations responsibilities and constraints',2)
+c.drawString(32,75,'19 WBS elements: one project root, six phases and 12 work packages. Dependencies are finish-to-start with zero lag.')
+c.drawString(32,59,'The calendar includes all seven days of the week. Each development sprint lasts seven days.')
+c.drawString(32,43,'Estimated effort: 100 student hours across 30 calendar days.')
+c.showPage();header('Work estimates and deadlines',2)
 cols=[32,61,109,365,412,460,508,556,623,685,810]
 headers=['ID','WBS','Work package','Days','Start','Finish','Pred','Temiko h','Nurtore h','Total h']
 y=H-110;c.setFillColor(navy);c.rect(32,y-3,W-64,23,fill=1,stroke=0);c.setFillColor(colors.white);c.setFont('Helvetica-Bold',9)
@@ -132,10 +135,10 @@ for i,r in enumerate(leaves):
 yy=y-25-len(leaves)*22;c.setFont('Helvetica-Bold',9);c.drawString(113,yy+4,'Total effort');c.drawString(560,yy+4,'54');c.drawString(627,yy+4,'46');c.drawString(689,yy+4,'100')
 style=ParagraphStyle('body',fontName='Helvetica',fontSize=9,leading=12,textColor=colors.black)
 text=[
- '<b>Dependency chain.</b> A.1 → A.2 → B.1 → B.2 → C.1 → C.2 → D.1 → D.2 → E.1 → E.2 → F.1 → F.2. The serial chain controls the baseline finish. Summary phases roll up their children and carry no duplicate dependency links.',
- '<b>Calendar and effort.</b> Working windows are 08:00–12:00 and 13:00–17:00 every day. A duration day is an eight-hour scheduling window, not eight hours assigned to each person. Resource assignments distribute the separate effort estimates across those windows.',
- '<b>Release constraints.</b> Plan review target: 18 September. Planning submission: 22 September at 00:00. Sprint 1: 19–25 September. Sprint 2: 26 September–2 October. Product report: 3 October at 00:00. Execution evidence: 4 October at 00:00. Final presentation: 10 October at 00:00.',
- '<b>Assumptions.</b> Both team members can provide the estimated effort, existing equipment is available, and the instructor accepts the proposed sequencing. Review scope and dates if these assumptions fail. No paid resources or live classroom deployment are authorized.'
+ '<b>Dependencies.</b> The phases follow A, B, C, D, E and F. Within each phase, package 1 precedes package 2. The final package in each phase must finish before the next phase begins. A delay on this sequence delays the planned finish.',
+ '<b>Calendar and effort.</b> Working windows are 08:00-12:00 and 13:00-17:00 every day. Each duration day represents eight scheduling hours. Estimated work is allocated separately: 54 hours for Temiko and 46 for Nurtore, distributed across those windows.',
+ '<b>Deadlines.</b> The plan review target is 18 September. Course deadlines are 22 September for planning, 3 October for the product report, 4 October for execution evidence and 10 October for the final presentation, all at 00:00.',
+ '<b>Assumptions.</b> The team can provide the estimated hours, equipment and volunteer reviewers are available, and the instructor accepts the proposed sequence. New spending or live classroom use would require separate approval.'
 ]
 ypos=yy-16
 for txt in text:

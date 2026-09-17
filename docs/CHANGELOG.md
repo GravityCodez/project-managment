@@ -11,3 +11,7 @@ Refreshed A–C documents and decks, removed internal document references and pr
 Created the mandatory WBS lab with a ClassMic root, six phase summaries, twelve linked work packages, resource estimates, native MPP, Project XML, PDF and CSV. Reopened the saved MPP in Project Plan 365. Downloaded and transcribed the instructor's demonstration locally and applied its project-root instruction.
 
 Added portable builders, metadata cleanup, release checks and explicit-allowlist packaging. No later-phase assignment or LMS upload was performed.
+
+## 17 September 2026 editorial follow-up
+
+Reviewed all current coursework text, slide notes and Office/PDF metadata. Replaced awkward wording and repeated caveats, clarified the requirements, and removed stale thumbnails, template dates and generic conversion labels. Rebuilt and checked the A–C bundle. The lab wording changes preserve all scheduling data and are staged in working/lab-review/ pending native export after the other agent’s installation task.

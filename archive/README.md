@@ -7,3 +7,5 @@ These are superseded materials retained for recovery and provenance. They can co
 - Bulky generated .c1_build and .submission_build caches were moved to ignored .local-archive/2026-09-17/. They are also recoverable from Git commit 0b765f6.
 
 Original hashes are recorded in ../docs/original-file-manifest.json. Git history was not rewritten.
+
+- 2026-09-17-before-editorial-review/: the two release ZIPs and their hash manifest before the additional wording and metadata pass.

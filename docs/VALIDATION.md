@@ -1,6 +1,6 @@
 # Verification record
 
-Completed 17 September 2026. Records describe this release only.
+Completed 17 September 2026 for the first release. The subsequent [editorial review](EDITORIAL_REVIEW.md) updates A–C and stages the lab wording changes; the new native MPP save remains pending while the other agent reinstalls the app.
 
 ## Preservation and repository organization
 

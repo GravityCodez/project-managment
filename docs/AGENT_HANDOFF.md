@@ -18,7 +18,9 @@ Temiko's original SMART photograph is in references/team/. Nurtore's individual 
 
 ## Files and tooling
 
-The course's installed Project Plan 365 version is 25.7.1280. Its official BU installer was published February 4, 2025, comfortably outside the 48-hour release buffer, and passed Apple signature/notarization verification outside the sandbox. Sandbox signature checks initially returned a false failure because trust services were unavailable. Never disable security checks to work around that.
+The September 17 native-file verification used Project Plan 365 25.7.1280, an Intel-only build running through Rosetta. Its official BU installer was published February 4, 2025, comfortably outside the 48-hour release buffer, and passed Apple signature/notarization verification outside the sandbox. Sandbox signature checks initially returned a false failure because trust services were unavailable. Never disable security checks to work around that.
+
+The user later reported Apple’s Intel-app compatibility warning and assigned another agent to reinstall and activate a compatible version. Installation was still in progress when this editorial review began. Do not assume 25.7.1280 remains installed. Check architecture separately from signature and successful launch: running under Rosetta does not make an app native to Apple silicon. [Apple recommends an Apple-silicon or Universal build for future compatibility](https://support.apple.com/en-us/102527).
 
 The course guide describes About > Enter Key activation. Do not put its institutional key into documentation, source code, logs, screenshots or commits. The guide is retained locally and ignored by Git. An account login is different from product-key activation. The user asked to defer login; later said “done”; only claim app capabilities demonstrated by actual open/save operations.
 
@@ -35,3 +37,11 @@ For a new assignment: confirm its live requirements and due date, select the rig
 ## Git handoff
 
 This work is on `approach/repo-cleanup-wbs-lab`. It is prepared as a local collaboration branch; no remote push is part of this task. Review the current branch and its release manifest before publishing. The default remote main branch still contains the previous structure until this branch is published and merged. Keep the institutional license guide and raw tutorial media out of remote commits.
+
+## Pending final save after editorial review
+
+The user twice confirmed that the separate installation task was still running. Do not interrupt that task. The cleaned A–C bundle is complete. The edited lab source is preserved in working/lab-review/ so another collaborator can finish without a local cache.
+
+Once Project Plan 365 is ready, open working/lab-review/ClassMic_WBS_and_Schedule.xml. Confirm the 19 rows and two seven-day sprints, then save to submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.mpp. Close and reopen the MPP. Copy the matching XML, CSV and PDF from working/lab-review/ into submissions/lab-2026-09-17/. Run the metadata cleaner, package with --only lab, and run the complete submission checker. Finally remove the pending status from STATUS.md and EDITORIAL_REVIEW.md.
+
+The earlier lab ZIP and its four source files remain mutually consistent while this save is pending. The stricter checker flags their old repetitive schedule note, which the new XML replaces with task-specific content. Do not weaken that check to call the older MPP reviewed.

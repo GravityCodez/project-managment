@@ -7,6 +7,7 @@ const req=createRequire(path.join(process.env.NODE_MODULES_DIR,'../package.json'
 const {FileBlob,PresentationFile}=await import(pathToFileURL(req.resolve('@oai/artifact-tool')).href);
 const skill=process.env.PRESENTATIONS_SKILL_DIR;
 const {finalizePresentation}=await import(pathToFileURL(path.join(skill,'container_tools/artifact_tool_utils.mjs')).href);
+const copy=JSON.parse(await fs.readFile(path.join(root,'scripts/editorial_copy.json'),'utf8'));
 const build=path.join(root,'.build/initial-slides',new Date().toISOString().replace(/[:.]/g,'-'));
 console.log('Staging directory: '+build);
 await fs.mkdir(path.join(build,'final'),{recursive:true});
@@ -23,11 +24,6 @@ const replaces=[
  ['To confirm','Assumptions'],
  ['Course sponsor and authorization, equipment access, volunteer availability and the proposed 100-hour team capacity.','Delivery assumes course acceptance, available equipment, volunteer reviewers and 100 hours of team capacity.'],
 ];
-const notes={
- A2:['ClassMic proposes a controlled classroom microphone prototype. Demand and performance are hypotheses to test.','Nurtore Arynuruly is the proposed project manager and Temiko Machavariani the proposed technical lead. Participation by reviewers depends on availability.','Targets describe a small feasibility study. Report the actual feedback numerator and denominator. Measure one-way audio delay separately from speaking activation.'],
- B2:['Biamp Crowd Mics supports phone microphones and moderator control. Source: https://www.biamp.com/products/families/crowd-mics (accessed 17 September 2026). Commercial capability does not establish local demand or a quoted cost.','Sources: https://www.biamp.com/products/families/crowd-mics and https://www.biamp.com/products/families/crowd-mics/faq (accessed 17 September 2026). The 100-hour and AED 0 estimates assume available student capacity and existing resources.','Proposed planning review: 18 September. Two seven-day sprints: 19–25 September and 26 September–2 October. The product report is due 3 October at 00:00; execution evidence is due 4 October at 00:00. Closing work is due 10 October at 00:00.'],
- C1:['The scope and performance figures are proposed acceptance targets. No test outcomes are asserted. Speaking activation includes the time from instructor approval until a ready speaker is audible.','Two weekly sprints end on 2 October to leave the product report ready before 3 October at 00:00. Live classroom deployment requires separate authorization.','The proposed allocation is 54 hours for Temiko Machavariani and 46 for Nurtore Arynuruly. The course instructor accepts assessed deliverables and reviews material changes.']
-};
 for(const [key,folder,owner] of [['A2','A_Aspiration',3],['B2','B_Business_Case',2],['C1','C_Charter',1]]) {
  const source=path.join(root,'archive/2026-09-17-before-reorganization',key==='C1'?'ClassMic_C1_Completed':'ClassMic_Submission/'+folder,`ClassMic_${key}_Three_Slides.pptx`);
  const p=await PresentationFile.importPptx(await FileBlob.load(source));
@@ -39,7 +35,20 @@ for(const [key,folder,owner] of [['A2','A_Aspiration',3],['B2','B_Business_Case'
   if(x.slide===1&&x.name?.startsWith('Footer')) target.text=x.text ? 'Temiko Machavariani and Nurtore Arynuruly   BUS 2010' : '';
   if(key==='A2'&&x.text==='Evidence')target.text.replace('Evidence','Concept');
  }
- p.slides.items.forEach((s,i)=>s.speakerNotes.textFrame.setText(notes[key][i]));
+ const edited=await p.inspect({kind:'textbox,table',maxChars:100000});
+ const seen=new Set();
+ for(const line of edited.ndjson.split('\n').filter(Boolean)){
+  const x=JSON.parse(line);
+  if(x.kind==='textbox'&&x.text){
+   for(const [a,b] of Object.entries(copy.slides[key])) if(x.text.includes(a)){p.resolve(x.id).text.replace(a,b);seen.add(a);}
+  }
+  if(x.kind==='table'&&x.slide===owner){
+   const table=p.resolve(x.id);
+   for(const [row,col,text] of copy.tables[key])table.cells.set(row,col,text);
+  }
+ }
+ for(const text of Object.keys(copy.slides[key]))if(!seen.has(text))throw Error('Unmatched editorial replacement: '+text);
+ p.slides.items.forEach((s,i)=>s.speakerNotes.textFrame.setText(copy.notes[key][i]));
  const candidatePath=path.join(build,key+'-candidate.pptx'),finalPath=path.join(build,'final',key+'-final-v2.pptx');
  await (await PresentationFile.exportPptx(p)).save(candidatePath);
  await finalizePresentation({workspaceDir:root,candidatePath,finalPath,pythonExecutable:process.env.RUNTIME_PYTHON,

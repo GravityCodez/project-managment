@@ -16,4 +16,6 @@
 | D012 | 2026-09-17 | The lab title says Pluto, while its instructions require team ABCDEF packages; use ClassMic for this team's schedule. | Current LMS lab body and adjacent group-project template; no separate Pluto project brief supplied. |
 | D013 | 2026-09-17 | Move the planning review target to September 18 and plan sprints September 19–25 and September 26–October 2. | Proposed revised baseline to finish two full weeks before the newly observed product-report cutoff of October 3 00:00. Replaces September 19 / September 20–26 / September 27–October 3. Team capacity and instructor acceptance remain assumptions. |
 
+| D014 | 2026-09-17 | Keep the editorial file review separate from the other agent’s Project Plan 365 reinstall. | User reported the Intel-app/Rosetta warning and said installation was still in progress. Refresh and reopen the MPP only after the app is ready. |
+
 Record future decisions with date, source, status and any replaced decision. Do not silently turn a selected baseline into a verified result or agreement.

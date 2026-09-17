@@ -20,3 +20,5 @@ Use the available managed document runtime. If dependencies need installing, pin
 The date-specific document refresh helpers intentionally use the preserved September 10 source set. For a later content revision, update the authoring inputs deliberately; do not repeatedly run them over newer work. The schedule builder replaces XML/CSV/PDF but cannot update MPP. After changing the schedule, import the new XML in Project Plan 365, save the MPP and reopen it before rebuilding the ZIP.
 
 Render documents and slides, inspect them visually, sanitize metadata, run the release checker, package, then check the packages again. Keep rendering receipts and temporary exports outside submissions/. A new presentation helper run creates a fresh staging directory to avoid overwriting finalization receipts.
+
+The editorial wording is kept in scripts/editorial_copy.json and applied by the document and slide builders. The schedule builder supports --output-dir for staging, the metadata cleaner supports --root, and the release checker supports --path. The package builder supports --only initial or --only lab so one assignment can be refreshed without repackaging another.
