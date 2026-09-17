@@ -19,5 +19,6 @@
 | D015 | 2026-09-17 | Use the available Intel Project Plan 365 build for this release. | Explicit user acceptance after the separate installation task could not obtain an Apple-silicon build; native save/reopen verified. |
 | D016 | 2026-09-17 | Allocate Computer and AI tools to both E.1 and E.2, alongside both students. | Professor reminder relayed by the user. Non-labour cost resources use existing access at no additional cash cost; student effort stays 100 hours. Duration, cost and effort estimates are optional for this lab. |
 | D017 | 2026-09-17 | Publish the completed repository and send the lab package to Telegram contact Lourinser (@realnurtore) for review. | Explicit user instruction. Sending a review request is not LMS submission, teammate approval or authority to invite collaborators. |
+| D018 | 2026-09-17 | Monitor Lourinser’s lab feedback until 23:05 Dubai, implement relevant corrections, and submit the lab directly on LMS upon his clear approval. | Explicit follow-up user authorization. Supersedes D017’s no-LMS boundary only for this approved lab and review window. No approval by silence or read receipt. |
 
 Record future decisions with date, source, status and any replaced decision. Do not silently turn a selected baseline into a verified result or agreement.

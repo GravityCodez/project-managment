@@ -32,3 +32,7 @@ The user reported Notion setup in September 10 context, but a project page URL i
 ## Git state
 
 The completed cleanup and coursework were pushed to GitHub main and approach/repo-cleanup-wbs-lab. The lab ZIP and review request were verified as sent to Telegram contact Lourinser (@realnurtore) at 22:01. See [delivery record](DELIVERY.md) for the package hash and receipt. No collaborator invitation, LMS upload or received review is claimed.
+
+## Authorized review follow-up
+
+The user subsequently requested one hour of Telegram monitoring, implementation of lab feedback, and direct LMS submission if Lourinser approves. The window ends 23:05 Dubai on September 17. See [review monitor](REVIEW_MONITOR.md) for current feedback, approval and submission state.
