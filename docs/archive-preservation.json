@@ -1,0 +1,1392 @@
+[
+  {
+    "original": ".c1_build/before_separate_inputs/01_Individual_Inputs/Nurtore_Arynuruly_Input_TO_COMPLETE.docx",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/before_separate_inputs/01_Individual_Inputs/Nurtore_Arynuruly_Input_TO_COMPLETE.docx",
+    "sha256": "c9cbdc17bb5e9b3afd1f3ba2ccb2ea0c8f197fdfd93c4b228a2895aa01c4986d"
+  },
+  {
+    "original": ".c1_build/before_separate_inputs/01_Individual_Inputs/Temiko_Machavariani_Input_TO_COMPLETE.docx",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/before_separate_inputs/01_Individual_Inputs/Temiko_Machavariani_Input_TO_COMPLETE.docx",
+    "sha256": "21e4f77aaf0da5fad0bff47c456d0c7540677fce34904082c2d360338ff330e2"
+  },
+  {
+    "original": ".c1_build/before_separate_inputs/ClassMic_C1_Draft_Submission.zip",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/before_separate_inputs/ClassMic_C1_Draft_Submission.zip",
+    "sha256": "846d4dd1b6e6c3d940fa00cef5b958be56e8d09e980445023ecd7ed78c650dbf"
+  },
+  {
+    "original": ".c1_build/before_separate_inputs/ClassMic_C1_Project_Charter.docx",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/before_separate_inputs/ClassMic_C1_Project_Charter.docx",
+    "sha256": "bc4dead4750ee2909927bdec883c439deac1ab9251be249a5943fb2423915245"
+  },
+  {
+    "original": ".c1_build/before_separate_inputs/ClassMic_C1_Three_Slides.pptx",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/before_separate_inputs/ClassMic_C1_Three_Slides.pptx",
+    "sha256": "f73fdcf2769c6768d13846962df40594cc8df2420097efadac738d1e69b8eea2"
+  },
+  {
+    "original": ".c1_build/before_separate_inputs/START_HERE.txt",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/before_separate_inputs/START_HERE.txt",
+    "sha256": "7ef0703de095a31418490927c5c7c5721ec304c9a3280959cf7a4164a8a3e781"
+  },
+  {
+    "original": ".c1_build/build_deck.mjs",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/build_deck.mjs",
+    "sha256": "ac5603f5bbe7e927d7b3409f1c891ea0bbdc9db10bb8dbed09ce2d59d5500458"
+  },
+  {
+    "original": ".c1_build/build_documents.py",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/build_documents.py",
+    "sha256": "5bf422f10c7fb8c10ff60c19cf2caac0e20eb692fff2f540afff474f02c86937"
+  },
+  {
+    "original": ".c1_build/candidate.pptx",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/candidate.pptx",
+    "sha256": "f73fdcf2769c6768d13846962df40594cc8df2420097efadac738d1e69b8eea2"
+  },
+  {
+    "original": ".c1_build/candidate.pptx.inspect.ndjson",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/candidate.pptx.inspect.ndjson",
+    "sha256": "0795533b11c08ab68f08990fd10002c3784e52af55c574676f553711b70adb87"
+  },
+  {
+    "original": ".c1_build/candidate_separate_inputs.pptx",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/candidate_separate_inputs.pptx",
+    "sha256": "bf3653fb334f6914a3e1623470e847d4ca73d0b6dc76aeb685eaa3a61b2d9c1f"
+  },
+  {
+    "original": ".c1_build/candidate_separate_inputs.pptx.inspect.ndjson",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/candidate_separate_inputs.pptx.inspect.ndjson",
+    "sha256": "d76de6cff58cb91e7be48edaa38b3c53a75433a45aebb3d3f1e37d6aae810bfb"
+  },
+  {
+    "original": ".c1_build/charter_render/ClassMic_C1_Project_Charter.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/charter_render/ClassMic_C1_Project_Charter.pdf",
+    "sha256": "dd0d7d0ded570e569bbb0fa656eeb651a21e695b99d57f95e319796b48e624db"
+  },
+  {
+    "original": ".c1_build/charter_render/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/charter_render/page-1.png",
+    "sha256": "fd5ff6dab1a0af15aa22871c91b5f81485b006af6d57cb40ba767326624da2be"
+  },
+  {
+    "original": ".c1_build/charter_render/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/charter_render/page-2.png",
+    "sha256": "ebc4f9441eb79dd1db7638cf5f344d3bfbab704b36b12c48e567101d6c2c2d8b"
+  },
+  {
+    "original": ".c1_build/charter_render_final/ClassMic_C1_Project_Charter.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/charter_render_final/ClassMic_C1_Project_Charter.pdf",
+    "sha256": "6fd468f7e42ef56ce9c6d1d5a08d595b34e8f64bcca6e300586731572abbd909"
+  },
+  {
+    "original": ".c1_build/charter_render_final/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/charter_render_final/page-1.png",
+    "sha256": "ba79160cd75f57a0fa0cac4df0a9db9c34595d713a9bce6221dda4af57353166"
+  },
+  {
+    "original": ".c1_build/charter_render_final/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/charter_render_final/page-2.png",
+    "sha256": "ebc4f9441eb79dd1db7638cf5f344d3bfbab704b36b12c48e567101d6c2c2d8b"
+  },
+  {
+    "original": ".c1_build/charter_separate_inputs/ClassMic_C1_Project_Charter.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/charter_separate_inputs/ClassMic_C1_Project_Charter.pdf",
+    "sha256": "519793731f07d9c911602592b7a15ec21dd21feb68dd961d0949a1ebdde1c433"
+  },
+  {
+    "original": ".c1_build/charter_separate_inputs/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/charter_separate_inputs/page-1.png",
+    "sha256": "ba79160cd75f57a0fa0cac4df0a9db9c34595d713a9bce6221dda4af57353166"
+  },
+  {
+    "original": ".c1_build/charter_separate_inputs/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/charter_separate_inputs/page-2.png",
+    "sha256": "dea10d9cc2149614d361e8e94e9927121c6ecbcbe3a06ccbd7d88d988f8fd8a9"
+  },
+  {
+    "original": ".c1_build/deck.validation.json",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/deck.validation.json",
+    "sha256": "3f0675d4e8e71f4ee23a452c1cc27efe3289a77ba68c2480f58cc7b845318cf0"
+  },
+  {
+    "original": ".c1_build/deck_separate_inputs.validation.json",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/deck_separate_inputs.validation.json",
+    "sha256": "0753cc9e1747ed3e7782c887bd3b53569676fdf9193077c702e9491dc5e26a45"
+  },
+  {
+    "original": ".c1_build/evidence_render/ClassMic_Brainstorming_Evidence_TO_COMPLETE.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/evidence_render/ClassMic_Brainstorming_Evidence_TO_COMPLETE.pdf",
+    "sha256": "a495a70dac406389a0e76ed48ac25c30d5430ebfd8e708fba3736c4beec4e2a2"
+  },
+  {
+    "original": ".c1_build/evidence_render/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/evidence_render/page-1.png",
+    "sha256": "dfb308954bb2c3cfd66e2c8315afe02a809d7d00536c24387c56ef5c5f2f96e3"
+  },
+  {
+    "original": ".c1_build/inspect_deck.mjs",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/inspect_deck.mjs",
+    "sha256": "18b465071c20425cc3d30a9f73c55c6cb324aa353c89ef4ff347e1ecd2c9a125"
+  },
+  {
+    "original": ".c1_build/nurtore_render/Nurtore_Arynuruly_Input_TO_COMPLETE.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/nurtore_render/Nurtore_Arynuruly_Input_TO_COMPLETE.pdf",
+    "sha256": "93c68342f8f1674be6bb7199efba133870e88734fb180c7d62d8f1698ebe6709"
+  },
+  {
+    "original": ".c1_build/nurtore_render/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/nurtore_render/page-1.png",
+    "sha256": "3473cd949381b06f9bf9ac6fdd3a8cf44b729e3c1efe33fb059e8f15dc9ab5a9"
+  },
+  {
+    "original": ".c1_build/reference-11.layout.json",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference-11.layout.json",
+    "sha256": "0d1d2821b18ed6529312ccaa6f10b5ccf5ec389eccfd577aa4126b38ca2bb013"
+  },
+  {
+    "original": ".c1_build/reference-13.layout.json",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference-13.layout.json",
+    "sha256": "05663b7fb29d9f5a226c787cec64e095260c41f5f5f413b3e2787d514d981d2c"
+  },
+  {
+    "original": ".c1_build/reference-9.layout.json",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference-9.layout.json",
+    "sha256": "4a58eeab0bef37991698148469c8c0b41ef1446c320070e3a469577c034418f5"
+  },
+  {
+    "original": ".c1_build/reference.proto.json",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference.proto.json",
+    "sha256": "981b43c78c15dff62b066c8f54c2340c278d83bf2fd61092b9d0d5f5c3e67070"
+  },
+  {
+    "original": ".c1_build/reference_montage.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_montage.png",
+    "sha256": "c54441ea75f041beca2148d9874c3f7905b3592fcb69160160147717e4a3a66f"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-1.png",
+    "sha256": "8c8f7deb0445419cd11d94ac79b0f9dc1d608f50269baf273b7589192c95a417"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-10.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-10.png",
+    "sha256": "214f30b344d8e67bf7eecb35b76e8da25491dba8b1e7ef33789f27c1afdbc165"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-11.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-11.png",
+    "sha256": "8be7ec3f729a687fb45c18da2ddd9ae05e068e1be4c6a17e539ff0f340449e06"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-12.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-12.png",
+    "sha256": "6e049c6e2108f17267b5391610d8e25842f2eddc6044968ff897d4c74e464c18"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-13.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-13.png",
+    "sha256": "52f333f9761c4aeb1441343b33b63e11e00919f03624b6bf66bb81cddd0ff8ac"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-14.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-14.png",
+    "sha256": "07868bb204dbb1a0891e3207a4cc972ecc3605a23a865a97f31922feb08ab7df"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-15.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-15.png",
+    "sha256": "b6a808fc716632895f50017a769bac874c95b249596dcae32daa22224d175e9f"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-16.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-16.png",
+    "sha256": "059af1ca8ac16b82fae93511866ce6f23b4e2e338d73c492c76c6c3f9cd0fdaa"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-17.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-17.png",
+    "sha256": "86b77595cb2f6c42a9df269ddfa9eb42b996b6dab8cfba88d5542be4a2fc5b13"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-18.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-18.png",
+    "sha256": "920d9068dc291f6c25bcfd70dcf581d779e6e5738b6f2811876140de6a308204"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-19.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-19.png",
+    "sha256": "7b49453efbe8ac2fb697da9b4ce8ca15025df337d9958398c3f3a521bf71eb4a"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-2.png",
+    "sha256": "7cdf318b8ca1e3b29cbcdb30f3f810ac3d9367df7dfb3aeeaf2d5cb9eaa48f13"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-20.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-20.png",
+    "sha256": "0c32f71976de70c410463d09f593044c8eda7aeda7224483f0c83d2c8187ceb7"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-21.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-21.png",
+    "sha256": "e7e45e5763b2185d7916094527fa142c5976b5b418142b10bf8775a201117071"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-22.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-22.png",
+    "sha256": "48abe6a8b234b5af9f39b9bd0293ca6bd9e1bc6a7cfc7dc8292b23c6f80c0ba9"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-23.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-23.png",
+    "sha256": "588e0c96a83ad51f18da22cf3582c6986a1b831553d54469cf2cd25a5200afaf"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-24.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-24.png",
+    "sha256": "6798903a7a986171514b13b48a3d3283cf0820944335f17ebbd0255f9734c4f0"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-3.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-3.png",
+    "sha256": "0d56bc41f44e53808e17f88dc1fdba31137dd7d2e8676d80b7aae6f8b95d5746"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-4.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-4.png",
+    "sha256": "c10256301af69b9e8e17ae86b282ad73cc90a974e7084bc9f18edfc88f2dc5c5"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-5.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-5.png",
+    "sha256": "b5dd8fe12ce8f415a4e08a41cb460f9cf361da1f1cc414ed756439c8a1b83e16"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-6.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-6.png",
+    "sha256": "a517fdabd382847c88e7f97bcf21e928220113637f4ac8d1e4fb58105fa90fbe"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-7.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-7.png",
+    "sha256": "bd9b40e52f41a4fdbbc9484c8c9e29d246709b11b8177a7b25c31712d954c43a"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-8.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-8.png",
+    "sha256": "bed3b3e3243208e563e2e8efb21400009962e24510166aaa6f157a948c094ebc"
+  },
+  {
+    "original": ".c1_build/reference_render/slide-9.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/reference_render/slide-9.png",
+    "sha256": "aad7ee5afc55823ad0dea4cdfa79e8cc16cc3e75c1d828bb684014cc7fa00894"
+  },
+  {
+    "original": ".c1_build/slide-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/slide-1.png",
+    "sha256": "a29c7e45da81c0060996159dab88d29f90ac3c2e93a7ca1bdf147eb06bfe4094"
+  },
+  {
+    "original": ".c1_build/slide-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/slide-2.png",
+    "sha256": "86e01e361bb09fed9e0e6759e3c8b69409a6fc14dace2d16d2edd1edc4459d83"
+  },
+  {
+    "original": ".c1_build/slide-3.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/slide-3.png",
+    "sha256": "3df18f59a103d657cd9b42055704ba20c4de1ce848ff947db32e53a72e183603"
+  },
+  {
+    "original": ".c1_build/temiko_render/Temiko_Machavariani_Input_TO_COMPLETE.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/temiko_render/Temiko_Machavariani_Input_TO_COMPLETE.pdf",
+    "sha256": "90814202fa389ec23fd060c9603cf82fc62a0d09cce8ea68e7e4cf965aa292cd"
+  },
+  {
+    "original": ".c1_build/temiko_render/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/temiko_render/page-1.png",
+    "sha256": "9cd4fc2aafb438fb5140250b36988f816926f081b3d944936a5f40caa103343a"
+  },
+  {
+    "original": ".c1_build/update_deck.mjs",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/update_deck.mjs",
+    "sha256": "57e760e725566d9aa153d43bf77e5d8d7acfde6418d6200884cf1a4622edeca5"
+  },
+  {
+    "original": ".c1_build/update_submission.py",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/update_submission.py",
+    "sha256": "0a3c153147df86d395d8d0a3aed9669a2b69937430b730818e84af67dc240551"
+  },
+  {
+    "original": ".c1_build/updated-slide-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/updated-slide-1.png",
+    "sha256": "a29c7e45da81c0060996159dab88d29f90ac3c2e93a7ca1bdf147eb06bfe4094"
+  },
+  {
+    "original": ".c1_build/updated-slide-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/updated-slide-2.png",
+    "sha256": "86e01e361bb09fed9e0e6759e3c8b69409a6fc14dace2d16d2edd1edc4459d83"
+  },
+  {
+    "original": ".c1_build/updated-slide-3.png",
+    "preserved_at": ".local-archive/2026-09-17/.c1_build/updated-slide-3.png",
+    "sha256": "ed0f2d85fd1352bf8cdc6ee167ec738aa3b522c2dcc212f1ae90aa77097bb1b7"
+  },
+  {
+    "original": ".submission_build/A2_candidate.pptx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/A2_candidate.pptx",
+    "sha256": "89016c71abc3024c89e802ca4248c254d5df52ac37e8b9cb9e892757a978dbb7"
+  },
+  {
+    "original": ".submission_build/A2_candidate.pptx.inspect.ndjson",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/A2_candidate.pptx.inspect.ndjson",
+    "sha256": "493ddf255cf3693efe20536ccbe1ca6207f9d3d3da143a61c915fd853b4c9e50"
+  },
+  {
+    "original": ".submission_build/A2_slide_1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/A2_slide_1.png",
+    "sha256": "cdf632696f523f04700c9cf677882aaaa8e2b386fadc478a20a38d69fd37b614"
+  },
+  {
+    "original": ".submission_build/A2_slide_2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/A2_slide_2.png",
+    "sha256": "8abbd01fd02afe760d1b8e1f9e538b4dd30e7e2afb26b88a0fff1e2b926b577a"
+  },
+  {
+    "original": ".submission_build/A2_slide_3.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/A2_slide_3.png",
+    "sha256": "ab5a6fcd08f7cebc4a525001c0094fb537124d4fd076f354b58bf9d49dfc8120"
+  },
+  {
+    "original": ".submission_build/A2_validation.json",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/A2_validation.json",
+    "sha256": "2af35d7f9c855da441fefab8046697cd2975cd2944d44b7e88c0721e0263829c"
+  },
+  {
+    "original": ".submission_build/B2_candidate.pptx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/B2_candidate.pptx",
+    "sha256": "b7e4572c14cd96b249885ffd40928aa42697320b4f32529baa27d36eee7f33ef"
+  },
+  {
+    "original": ".submission_build/B2_candidate.pptx.inspect.ndjson",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/B2_candidate.pptx.inspect.ndjson",
+    "sha256": "e7e8f422177a599e5edf44f86f27220fe5c08a9316ff3867cbfce9032dee660c"
+  },
+  {
+    "original": ".submission_build/B2_slide_1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/B2_slide_1.png",
+    "sha256": "84aea7c2370dbf9bd41364f4e6a98379360141456a74183cb4b542e84edf32ba"
+  },
+  {
+    "original": ".submission_build/B2_slide_2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/B2_slide_2.png",
+    "sha256": "57de25e5429651b201abda2a96e5832bcee4845f47766396dc8db162dfa3cee3"
+  },
+  {
+    "original": ".submission_build/B2_slide_3.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/B2_slide_3.png",
+    "sha256": "4ff8436374a885d70bfdccec0a390bf5890f33c59d5286ecf70b3fad598f338e"
+  },
+  {
+    "original": ".submission_build/B2_validation.json",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/B2_validation.json",
+    "sha256": "67b74cd5c8bd106a64da16bf0d4562f9c73c82c96ac0fa8127cf7ce64daa7c4d"
+  },
+  {
+    "original": ".submission_build/C1_before_editorial_cleanup/Brainstorming/ClassMic_Charter_Brainstorming.docx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_before_editorial_cleanup/Brainstorming/ClassMic_Charter_Brainstorming.docx",
+    "sha256": "4d0e030664fbeb63c0b0fe302b59a8b3640ef999029dc45e62637a69c1e3e19d"
+  },
+  {
+    "original": ".submission_build/C1_before_editorial_cleanup/ClassMic_C1_Project_Charter.docx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_before_editorial_cleanup/ClassMic_C1_Project_Charter.docx",
+    "sha256": "c22d299305f2b717e25b1a1556500573dd0b12d3cd68f3366a93d603b3d39f81"
+  },
+  {
+    "original": ".submission_build/C1_before_editorial_cleanup/ClassMic_C1_Project_Charter.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_before_editorial_cleanup/ClassMic_C1_Project_Charter.pdf",
+    "sha256": "556fbaecad450548cf1cc5d265db36afbb779a7bbfbb4ed2e3d2bfffc619f02f"
+  },
+  {
+    "original": ".submission_build/C1_before_editorial_cleanup/ClassMic_C1_Three_Slides.pptx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_before_editorial_cleanup/ClassMic_C1_Three_Slides.pptx",
+    "sha256": "40fdec2d781ff8613531dbf0086d3595126a0de7296562db2ff705d22e90a727"
+  },
+  {
+    "original": ".submission_build/C1_before_editorial_cleanup/Human_Input/Temiko_ClassMic_Individual_Input.docx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_before_editorial_cleanup/Human_Input/Temiko_ClassMic_Individual_Input.docx",
+    "sha256": "29b28ea1aa20e7d937b814156f4e79f8998d49319ac5c587d4db60efaad10805"
+  },
+  {
+    "original": ".submission_build/C1_before_editorial_cleanup/Human_Input/Temiko_Original_ClassMic_SMART_Note.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_before_editorial_cleanup/Human_Input/Temiko_Original_ClassMic_SMART_Note.png",
+    "sha256": "42e85875833ed1648e777b9a0e50aa3ca4dbbd01c9da044bc1754ae568f15258"
+  },
+  {
+    "original": ".submission_build/C1_before_editorial_cleanup/README.txt",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_before_editorial_cleanup/README.txt",
+    "sha256": "71a019ba5238e35c7788dc1d32e19c55447ca41de49ca69bfe6031e1e63568fa"
+  },
+  {
+    "original": ".submission_build/C1_before_editorial_cleanup/Supporting_A2_B2/ClassMic_A2_Aspiration.docx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_before_editorial_cleanup/Supporting_A2_B2/ClassMic_A2_Aspiration.docx",
+    "sha256": "4763ddf5f4008fe152fad86b93eee276e11fa9616c53b2e80cf053f7bc4c0689"
+  },
+  {
+    "original": ".submission_build/C1_before_editorial_cleanup/Supporting_A2_B2/ClassMic_B2_Business_Case.docx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_before_editorial_cleanup/Supporting_A2_B2/ClassMic_B2_Business_Case.docx",
+    "sha256": "97233a82b6590e57776df44c07872d00d5a8adb1c8d0dec699d6f8d2e90d15ee"
+  },
+  {
+    "original": ".submission_build/C1_brainstorm/ClassMic_Charter_Brainstorming.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_brainstorm/ClassMic_Charter_Brainstorming.pdf",
+    "sha256": "62ea66cb19b26f5e55cb094e155bdb89ccc0e44fd10b3dc177e793db3bf17c93"
+  },
+  {
+    "original": ".submission_build/C1_brainstorm/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_brainstorm/page-1.png",
+    "sha256": "e2f5e2431420651988699772db1428903c3eb5044992128241105897e76bae0c"
+  },
+  {
+    "original": ".submission_build/C1_brainstorm_final/ClassMic_Charter_Brainstorming.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_brainstorm_final/ClassMic_Charter_Brainstorming.pdf",
+    "sha256": "2b8c82927498071b27419e1e6d9c133b4a713d130bd0a0ce3fb2da1a14dc7cc0"
+  },
+  {
+    "original": ".submission_build/C1_brainstorm_final/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_brainstorm_final/page-1.png",
+    "sha256": "e65385079910c59f46797409406d5a047792c0a34369013a3f5aa355de8fd7d6"
+  },
+  {
+    "original": ".submission_build/C1_candidate.pptx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_candidate.pptx",
+    "sha256": "c486d20dd61fe839f45da6eeeb075b92cea95d4c4b7533fa00d015b95e5339d5"
+  },
+  {
+    "original": ".submission_build/C1_candidate.pptx.inspect.ndjson",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_candidate.pptx.inspect.ndjson",
+    "sha256": "d5b9d1ccf605f18dc0de782dcf8e748598dee9cc446c1f313f749cd5a1e8dad3"
+  },
+  {
+    "original": ".submission_build/C1_charter_final/ClassMic_C1_Project_Charter.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_charter_final/ClassMic_C1_Project_Charter.pdf",
+    "sha256": "556fbaecad450548cf1cc5d265db36afbb779a7bbfbb4ed2e3d2bfffc619f02f"
+  },
+  {
+    "original": ".submission_build/C1_charter_final/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_charter_final/page-1.png",
+    "sha256": "5cb72b7bf85be8829cda0bec6c9e8e8120a383f226204efa0b7a300a29b794f3"
+  },
+  {
+    "original": ".submission_build/C1_charter_final/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_charter_final/page-2.png",
+    "sha256": "989550c910d355c1c960ec6ca9b7ba1cecb83005339f1b1fd4efa6ac241c724f"
+  },
+  {
+    "original": ".submission_build/C1_clean_A2/ClassMic_A2_Aspiration.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_A2/ClassMic_A2_Aspiration.pdf",
+    "sha256": "bbc564e0f316648b841902c072909b19e1a890e7ac699ab432a107e7b2330d52"
+  },
+  {
+    "original": ".submission_build/C1_clean_A2/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_A2/page-1.png",
+    "sha256": "5a5f8370e7bbe4d028f2a0f47d7a59ea1f5a06f55354c8b40f7b0a0e7dfd8bd7"
+  },
+  {
+    "original": ".submission_build/C1_clean_A2/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_A2/page-2.png",
+    "sha256": "6bbe59f0ef7763308440d1014c787516d5e95e965b67c7b0a350ac40e02e7d20"
+  },
+  {
+    "original": ".submission_build/C1_clean_B2/ClassMic_B2_Business_Case.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_B2/ClassMic_B2_Business_Case.pdf",
+    "sha256": "f5f180e1fdd0ee64b2b4a4a18c3a4a684ec49321c0c82a000cd8102a5ff88bb5"
+  },
+  {
+    "original": ".submission_build/C1_clean_B2/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_B2/page-1.png",
+    "sha256": "b97ca0f768428cfdf7ecd8c88813186eef158d85c14ea603f35dad9831fb7dbb"
+  },
+  {
+    "original": ".submission_build/C1_clean_B2/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_B2/page-2.png",
+    "sha256": "e83b61a3211f882ffba390e4f265f09ab0b359c4010a29675a8e809c9b0061f9"
+  },
+  {
+    "original": ".submission_build/C1_clean_B2/page-3.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_B2/page-3.png",
+    "sha256": "8f2782ca03712761766c979e34a7c90a93d20d063802b2e4def16bcab3ab5089"
+  },
+  {
+    "original": ".submission_build/C1_clean_B2/page-4.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_B2/page-4.png",
+    "sha256": "6f9e3e3b76a1c5e0080c2c1825d0da49f9196dc72c0f5f77f25d0ae4d2493ca1"
+  },
+  {
+    "original": ".submission_build/C1_clean_B2_final/ClassMic_B2_Business_Case.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_B2_final/ClassMic_B2_Business_Case.pdf",
+    "sha256": "ab9e62cf03c990a02ad692ab4c95874eea4088d6ba5e370f5c7be4bbc9835bc8"
+  },
+  {
+    "original": ".submission_build/C1_clean_B2_final/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_B2_final/page-1.png",
+    "sha256": "b97ca0f768428cfdf7ecd8c88813186eef158d85c14ea603f35dad9831fb7dbb"
+  },
+  {
+    "original": ".submission_build/C1_clean_B2_final/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_B2_final/page-2.png",
+    "sha256": "e83b61a3211f882ffba390e4f265f09ab0b359c4010a29675a8e809c9b0061f9"
+  },
+  {
+    "original": ".submission_build/C1_clean_B2_final/page-3.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_B2_final/page-3.png",
+    "sha256": "7e4d95c345085f316f72c6fbba3cfd2f77cd8c42beeb4302d60af9b9d45661d1"
+  },
+  {
+    "original": ".submission_build/C1_clean_B2_final/page-4.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_B2_final/page-4.png",
+    "sha256": "6f9e3e3b76a1c5e0080c2c1825d0da49f9196dc72c0f5f77f25d0ae4d2493ca1"
+  },
+  {
+    "original": ".submission_build/C1_clean_brainstorm/ClassMic_Charter_Brainstorming.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_brainstorm/ClassMic_Charter_Brainstorming.pdf",
+    "sha256": "af0db92fb9cb99164069900187dbc6b8b28767352f21aa3998123beb402cfcaf"
+  },
+  {
+    "original": ".submission_build/C1_clean_brainstorm/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_brainstorm/page-1.png",
+    "sha256": "f95c46f3334edacc698d5df5b5fa11cb9718fb78822ef7b6508ca365d1740186"
+  },
+  {
+    "original": ".submission_build/C1_clean_candidate.pptx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_candidate.pptx",
+    "sha256": "22ff4139a6155471d0483ef9b92db6e14421f959a6068e60006b99608291743a"
+  },
+  {
+    "original": ".submission_build/C1_clean_candidate.pptx.inspect.ndjson",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_candidate.pptx.inspect.ndjson",
+    "sha256": "46d818aedd6dc1a4ba22f435384bc795e9a17fdf9d709ded8018fc54c4347eeb"
+  },
+  {
+    "original": ".submission_build/C1_clean_charter/ClassMic_C1_Project_Charter.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_charter/ClassMic_C1_Project_Charter.pdf",
+    "sha256": "8ba8e51c2857900cfeac2f943a0443a1b4486d6f9f6e9f5a81d8e7eb84bdb2b3"
+  },
+  {
+    "original": ".submission_build/C1_clean_charter/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_charter/page-1.png",
+    "sha256": "cf65de33a2e586a7d6c68b449d45d717808ccafab1f222364d720d851e8a32d5"
+  },
+  {
+    "original": ".submission_build/C1_clean_charter/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_charter/page-2.png",
+    "sha256": "820befbcd881f33f803fffd42b9741750993fe7f70947273163b87fa897d220f"
+  },
+  {
+    "original": ".submission_build/C1_clean_individual/Temiko_ClassMic_Individual_Input.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_individual/Temiko_ClassMic_Individual_Input.pdf",
+    "sha256": "61476db466eff251a6d28eb4318c7347376597484b8657d7133ee967c3119d48"
+  },
+  {
+    "original": ".submission_build/C1_clean_individual/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_individual/page-1.png",
+    "sha256": "d86df18e46db75e885425769cdc84dfa6a1c46da133eb151fe21ba900b48531a"
+  },
+  {
+    "original": ".submission_build/C1_clean_slide_1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_slide_1.png",
+    "sha256": "1af11add0b41d760f10a41107f297a45955865bb1add72cf6f47ce20f75a3f35"
+  },
+  {
+    "original": ".submission_build/C1_clean_slide_2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_slide_2.png",
+    "sha256": "c55c53a99e9f82b004cb193bff8b16c4a8135aa8c2fbfe5541229b336fc2f902"
+  },
+  {
+    "original": ".submission_build/C1_clean_slide_3.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_slide_3.png",
+    "sha256": "b0900c6a27ae511a746e7b94bb6e9693c3f6ed18df6a394ace9782d5bfd35ec8"
+  },
+  {
+    "original": ".submission_build/C1_clean_validation.json",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_clean_validation.json",
+    "sha256": "2b9b0effd2fcd0e7a27c6e26f287f715d727fa8917cf565b13d8f6e50443a9ce"
+  },
+  {
+    "original": ".submission_build/C1_completion_validation.json",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_completion_validation.json",
+    "sha256": "b9b57faeab79ece4994437fcb8d8ab5dff0a614c53ab74d2a538290a38194c49"
+  },
+  {
+    "original": ".submission_build/C1_handoff_notes.txt",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_handoff_notes.txt",
+    "sha256": "71a019ba5238e35c7788dc1d32e19c55447ca41de49ca69bfe6031e1e63568fa"
+  },
+  {
+    "original": ".submission_build/C1_only/ClassMic_C1_Project_Charter.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_only/ClassMic_C1_Project_Charter.pdf",
+    "sha256": "054ec43f5cf28d7ca3093e90e66fbc395269a5700587c6cd59e4456152a91f0e"
+  },
+  {
+    "original": ".submission_build/C1_only/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_only/page-1.png",
+    "sha256": "5cb72b7bf85be8829cda0bec6c9e8e8120a383f226204efa0b7a300a29b794f3"
+  },
+  {
+    "original": ".submission_build/C1_only/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_only/page-2.png",
+    "sha256": "0fca7c15eb83d12d7c9aa638118a7d2ff9f84dc32e23daf62c0aace4376d4907"
+  },
+  {
+    "original": ".submission_build/C1_slide_1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_slide_1.png",
+    "sha256": "24be04e24f1bf1a4bdc3900de307359dd65b8a7959c8d6e8aefac9716cc3f102"
+  },
+  {
+    "original": ".submission_build/C1_slide_2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_slide_2.png",
+    "sha256": "c55c53a99e9f82b004cb193bff8b16c4a8135aa8c2fbfe5541229b336fc2f902"
+  },
+  {
+    "original": ".submission_build/C1_slide_3.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_slide_3.png",
+    "sha256": "d9c1b45015623386090dbfae9c894dc13fd50bf9e0bdceac1726b9e5cda95c03"
+  },
+  {
+    "original": ".submission_build/C1_upload_manifest.json",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_upload_manifest.json",
+    "sha256": "7dbd3408e1ddb0931b336c6ca88a57d0ed5958d15735d8e5f091d585c1986390"
+  },
+  {
+    "original": ".submission_build/C1_validation.json",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_validation.json",
+    "sha256": "9319fcdad004ab6aed8d4678abff24a8463cac207391c59d4d4c4fdf376f46ff"
+  },
+  {
+    "original": ".submission_build/C1_wording_candidate.pptx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_wording_candidate.pptx",
+    "sha256": "40fdec2d781ff8613531dbf0086d3595126a0de7296562db2ff705d22e90a727"
+  },
+  {
+    "original": ".submission_build/C1_wording_candidate.pptx.inspect.ndjson",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_wording_candidate.pptx.inspect.ndjson",
+    "sha256": "d28bc0b14ce4525a902883e31cef072921fd1cc3798313d7f598bb02b29108b3"
+  },
+  {
+    "original": ".submission_build/C1_wording_slide_1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_wording_slide_1.png",
+    "sha256": "24be04e24f1bf1a4bdc3900de307359dd65b8a7959c8d6e8aefac9716cc3f102"
+  },
+  {
+    "original": ".submission_build/C1_wording_slide_2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_wording_slide_2.png",
+    "sha256": "c55c53a99e9f82b004cb193bff8b16c4a8135aa8c2fbfe5541229b336fc2f902"
+  },
+  {
+    "original": ".submission_build/C1_wording_slide_3.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_wording_slide_3.png",
+    "sha256": "d9c1b45015623386090dbfae9c894dc13fd50bf9e0bdceac1726b9e5cda95c03"
+  },
+  {
+    "original": ".submission_build/C1_wording_validation.json",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/C1_wording_validation.json",
+    "sha256": "425728e67f573502580ae20801e846b3b12cc3aafdb5463c5d810f79e46d9479"
+  },
+  {
+    "original": ".submission_build/CampusCrew_Phase_B_Business_Case.txt",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/CampusCrew_Phase_B_Business_Case.txt",
+    "sha256": "db3af9ed9aa9c08598f317a7ca2c8db8de1eca9cc85c3f4928fbf289528c42be"
+  },
+  {
+    "original": ".submission_build/ClassMic_Phase_C_Project_Charter.txt",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/ClassMic_Phase_C_Project_Charter.txt",
+    "sha256": "58f877a97f9a165d3022e6ada5175de5d1b5da30cbebed01479d29e1fbcd86e0"
+  },
+  {
+    "original": ".submission_build/ClassMic_Phase_D_Integrated_Project_Plan.txt",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/ClassMic_Phase_D_Integrated_Project_Plan.txt",
+    "sha256": "2300f0057e407b884f3acfe64cc8d976ed6f0211610dba6b19b5b4c7cd2b3f29"
+  },
+  {
+    "original": ".submission_build/D Phase Labs.docx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/D Phase Labs.docx",
+    "sha256": "4b427c3b7cc89e5f669883c31757870a9e1731d88316c74a6f61ca54c3a6985b"
+  },
+  {
+    "original": ".submission_build/Lab ABCDEF Group Project Assignment.txt",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/Lab ABCDEF Group Project Assignment.txt",
+    "sha256": "243f45d935ae7734047a83f35606111e70d98a6911918236547aa832687980c0"
+  },
+  {
+    "original": ".submission_build/build_C1_clean.mjs",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/build_C1_clean.mjs",
+    "sha256": "4373df65e35bc8084ebb162f09e06538be9dae6213971f3a3a9f242a8c8ab73a"
+  },
+  {
+    "original": ".submission_build/build_C1_wording.mjs",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/build_C1_wording.mjs",
+    "sha256": "127cf23904acf8ce01e905423e22d93f4de87bdf3a55f9f9333f6552d7a8e878"
+  },
+  {
+    "original": ".submission_build/build_slides.mjs",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/build_slides.mjs",
+    "sha256": "1b69d3ca095e7a22c68015bc42c1ee6143e9fe33a7b3bf5f2c091fe013c3a91d"
+  },
+  {
+    "original": ".submission_build/build_submission.py",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/build_submission.py",
+    "sha256": "a2bcf3c2a7018d4c6c7c2f56dd0e5e5e22ed0abf93f8c7c5286860be685868b5"
+  },
+  {
+    "original": ".submission_build/build_supplements.py",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/build_supplements.py",
+    "sha256": "f728660ab4d2df890b2168cbeb5c4dbcd6710e4f5c612ef08d28222812b563ff"
+  },
+  {
+    "original": ".submission_build/content.json",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/content.json",
+    "sha256": "4d94fa967617ef45506d910609668c76a2ac15657e8492f0686ecbcbcb915e57"
+  },
+  {
+    "original": ".submission_build/final_render_A/ClassMic_A2_Aspiration.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_A/ClassMic_A2_Aspiration.pdf",
+    "sha256": "cec69c5d39b517862ae09195b821650751ed47aa798c934fac90ac949a71f7a2"
+  },
+  {
+    "original": ".submission_build/final_render_A/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_A/page-1.png",
+    "sha256": "404c607ae6d437b5ec85b70072aa24ca828eb491a45bc0811e6ae5da3295c5fc"
+  },
+  {
+    "original": ".submission_build/final_render_A/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_A/page-2.png",
+    "sha256": "8e4c41d007ffd7c82c780b152f99dbd1b6994f8718b79ea66c0efa0c9a74b558"
+  },
+  {
+    "original": ".submission_build/final_render_B/ClassMic_B2_Business_Case.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_B/ClassMic_B2_Business_Case.pdf",
+    "sha256": "30aa7b679e62ae3f63bf5aea37d5492833a4a86698b80c2881fa0e1595151bdf"
+  },
+  {
+    "original": ".submission_build/final_render_B/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_B/page-1.png",
+    "sha256": "e7461739a618d9d6b7bf1eec3b5ea5f7275fb614f67ee7e994c381d128adaf95"
+  },
+  {
+    "original": ".submission_build/final_render_B/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_B/page-2.png",
+    "sha256": "b32bda16997cdbd2275dc9e21817c4a83af32b9460288484cec8c5c219a9dd3e"
+  },
+  {
+    "original": ".submission_build/final_render_B/page-3.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_B/page-3.png",
+    "sha256": "76c1eaa483d0d45fbbebd25d5735374d6f1a62ea6b8f20025e9d512cced8504d"
+  },
+  {
+    "original": ".submission_build/final_render_B/page-4.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_B/page-4.png",
+    "sha256": "0dca78e2bac47fdbc43475fbe9034d068b96ba009af888607d7c107236709866"
+  },
+  {
+    "original": ".submission_build/final_render_Brainstorm/ClassMic_Brainstorming_and_Decisions.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_Brainstorm/ClassMic_Brainstorming_and_Decisions.pdf",
+    "sha256": "5fc6c2c2cc9c60010eb67c77dd287fb06698b5fef3fd44df604efbb3b46232df"
+  },
+  {
+    "original": ".submission_build/final_render_Brainstorm/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_Brainstorm/page-1.png",
+    "sha256": "18880e5aec854a50665f2cf775298b23e6c81e271e9873526cd25df377503ea4"
+  },
+  {
+    "original": ".submission_build/final_render_Brainstorm/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_Brainstorm/page-2.png",
+    "sha256": "502d0b840caaf64743b93b8ddbd656d47095509fbe98bcf4d656a92849076f69"
+  },
+  {
+    "original": ".submission_build/final_render_Brainstorm/page-3.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_Brainstorm/page-3.png",
+    "sha256": "f08779b7754cf2863f17c2795aaba78e62b38ab054550a6bc162908e596e8c1b"
+  },
+  {
+    "original": ".submission_build/final_render_C/ClassMic_C1_Project_Charter.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_C/ClassMic_C1_Project_Charter.pdf",
+    "sha256": "06bfe6e1629cd7f7c6f0455cbf9fc38f6fb1246bba8ecbd6a97cf4e209cbd8d6"
+  },
+  {
+    "original": ".submission_build/final_render_C/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_C/page-1.png",
+    "sha256": "541282ba0958c86dc1fe32b8cf15bea34c058f62b6092059a64067b8fb9c3bd7"
+  },
+  {
+    "original": ".submission_build/final_render_C/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_C/page-2.png",
+    "sha256": "2acd3fa6e64ad68e2a940ff28067675cec0627b4b5cadbb16afb5e58bbaabe58"
+  },
+  {
+    "original": ".submission_build/final_render_D/ClassMic_D_Integrated_Plan.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_D/ClassMic_D_Integrated_Plan.pdf",
+    "sha256": "e54ad18d4102accbd737218ab0e9abced9893705bf8b1c7fe0e7b7624d7e6dc5"
+  },
+  {
+    "original": ".submission_build/final_render_D/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_D/page-1.png",
+    "sha256": "2cccb265f539db9e70961f9996f43d07a6109d5303adb55e027110684a3a768d"
+  },
+  {
+    "original": ".submission_build/final_render_D/page-10.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_D/page-10.png",
+    "sha256": "f0d2d8f0569554981abfcaea37d7aa29d9c4a8848ac1e5f73650b29c39577033"
+  },
+  {
+    "original": ".submission_build/final_render_D/page-11.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_D/page-11.png",
+    "sha256": "f03ff1a4d7045d5c58ecfd7daac6d1fe2973f747c3187e8c0fa5594418e7d0a7"
+  },
+  {
+    "original": ".submission_build/final_render_D/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_D/page-2.png",
+    "sha256": "a71370f18feb9cb6bebd0feb90ff5e717df81deed81e25eb7128ee3fadb84253"
+  },
+  {
+    "original": ".submission_build/final_render_D/page-3.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_D/page-3.png",
+    "sha256": "d33780b2208328b0ba342a0ee16f14a9dc4e850b864df05f25aebce1cc575ccb"
+  },
+  {
+    "original": ".submission_build/final_render_D/page-4.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_D/page-4.png",
+    "sha256": "ce007171ed6ea748682cd665b257397ffb94a3ec6926af85a05c3b1887826bb8"
+  },
+  {
+    "original": ".submission_build/final_render_D/page-5.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_D/page-5.png",
+    "sha256": "0a42fc9fbe68dcec9e22c50a24d830ce0843c4b69510490e86a861f55ab1603c"
+  },
+  {
+    "original": ".submission_build/final_render_D/page-6.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_D/page-6.png",
+    "sha256": "dae2f436e3d96482e598b72c90bc8cd3657233d58fa8a724078a35b9107bfcca"
+  },
+  {
+    "original": ".submission_build/final_render_D/page-7.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_D/page-7.png",
+    "sha256": "1ef1f088ad0e004548cd4836fc81489a5ba7fe8fd26d4e41561635d7803565ec"
+  },
+  {
+    "original": ".submission_build/final_render_D/page-8.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_D/page-8.png",
+    "sha256": "c6e7ce5c047f77714cd332a50a9765bd7b90c0f542b22be9b0eba697e64d0159"
+  },
+  {
+    "original": ".submission_build/final_render_D/page-9.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_D/page-9.png",
+    "sha256": "b925314717cdfa9b182a4ba6c90a33e87341f3d983b6e934c7894ca931c181de"
+  },
+  {
+    "original": ".submission_build/final_render_Evaluation/ClassMic_Evaluation_Protocol.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_Evaluation/ClassMic_Evaluation_Protocol.pdf",
+    "sha256": "a93de499b2581a9ceaaea08e49fb62b328a11c310302e769a2b4758de876c985"
+  },
+  {
+    "original": ".submission_build/final_render_Evaluation/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_Evaluation/page-1.png",
+    "sha256": "c40d3562ae86395a6c2101f40776d2f63e880199ea681e9f2ae3f3e207ebc280"
+  },
+  {
+    "original": ".submission_build/final_render_Evaluation/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_Evaluation/page-2.png",
+    "sha256": "d69be55af7b1b82d6448567d0ee879817153c1e6a8202cb6321f33c175245e9c"
+  },
+  {
+    "original": ".submission_build/final_render_Human/Temiko_ClassMic_Individual_Input.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_Human/Temiko_ClassMic_Individual_Input.pdf",
+    "sha256": "3996a169557555ddf6d50edbeb66f104711fe013abc9bc1b67fa6744a7bb83c0"
+  },
+  {
+    "original": ".submission_build/final_render_Human/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/final_render_Human/page-1.png",
+    "sha256": "a40d5ebec3dc8b71ed1c6ac899f337894d179bc14a47f3fa6892f757fc52428b"
+  },
+  {
+    "original": ".submission_build/package_submission.py",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/package_submission.py",
+    "sha256": "e9b66dde876b672b9849a1f2ce4ba1a170f75b6546e6fab2039339b552b3d8af"
+  },
+  {
+    "original": ".submission_build/page_hashes_before.json",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/page_hashes_before.json",
+    "sha256": "2907ed70d4d3b521b26c1b86262ca50307b3965fe868a9712daa3996c84305f4"
+  },
+  {
+    "original": ".submission_build/page_hashes_before_final.json",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/page_hashes_before_final.json",
+    "sha256": "4f926c21f2ad4204c03f8ccf3c3545ee072e1fe384b970247fb42556439824a8"
+  },
+  {
+    "original": ".submission_build/refine_details.py",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/refine_details.py",
+    "sha256": "e2c0420acbcf6a6942e11c86ebe08d3031f4583d915ba06e2fef29ccb79bb9de"
+  },
+  {
+    "original": ".submission_build/render_A/ClassMic_A2_Aspiration.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_A/ClassMic_A2_Aspiration.pdf",
+    "sha256": "2efc6823ec320fdedb2878694f5815b6800514ddacb3ebe2e2a4661aa97f268a"
+  },
+  {
+    "original": ".submission_build/render_A/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_A/page-1.png",
+    "sha256": "404c607ae6d437b5ec85b70072aa24ca828eb491a45bc0811e6ae5da3295c5fc"
+  },
+  {
+    "original": ".submission_build/render_A/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_A/page-2.png",
+    "sha256": "2662d3d3d6dbff0c2a0fcb8f5c2484137035034d5880d61e3ac2b9053fd2a141"
+  },
+  {
+    "original": ".submission_build/render_B/ClassMic_B2_Business_Case.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_B/ClassMic_B2_Business_Case.pdf",
+    "sha256": "c676ae3929fb6f2bfba5dc3c15f8884d93e13a62ab3ad61144a4aab6bcdc7561"
+  },
+  {
+    "original": ".submission_build/render_B/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_B/page-1.png",
+    "sha256": "fd171778eeeeb7fb75fd0335332cf0f43d16b62eeaace357bc3ec6cbb7910671"
+  },
+  {
+    "original": ".submission_build/render_B/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_B/page-2.png",
+    "sha256": "b32bda16997cdbd2275dc9e21817c4a83af32b9460288484cec8c5c219a9dd3e"
+  },
+  {
+    "original": ".submission_build/render_B/page-3.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_B/page-3.png",
+    "sha256": "cef32e08e40678b14e689293f6921edd1a0ce2fed9ad4ead205a509cc76646a3"
+  },
+  {
+    "original": ".submission_build/render_B/page-4.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_B/page-4.png",
+    "sha256": "e597f2405054f8fac1c039a4cdf2de0f46b18086378cb4fe8d5e1c7e54d19a2f"
+  },
+  {
+    "original": ".submission_build/render_C/ClassMic_C1_Project_Charter.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_C/ClassMic_C1_Project_Charter.pdf",
+    "sha256": "f07a979244d0c799920812f118e9b2d793040fad75809eb13e9f95cd6a868eff"
+  },
+  {
+    "original": ".submission_build/render_C/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_C/page-1.png",
+    "sha256": "df2510c1238bbd0854d3d2fb06dd72b03a7656d1065b8dce5970ac1c17a293b6"
+  },
+  {
+    "original": ".submission_build/render_C/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_C/page-2.png",
+    "sha256": "727c2dc39f518abe6c180bced1132f4b947d4df235f59c145b2cb4417b7ae833"
+  },
+  {
+    "original": ".submission_build/render_D/ClassMic_D_Integrated_Plan.pdf",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_D/ClassMic_D_Integrated_Plan.pdf",
+    "sha256": "49d510d161a84a924c50fb715b08558c0fa337c501c26884171c494ee305e0b7"
+  },
+  {
+    "original": ".submission_build/render_D/page-1.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_D/page-1.png",
+    "sha256": "ed5c021c595991dc10420626157eff437b7e31b8f5eb19257f2dd3447d8a3b12"
+  },
+  {
+    "original": ".submission_build/render_D/page-10.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_D/page-10.png",
+    "sha256": "50120b087894725a3ff8654f083c257b7b135da3441d68cc9383e041a62f06ec"
+  },
+  {
+    "original": ".submission_build/render_D/page-11.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_D/page-11.png",
+    "sha256": "7175691ba007675db04ea1037f9f1d7e6a20787a6bf0bbcd9927dadf0c3075a4"
+  },
+  {
+    "original": ".submission_build/render_D/page-2.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_D/page-2.png",
+    "sha256": "a71370f18feb9cb6bebd0feb90ff5e717df81deed81e25eb7128ee3fadb84253"
+  },
+  {
+    "original": ".submission_build/render_D/page-3.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_D/page-3.png",
+    "sha256": "d33780b2208328b0ba342a0ee16f14a9dc4e850b864df05f25aebce1cc575ccb"
+  },
+  {
+    "original": ".submission_build/render_D/page-4.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_D/page-4.png",
+    "sha256": "ce007171ed6ea748682cd665b257397ffb94a3ec6926af85a05c3b1887826bb8"
+  },
+  {
+    "original": ".submission_build/render_D/page-5.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_D/page-5.png",
+    "sha256": "192395f27154316432fc4862031dc26620185bbc05b52f2431f0362c25b8ee2a"
+  },
+  {
+    "original": ".submission_build/render_D/page-6.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_D/page-6.png",
+    "sha256": "dae2f436e3d96482e598b72c90bc8cd3657233d58fa8a724078a35b9107bfcca"
+  },
+  {
+    "original": ".submission_build/render_D/page-7.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_D/page-7.png",
+    "sha256": "1ef1f088ad0e004548cd4836fc81489a5ba7fe8fd26d4e41561635d7803565ec"
+  },
+  {
+    "original": ".submission_build/render_D/page-8.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_D/page-8.png",
+    "sha256": "ae2fecae066fc900fec6811b8a7fcab57b696a35dd5a08082d05b5e046a17660"
+  },
+  {
+    "original": ".submission_build/render_D/page-9.png",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/render_D/page-9.png",
+    "sha256": "b925314717cdfa9b182a4ba6c90a33e87341f3d983b6e934c7894ca931c181de"
+  },
+  {
+    "original": ".submission_build/revised_slides/ClassMic_C1_Three_Slides_clean.pptx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/revised_slides/ClassMic_C1_Three_Slides_clean.pptx",
+    "sha256": "22ff4139a6155471d0483ef9b92db6e14421f959a6068e60006b99608291743a"
+  },
+  {
+    "original": ".submission_build/revised_slides/ClassMic_C1_Three_Slides_final.pptx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/revised_slides/ClassMic_C1_Three_Slides_final.pptx",
+    "sha256": "40fdec2d781ff8613531dbf0086d3595126a0de7296562db2ff705d22e90a727"
+  },
+  {
+    "original": ".submission_build/revised_slides/ClassMic_C1_Three_Slides_revised.pptx",
+    "preserved_at": ".local-archive/2026-09-17/.submission_build/revised_slides/ClassMic_C1_Three_Slides_revised.pptx",
+    "sha256": "c486d20dd61fe839f45da6eeeb075b92cea95d4c4b7533fa00d015b95e5339d5"
+  },
+  {
+    "original": "ClassMic_A_to_D_Package.zip",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_A_to_D_Package.zip",
+    "sha256": "ad0b4899683495130fe0dd1288ec43d1c23dade2476846bf5b854405c2ac87f7"
+  },
+  {
+    "original": "ClassMic_C1_Completed/Brainstorming/ClassMic_Charter_Brainstorming.docx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_C1_Completed/Brainstorming/ClassMic_Charter_Brainstorming.docx",
+    "sha256": "00b4cfb3f7ed08fe923e9397f0dbe25e13e60595c3e62165e4c3943ce7c41fd0"
+  },
+  {
+    "original": "ClassMic_C1_Completed/ClassMic_C1_Project_Charter.docx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_C1_Completed/ClassMic_C1_Project_Charter.docx",
+    "sha256": "70674da2a8c1431d601c78c51743aad313b9735e4b0ecbd0ef84bc29dd814278"
+  },
+  {
+    "original": "ClassMic_C1_Completed/ClassMic_C1_Project_Charter.pdf",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_C1_Completed/ClassMic_C1_Project_Charter.pdf",
+    "sha256": "8ba8e51c2857900cfeac2f943a0443a1b4486d6f9f6e9f5a81d8e7eb84bdb2b3"
+  },
+  {
+    "original": "ClassMic_C1_Completed/ClassMic_C1_Three_Slides.pptx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_C1_Completed/ClassMic_C1_Three_Slides.pptx",
+    "sha256": "22ff4139a6155471d0483ef9b92db6e14421f959a6068e60006b99608291743a"
+  },
+  {
+    "original": "ClassMic_C1_Completed/Human_Input/Temiko_ClassMic_Individual_Input.docx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_C1_Completed/Human_Input/Temiko_ClassMic_Individual_Input.docx",
+    "sha256": "efb65b87eb44651ceddcca7c6b6997a8a393e1b8205862093c10c4770ee33b8a"
+  },
+  {
+    "original": "ClassMic_C1_Completed/Human_Input/Temiko_Original_ClassMic_SMART_Note.png",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_C1_Completed/Human_Input/Temiko_Original_ClassMic_SMART_Note.png",
+    "sha256": "42e85875833ed1648e777b9a0e50aa3ca4dbbd01c9da044bc1754ae568f15258"
+  },
+  {
+    "original": "ClassMic_C1_Completed/Supporting_A2_B2/ClassMic_A2_Aspiration.docx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_C1_Completed/Supporting_A2_B2/ClassMic_A2_Aspiration.docx",
+    "sha256": "e24d1e185045d09263f44d5b68f6a5a761415149dccfb87ac2058e3fcd168fad"
+  },
+  {
+    "original": "ClassMic_C1_Completed/Supporting_A2_B2/ClassMic_B2_Business_Case.docx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_C1_Completed/Supporting_A2_B2/ClassMic_B2_Business_Case.docx",
+    "sha256": "04cf06f203b4122ecd6ba996eea410365966247c0ceb08da5b5e74b70cb0e121"
+  },
+  {
+    "original": "ClassMic_C1_Submission.zip",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_C1_Submission.zip",
+    "sha256": "61aed38e1b25318c9277933697970319adeb21022f9769ca8bf6b13e62b14cb6"
+  },
+  {
+    "original": "ClassMic_Submission/A_Aspiration/ClassMic_A2_Aspiration.docx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/A_Aspiration/ClassMic_A2_Aspiration.docx",
+    "sha256": "4763ddf5f4008fe152fad86b93eee276e11fa9616c53b2e80cf053f7bc4c0689"
+  },
+  {
+    "original": "ClassMic_Submission/A_Aspiration/ClassMic_A2_Aspiration.pdf",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/A_Aspiration/ClassMic_A2_Aspiration.pdf",
+    "sha256": "2efc6823ec320fdedb2878694f5815b6800514ddacb3ebe2e2a4661aa97f268a"
+  },
+  {
+    "original": "ClassMic_Submission/A_Aspiration/ClassMic_A2_Three_Slides.pptx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/A_Aspiration/ClassMic_A2_Three_Slides.pptx",
+    "sha256": "cb486d9c2fc96b88c2afb19acac40e0e68280682afece4dcdac532c2021978c8"
+  },
+  {
+    "original": "ClassMic_Submission/B_Business_Case/ClassMic_B2_Business_Case.docx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/B_Business_Case/ClassMic_B2_Business_Case.docx",
+    "sha256": "97233a82b6590e57776df44c07872d00d5a8adb1c8d0dec699d6f8d2e90d15ee"
+  },
+  {
+    "original": "ClassMic_Submission/B_Business_Case/ClassMic_B2_Business_Case.pdf",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/B_Business_Case/ClassMic_B2_Business_Case.pdf",
+    "sha256": "c676ae3929fb6f2bfba5dc3c15f8884d93e13a62ab3ad61144a4aab6bcdc7561"
+  },
+  {
+    "original": "ClassMic_Submission/B_Business_Case/ClassMic_B2_Three_Slides.pptx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/B_Business_Case/ClassMic_B2_Three_Slides.pptx",
+    "sha256": "b7e4572c14cd96b249885ffd40928aa42697320b4f32529baa27d36eee7f33ef"
+  },
+  {
+    "original": "ClassMic_Submission/C_Charter/ClassMic_C1_Project_Charter.docx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/C_Charter/ClassMic_C1_Project_Charter.docx",
+    "sha256": "e69172dba0b48f0b82c754f88e67dfdcfc0d0371c92604bd88dc62fd75fbfd2e"
+  },
+  {
+    "original": "ClassMic_Submission/C_Charter/ClassMic_C1_Project_Charter.pdf",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/C_Charter/ClassMic_C1_Project_Charter.pdf",
+    "sha256": "f07a979244d0c799920812f118e9b2d793040fad75809eb13e9f95cd6a868eff"
+  },
+  {
+    "original": "ClassMic_Submission/C_Charter/ClassMic_C1_Three_Slides.pptx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/C_Charter/ClassMic_C1_Three_Slides.pptx",
+    "sha256": "158f15472369a7a065e6f1e937205001a75865124516b1ab75a76c3a48aad87a"
+  },
+  {
+    "original": "ClassMic_Submission/D_Develop_Plans/ClassMic_D_Integrated_Plan.docx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/D_Develop_Plans/ClassMic_D_Integrated_Plan.docx",
+    "sha256": "d21c031cd18902e0a9b5f117534bd66b0740f09a99ce84cd95e7a73110396b4a"
+  },
+  {
+    "original": "ClassMic_Submission/D_Develop_Plans/ClassMic_D_Integrated_Plan.pdf",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/D_Develop_Plans/ClassMic_D_Integrated_Plan.pdf",
+    "sha256": "49d510d161a84a924c50fb715b08558c0fa337c501c26884171c494ee305e0b7"
+  },
+  {
+    "original": "ClassMic_Submission/D_Develop_Plans/ClassMic_Evaluation_Protocol.docx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/D_Develop_Plans/ClassMic_Evaluation_Protocol.docx",
+    "sha256": "74ef80d6977734e62514563260032c699f1f5795b26996e6e3a92d4b2a04730f"
+  },
+  {
+    "original": "ClassMic_Submission/D_Develop_Plans/ClassMic_MS_Project_Schedule.xml",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/D_Develop_Plans/ClassMic_MS_Project_Schedule.xml",
+    "sha256": "b9157da17bd508e785d5718fa36c8f982faee30e257840ef3496cc20b265ec90"
+  },
+  {
+    "original": "ClassMic_Submission/D_Develop_Plans/ClassMic_Notion_PRD.md",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/D_Develop_Plans/ClassMic_Notion_PRD.md",
+    "sha256": "9b55b17125cdf8017981fe3fceeb32b55e40812f9bcd6d98876ee84ee5294c63"
+  },
+  {
+    "original": "ClassMic_Submission/D_Develop_Plans/ClassMic_Notion_Requirements.csv",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/D_Develop_Plans/ClassMic_Notion_Requirements.csv",
+    "sha256": "6420e7e29768343f1b68be7e6f92efce24c3d6195d9b09c1e5612caa58e6f334"
+  },
+  {
+    "original": "ClassMic_Submission/D_Develop_Plans/ClassMic_Reviewer_Responses.csv",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/D_Develop_Plans/ClassMic_Reviewer_Responses.csv",
+    "sha256": "8f0122ae790ddedb3847e93009e55874785c7dceefe01c43b29ee8be86842e1a"
+  },
+  {
+    "original": "ClassMic_Submission/D_Develop_Plans/ClassMic_Schedule.csv",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/D_Develop_Plans/ClassMic_Schedule.csv",
+    "sha256": "b624a419f84318659e759b6dda719f54a71bab2d0ff57992371ac27200e6eab8"
+  },
+  {
+    "original": "ClassMic_Submission/D_Develop_Plans/ClassMic_Test_Records.csv",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/D_Develop_Plans/ClassMic_Test_Records.csv",
+    "sha256": "548a4a1292203b87b68f58e3781b750adef7197f419697e8eaf796ffee7c8bbb"
+  },
+  {
+    "original": "ClassMic_Submission/D_Develop_Plans/Schedule_File_Guide.md",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/D_Develop_Plans/Schedule_File_Guide.md",
+    "sha256": "9f446d6337889d71d4fe78ef66dc4e18e9e334f0626abcd52646c7dd5e4baef8"
+  },
+  {
+    "original": "ClassMic_Submission/Human_Input/Temiko_ClassMic_Individual_Input.docx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/Human_Input/Temiko_ClassMic_Individual_Input.docx",
+    "sha256": "29b28ea1aa20e7d937b814156f4e79f8998d49319ac5c587d4db60efaad10805"
+  },
+  {
+    "original": "ClassMic_Submission/Human_Input/Temiko_Original_ClassMic_SMART_Note.png",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/Human_Input/Temiko_Original_ClassMic_SMART_Note.png",
+    "sha256": "42e85875833ed1648e777b9a0e50aa3ca4dbbd01c9da044bc1754ae568f15258"
+  },
+  {
+    "original": "ClassMic_Submission/START_HERE.md",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/START_HERE.md",
+    "sha256": "02e024abdc6f264a395bb21dc61f2885831228db01d414476264dc26b3350078"
+  },
+  {
+    "original": "ClassMic_Submission/Supporting_Notes/ClassMic_Brainstorming_and_Decisions.docx",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/Supporting_Notes/ClassMic_Brainstorming_and_Decisions.docx",
+    "sha256": "2d32738b3e1e5ff0126c1a83c91f16249ff41b8f0c6378ace9c3acc9bdc8abcb"
+  },
+  {
+    "original": "ClassMic_Submission/Supporting_Notes/Evidence_and_Confirmations.md",
+    "preserved_at": "archive/2026-09-17-before-reorganization/ClassMic_Submission/Supporting_Notes/Evidence_and_Confirmations.md",
+    "sha256": "5eb9197ef6eaf9565953966eb703b5a736e3188eeb2afd48d70c2dbf0384d159"
+  },
+  {
+    "original": "Lab ABCDEF Group Project Assignment.docx",
+    "preserved_at": "references/course/Lab ABCDEF Group Project Assignment.docx",
+    "sha256": "8976ed57402ae13c3c009edbd20c609067b8d2ed9a788719ae0c8abab663338e"
+  },
+  {
+    "original": "_Archive/Before_ClassMic_Revision_2026-09-10/C1_ClassMic/02_Group_Charter/ClassMic_C1_Project_Charter.docx",
+    "preserved_at": "archive/legacy/Before_ClassMic_Revision_2026-09-10/C1_ClassMic/02_Group_Charter/ClassMic_C1_Project_Charter.docx",
+    "sha256": "51b81d2a91c8f0a11397f086ecf2fc5911eee0a2102491283d1c10f2296c2b57"
+  },
+  {
+    "original": "_Archive/Before_ClassMic_Revision_2026-09-10/C1_ClassMic/03_Slides/ClassMic_C1_Three_Slides_Updated.pptx",
+    "preserved_at": "archive/legacy/Before_ClassMic_Revision_2026-09-10/C1_ClassMic/03_Slides/ClassMic_C1_Three_Slides_Updated.pptx",
+    "sha256": "bf3653fb334f6914a3e1623470e847d4ca73d0b6dc76aeb685eaa3a61b2d9c1f"
+  },
+  {
+    "original": "_Archive/Before_ClassMic_Revision_2026-09-10/C1_ClassMic/04_Human_Evidence/ClassMic_Brainstorming_Evidence_TO_COMPLETE.docx",
+    "preserved_at": "archive/legacy/Before_ClassMic_Revision_2026-09-10/C1_ClassMic/04_Human_Evidence/ClassMic_Brainstorming_Evidence_TO_COMPLETE.docx",
+    "sha256": "c640afe86f8655198bac434d853aecc3c7c278468fa44b1e637450ba2b58b81c"
+  },
+  {
+    "original": "_Archive/Before_ClassMic_Revision_2026-09-10/C1_ClassMic/START_HERE.txt",
+    "preserved_at": "archive/legacy/Before_ClassMic_Revision_2026-09-10/C1_ClassMic/START_HERE.txt",
+    "sha256": "76c85eb906e1182d3b9614ed3f1fdc823760d890fe8304aa30390911d9cbef20"
+  },
+  {
+    "original": "_Archive/Before_ClassMic_Revision_2026-09-10/CampusCrew_Phase_B_Business_Case.docx",
+    "preserved_at": "archive/legacy/Before_ClassMic_Revision_2026-09-10/CampusCrew_Phase_B_Business_Case.docx",
+    "sha256": "9e0c8d49b0ffd4adc1fadfa3d68f5983218ba6c5a94724b2c2f1760b17422122"
+  },
+  {
+    "original": "_Archive/Before_ClassMic_Revision_2026-09-10/ClassMic_C1_Draft_Submission.zip",
+    "preserved_at": "archive/legacy/Before_ClassMic_Revision_2026-09-10/ClassMic_C1_Draft_Submission.zip",
+    "sha256": "4a155518edd91c226deb3fa7b4232245976a4d6702a819d072fe8a3a7cbc81d0"
+  },
+  {
+    "original": "_Archive/Before_ClassMic_Revision_2026-09-10/ClassMic_Phase_C_Project_Charter.docx",
+    "preserved_at": "archive/legacy/Before_ClassMic_Revision_2026-09-10/ClassMic_Phase_C_Project_Charter.docx",
+    "sha256": "f7bc738a7b7556268e8b67bf73a516ef68863f73b81f7dccf17eab78f20d02b9"
+  },
+  {
+    "original": "_Archive/Before_ClassMic_Revision_2026-09-10/ClassMic_Phase_D_Integrated_Project_Plan.docx",
+    "preserved_at": "archive/legacy/Before_ClassMic_Revision_2026-09-10/ClassMic_Phase_D_Integrated_Project_Plan.docx",
+    "sha256": "8a45fb5b4745b00b54a3f028046201af1d93a566ef381bf470dc31b82f8c2d46"
+  },
+  {
+    "original": "_Archive/Before_ClassMic_Revision_2026-09-10/README.txt",
+    "preserved_at": "archive/legacy/Before_ClassMic_Revision_2026-09-10/README.txt",
+    "sha256": "7db2bbadb4b94e616caa3a39b76f88eda2bd36ea776a1fc7cfb0281011696b8e"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_A_to_D_Package.zip",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_A_to_D_Package.zip",
+    "sha256": "ad0b4899683495130fe0dd1288ec43d1c23dade2476846bf5b854405c2ac87f7"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_C1_Submission.zip",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_C1_Submission.zip",
+    "sha256": "ab002ec9728807108c4ce27cb98016b791cadeaa23ca6f17d7d99f9f33154f68"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/A_Aspiration/ClassMic_A2_Aspiration.docx",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/A_Aspiration/ClassMic_A2_Aspiration.docx",
+    "sha256": "d614398389d26ede77c64dfd84fb63002e3a436ecef6e51149e1477653fc9003"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/A_Aspiration/ClassMic_A2_Aspiration.pdf",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/A_Aspiration/ClassMic_A2_Aspiration.pdf",
+    "sha256": "2efc6823ec320fdedb2878694f5815b6800514ddacb3ebe2e2a4661aa97f268a"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/A_Aspiration/ClassMic_A2_Three_Slides.pptx",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/A_Aspiration/ClassMic_A2_Three_Slides.pptx",
+    "sha256": "cb486d9c2fc96b88c2afb19acac40e0e68280682afece4dcdac532c2021978c8"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/B_Business_Case/ClassMic_B2_Business_Case.docx",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/B_Business_Case/ClassMic_B2_Business_Case.docx",
+    "sha256": "0671825aac0cb4669d5ba8177c748c539beb8d82082dc342d4003fff4a4d0da0"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/B_Business_Case/ClassMic_B2_Business_Case.pdf",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/B_Business_Case/ClassMic_B2_Business_Case.pdf",
+    "sha256": "c676ae3929fb6f2bfba5dc3c15f8884d93e13a62ab3ad61144a4aab6bcdc7561"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/B_Business_Case/ClassMic_B2_Three_Slides.pptx",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/B_Business_Case/ClassMic_B2_Three_Slides.pptx",
+    "sha256": "b7e4572c14cd96b249885ffd40928aa42697320b4f32529baa27d36eee7f33ef"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/C_Charter/ClassMic_C1_Project_Charter.docx",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/C_Charter/ClassMic_C1_Project_Charter.docx",
+    "sha256": "d2fb9850bf0f2268522d1765cb1812e8e72e03cfa07f07e47838d193c6acaf02"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/C_Charter/ClassMic_C1_Project_Charter.pdf",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/C_Charter/ClassMic_C1_Project_Charter.pdf",
+    "sha256": "f07a979244d0c799920812f118e9b2d793040fad75809eb13e9f95cd6a868eff"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/C_Charter/ClassMic_C1_Three_Slides.pptx",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/C_Charter/ClassMic_C1_Three_Slides.pptx",
+    "sha256": "158f15472369a7a065e6f1e937205001a75865124516b1ab75a76c3a48aad87a"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/D_Develop_Plans/ClassMic_D_Integrated_Plan.docx",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/D_Develop_Plans/ClassMic_D_Integrated_Plan.docx",
+    "sha256": "f91d9775e27b233757d2ba7584338beb3d6a94076d5c48e1408ec8ef3c354603"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/D_Develop_Plans/ClassMic_D_Integrated_Plan.pdf",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/D_Develop_Plans/ClassMic_D_Integrated_Plan.pdf",
+    "sha256": "49d510d161a84a924c50fb715b08558c0fa337c501c26884171c494ee305e0b7"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/D_Develop_Plans/ClassMic_Notion_PRD.md",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/D_Develop_Plans/ClassMic_Notion_PRD.md",
+    "sha256": "bfd312677786d644c9eb72035b9b30eace5c36045be4fc7a79fd3e3daac3ddfd"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/D_Develop_Plans/ClassMic_Notion_Requirements.csv",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/D_Develop_Plans/ClassMic_Notion_Requirements.csv",
+    "sha256": "3249ace2a6d40b7d3cc802e3846c5451d5f0a6ce3b064c7df0ee7c3ab32d3d73"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/D_Develop_Plans/ClassMic_Schedule.csv",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/D_Develop_Plans/ClassMic_Schedule.csv",
+    "sha256": "034ebc3ae66bee48b8876a5141ed0b8c2bd0386789695909585868556c529326"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/START_HERE.md",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/START_HERE.md",
+    "sha256": "02e024abdc6f264a395bb21dc61f2885831228db01d414476264dc26b3350078"
+  },
+  {
+    "original": "_Archive/Before_Completion_Pass_2026-09-10/ClassMic_Submission/Supporting_Notes/Evidence_and_Confirmations.md",
+    "preserved_at": "archive/legacy/Before_Completion_Pass_2026-09-10/ClassMic_Submission/Supporting_Notes/Evidence_and_Confirmations.md",
+    "sha256": "288ab4afe6aaf83c6446cafd55281a68aa85443db445f02ef1e6072d874d6c6b"
+  },
+  {
+    "original": "sep17/D Phase Labs.docx",
+    "preserved_at": "references/course/D Phase Labs.docx",
+    "sha256": "4b427c3b7cc89e5f669883c31757870a9e1731d88316c74a6f61ca54c3a6985b"
+  },
+  {
+    "original": "sep17/Group Project WBS.mpp",
+    "preserved_at": "references/course/Group Project WBS.mpp",
+    "sha256": "19cf172371e5ab34117381ad3fbb098370f41daee39252662ac7a2903167120e"
+  },
+  {
+    "original": "sep17/Installing MS Project Clone.pdf",
+    "preserved_at": "references/course/Installing MS Project Clone.pdf",
+    "sha256": "b923ec2255d33204eee68659a941286b79c9e8e95023958d8fa37766a8640c3e"
+  },
+  {
+    "original": "sep17/lab.md",
+    "preserved_at": "references/course/lab.md",
+    "sha256": "48e027803143601ef2d148afaa27e095bd624744fc6c27916dde3255ef86d5ce"
+  }
+]

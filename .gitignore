@@ -1,0 +1,17 @@
+.DS_Store
+._*
+~$*
+*.tmp
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.build/
+.local-archive/
+.env
+.env.*
+!.env.example
+# Institutional installation guide contains a product key; retain locally only.
+/references/course/Installing MS Project Clone.pdf
+
+.local-tools/

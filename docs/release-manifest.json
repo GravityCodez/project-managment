@@ -1,0 +1,77 @@
+[
+  {
+    "path": "submissions/ClassMic_Initial_Phases.zip",
+    "bytes": 3309285,
+    "sha256": "aa71e4f3bea92d7dd6c5a931a5e5150000525e1cd11fb79c2d05e123e344631d"
+  },
+  {
+    "path": "submissions/ClassMic_WBS_Lab.zip",
+    "bytes": 98318,
+    "sha256": "c39120d481b87e7926b6a234d8ecc5a6d62dbce82874c2889b69aba8e3c84d75"
+  },
+  {
+    "path": "submissions/initial-phases/A_Aspiration/ClassMic_A2_Aspiration.docx",
+    "bytes": 40441,
+    "sha256": "20a1537d78bdf01bb93bfcfd8ef32c687f856c09fa0e525202e89dbd33a40d3b"
+  },
+  {
+    "path": "submissions/initial-phases/A_Aspiration/ClassMic_A2_Aspiration.pdf",
+    "bytes": 90074,
+    "sha256": "1718078ffc52fc2f614cebba7aec3012c1131aa072bf3f14b6c555484bf586e1"
+  },
+  {
+    "path": "submissions/initial-phases/A_Aspiration/ClassMic_A2_Three_Slides.pptx",
+    "bytes": 980912,
+    "sha256": "e751e9fb905b139afb2ba0fc3cf611f573e792fb3d8e3fab72b25da0d027ca9d"
+  },
+  {
+    "path": "submissions/initial-phases/B_Business_Case/ClassMic_B2_Business_Case.docx",
+    "bytes": 43637,
+    "sha256": "695cd0033c2fe87c2bf1db976f308a5ba2798e916523fb7b26e2ac4d391dff1f"
+  },
+  {
+    "path": "submissions/initial-phases/B_Business_Case/ClassMic_B2_Business_Case.pdf",
+    "bytes": 179623,
+    "sha256": "a25351f96150c2f864a18f3c64bdb75181022f7bf8fb11c6bb58552ff52f6479"
+  },
+  {
+    "path": "submissions/initial-phases/B_Business_Case/ClassMic_B2_Three_Slides.pptx",
+    "bytes": 981139,
+    "sha256": "92da53febdf0608cdfb5d2aac56b810aa35d5df598b8d4ff6cb03794d1acfb3d"
+  },
+  {
+    "path": "submissions/initial-phases/C_Charter/ClassMic_C1_Project_Charter.docx",
+    "bytes": 40923,
+    "sha256": "5805e7a1932ce0e54c39dbea68fde81a5995d8c4039401ac126da262f69e1c2d"
+  },
+  {
+    "path": "submissions/initial-phases/C_Charter/ClassMic_C1_Project_Charter.pdf",
+    "bytes": 104347,
+    "sha256": "6837edd1b005c4a6a4c5086751dd7f690e1cb08116057104c8f84a06fa874de7"
+  },
+  {
+    "path": "submissions/initial-phases/C_Charter/ClassMic_C1_Three_Slides.pptx",
+    "bytes": 981144,
+    "sha256": "e64af9cc8f676705c7b3e908d1ced2caf75c80e2d7a214d1856af2e7a96d6ed1"
+  },
+  {
+    "path": "submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.csv",
+    "bytes": 1430,
+    "sha256": "f6d818dcda5b947b6944117e50a54d991428a49702ead770bdcd0fd2c73e71db"
+  },
+  {
+    "path": "submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.mpp",
+    "bytes": 1133056,
+    "sha256": "cb5e7dfd18e7b5a51ec6f6fec82e7ee9ef60f137625fb42b4e004c696bbf6e22"
+  },
+  {
+    "path": "submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.pdf",
+    "bytes": 6343,
+    "sha256": "0b7ccbfc85454cb1f22d5185f8c950e3c7ac200615db1626d9b7ad3f17c59392"
+  },
+  {
+    "path": "submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.xml",
+    "bytes": 35815,
+    "sha256": "61cce993bae07ce5edc213f5829276cd14e0da6868fa8d45fa588ee86ca85bb7"
+  }
+]
