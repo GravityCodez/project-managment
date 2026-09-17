@@ -159,7 +159,7 @@
       <CalendarUID>1</CalendarUID>
       <LevelAssignments>0</LevelAssignments>
       <LevelingCanSplit>0</LevelingCanSplit>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 54 h; Nurtore 46 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>ClassMic browser prototype and controlled evaluation. The plan assumes existing equipment, available volunteers and 100 student hours. Course review is required before development.</Notes>
     </Task>
     <Task>
       <UID>2</UID>
@@ -187,7 +187,7 @@
       <CalendarUID>1</CalendarUID>
       <LevelAssignments>0</LevelAssignments>
       <LevelingCanSplit>0</LevelingCanSplit>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 2 h; Nurtore 6 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Define the classroom audibility problem, expected benefit and initial success measures.</Notes>
     </Task>
     <Task>
       <UID>3</UID>
@@ -215,7 +215,7 @@
       <CalendarUID>1</CalendarUID>
       <LevelAssignments>0</LevelAssignments>
       <LevelingCanSplit>0</LevelingCanSplit>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 1 h; Nurtore 3 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Describe who has difficulty hearing classroom questions and record current workarounds. Identify students, instructors and other affected stakeholders.</Notes>
     </Task>
     <Task>
       <UID>4</UID>
@@ -250,7 +250,7 @@
         <LinkLag>0</LinkLag>
         <LagFormat>7</LagFormat>
       </PredecessorLink>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 1 h; Nurtore 3 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Set the expected benefit and initial success measures. Prepare a 30-second explanation of the idea.</Notes>
     </Task>
     <Task>
       <UID>5</UID>
@@ -278,7 +278,7 @@
       <CalendarUID>1</CalendarUID>
       <LevelAssignments>0</LevelAssignments>
       <LevelingCanSplit>0</LevelingCanSplit>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 4 h; Nurtore 4 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Compare current practice, commercial products and a custom prototype before recommending whether to proceed.</Notes>
     </Task>
     <Task>
       <UID>6</UID>
@@ -313,7 +313,7 @@
         <LinkLag>0</LinkLag>
         <LagFormat>7</LagFormat>
       </PredecessorLink>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 2 h; Nurtore 2 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Compare classroom fit, likely benefits, resources, feasibility, privacy and support needs. Record which estimates still need evidence.</Notes>
     </Task>
     <Task>
       <UID>7</UID>
@@ -348,7 +348,7 @@
         <LinkLag>0</LinkLag>
         <LagFormat>7</LagFormat>
       </PredecessorLink>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 2 h; Nurtore 2 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Recommend GO, REVISE or NO-GO for the course prototype and identify conditions for a larger pilot.</Notes>
     </Task>
     <Task>
       <UID>8</UID>
@@ -376,7 +376,7 @@
       <CalendarUID>1</CalendarUID>
       <LevelAssignments>0</LevelAssignments>
       <LevelingCanSplit>0</LevelingCanSplit>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 4 h; Nurtore 4 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Set the project objectives, boundaries, responsibilities and decision authority.</Notes>
     </Task>
     <Task>
       <UID>9</UID>
@@ -411,7 +411,7 @@
         <LinkLag>0</LinkLag>
         <LagFormat>7</LagFormat>
       </PredecessorLink>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 2 h; Nurtore 2 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Define the prototype objectives, acceptance targets, included work and exclusions.</Notes>
     </Task>
     <Task>
       <UID>10</UID>
@@ -446,7 +446,7 @@
         <LinkLag>0</LinkLag>
         <LagFormat>7</LagFormat>
       </PredecessorLink>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 2 h; Nurtore 2 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Assign responsibilities and define who approves changes to scope, schedule and spending.</Notes>
     </Task>
     <Task>
       <UID>11</UID>
@@ -474,12 +474,12 @@
       <CalendarUID>1</CalendarUID>
       <LevelAssignments>0</LevelAssignments>
       <LevelingCanSplit>0</LevelingCanSplit>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 8 h; Nurtore 8 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Complete the project plan before the first development sprint.</Notes>
     </Task>
     <Task>
       <UID>12</UID>
       <ID>12</ID>
-      <Name>Requirements and linked work plan</Name>
+      <Name>Requirements and schedule</Name>
       <Type>1</Type>
       <IsNull>0</IsNull>
       <WBS>D.1</WBS>
@@ -509,12 +509,12 @@
         <LinkLag>0</LinkLag>
         <LagFormat>7</LagFormat>
       </PredecessorLink>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 4 h; Nurtore 4 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Agree on requirements and acceptance checks. Decompose the work and link its dependencies.</Notes>
     </Task>
     <Task>
       <UID>13</UID>
       <ID>13</ID>
-      <Name>Risk cost quality and plan review</Name>
+      <Name>Risk, quality and resource planning</Name>
       <Type>1</Type>
       <IsNull>0</IsNull>
       <WBS>D.2</WBS>
@@ -545,7 +545,7 @@
         <LagFormat>7</LagFormat>
       </PredecessorLink>
       <Deadline>2026-09-22T00:00:00</Deadline>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 4 h; Nurtore 4 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Review risks, quality checks, resource estimates and responsibilities. Complete the plan review before Sprint 1.</Notes>
     </Task>
     <Task>
       <UID>14</UID>
@@ -573,12 +573,12 @@
       <CalendarUID>1</CalendarUID>
       <LevelAssignments>0</LevelAssignments>
       <LevelingCanSplit>0</LevelingCanSplit>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 32 h; Nurtore 16 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Build and evaluate the five priority user stories in two weekly sprints.</Notes>
     </Task>
     <Task>
       <UID>15</UID>
       <ID>15</ID>
-      <Name>Sprint 1 sessions queue and controls</Name>
+      <Name>Sprint 1 - Sessions and speaker queue</Name>
       <Type>1</Type>
       <IsNull>0</IsNull>
       <WBS>E.1</WBS>
@@ -608,12 +608,12 @@
         <LinkLag>0</LinkLag>
         <LagFormat>7</LagFormat>
       </PredecessorLink>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 18 h; Nurtore 6 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Develop session access, microphone permissions, the speaking queue and instructor approval and stop controls. Review the working flow.</Notes>
     </Task>
     <Task>
       <UID>16</UID>
       <ID>16</ID>
-      <Name>Sprint 2 audio testing and product report</Name>
+      <Name>Sprint 2 - Audio and acceptance tests</Name>
       <Type>1</Type>
       <IsNull>0</IsNull>
       <WBS>E.2</WBS>
@@ -644,7 +644,7 @@
         <LagFormat>7</LagFormat>
       </PredecessorLink>
       <Deadline>2026-10-03T00:00:00</Deadline>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 14 h; Nurtore 10 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Integrate audio, test permissions and recovery, and collect volunteer feedback. Complete the product report by 2 October.</Notes>
     </Task>
     <Task>
       <UID>17</UID>
@@ -672,7 +672,7 @@
       <CalendarUID>1</CalendarUID>
       <LevelAssignments>0</LevelAssignments>
       <LevelingCanSplit>0</LevelingCanSplit>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 4 h; Nurtore 8 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Review the results and prepare the final recommendation.</Notes>
     </Task>
     <Task>
       <UID>18</UID>
@@ -707,7 +707,7 @@
         <LinkLag>0</LinkLag>
         <LagFormat>7</LagFormat>
       </PredecessorLink>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 2 h; Nurtore 4 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Compare test results with the project targets. Record missed targets, defects and lessons learned.</Notes>
     </Task>
     <Task>
       <UID>19</UID>
@@ -743,7 +743,7 @@
         <LagFormat>7</LagFormat>
       </PredecessorLink>
       <Deadline>2026-10-10T00:00:00</Deadline>
-      <Notes>Proposed baseline. Team: Temiko Machavariani and Nurtore Arynuruly. Estimated effort: Temiko 2 h; Nurtore 4 h. Scheduled dates do not assert actual completion.</Notes>
+      <Notes>Prepare the final presentation and recommend whether a larger classroom pilot is worth pursuing.</Notes>
     </Task>
   </Tasks>
   <Resources>
@@ -770,6 +770,32 @@
       <StandardRate>0</StandardRate>
       <StandardRateFormat>2</StandardRateFormat>
       <CalendarUID>1</CalendarUID>
+    </Resource>
+    <Resource>
+      <UID>3</UID>
+      <ID>3</ID>
+      <Name>Computer</Name>
+      <Type>2</Type>
+      <IsNull>0</IsNull>
+      <Initials>PC</Initials>
+      <MaxUnits>1</MaxUnits>
+      <StandardRate>0</StandardRate>
+      <StandardRateFormat>2</StandardRateFormat>
+      <CalendarUID>1</CalendarUID>
+      <IsCostResource>1</IsCostResource>
+    </Resource>
+    <Resource>
+      <UID>4</UID>
+      <ID>4</ID>
+      <Name>AI tools</Name>
+      <Type>2</Type>
+      <IsNull>0</IsNull>
+      <Initials>AI</Initials>
+      <MaxUnits>1</MaxUnits>
+      <StandardRate>0</StandardRate>
+      <StandardRateFormat>2</StandardRateFormat>
+      <CalendarUID>1</CalendarUID>
+      <IsCostResource>1</IsCostResource>
     </Resource>
   </Resources>
   <Assignments>
@@ -1012,6 +1038,46 @@
       <Units>0.125</Units>
       <Start>2026-10-06T08:00:00</Start>
       <Finish>2026-10-09T17:00:00</Finish>
+    </Assignment>
+    <Assignment>
+      <UID>153</UID>
+      <TaskUID>15</TaskUID>
+      <ResourceUID>3</ResourceUID>
+      <PercentWorkComplete>0</PercentWorkComplete>
+      <Work>PT0H0M0S</Work>
+      <Units>0</Units>
+      <Start>2026-09-19T08:00:00</Start>
+      <Finish>2026-09-25T17:00:00</Finish>
+    </Assignment>
+    <Assignment>
+      <UID>154</UID>
+      <TaskUID>15</TaskUID>
+      <ResourceUID>4</ResourceUID>
+      <PercentWorkComplete>0</PercentWorkComplete>
+      <Work>PT0H0M0S</Work>
+      <Units>0</Units>
+      <Start>2026-09-19T08:00:00</Start>
+      <Finish>2026-09-25T17:00:00</Finish>
+    </Assignment>
+    <Assignment>
+      <UID>163</UID>
+      <TaskUID>16</TaskUID>
+      <ResourceUID>3</ResourceUID>
+      <PercentWorkComplete>0</PercentWorkComplete>
+      <Work>PT0H0M0S</Work>
+      <Units>0</Units>
+      <Start>2026-09-26T08:00:00</Start>
+      <Finish>2026-10-02T17:00:00</Finish>
+    </Assignment>
+    <Assignment>
+      <UID>164</UID>
+      <TaskUID>16</TaskUID>
+      <ResourceUID>4</ResourceUID>
+      <PercentWorkComplete>0</PercentWorkComplete>
+      <Work>PT0H0M0S</Work>
+      <Units>0</Units>
+      <Start>2026-09-26T08:00:00</Start>
+      <Finish>2026-10-02T17:00:00</Finish>
     </Assignment>
   </Assignments>
 </Project>

@@ -20,7 +20,7 @@ Temiko's original SMART photograph is in references/team/. Nurtore's individual 
 
 The September 17 native-file verification used Project Plan 365 25.7.1280, an Intel-only build running through Rosetta. Its official BU installer was published February 4, 2025, comfortably outside the 48-hour release buffer, and passed Apple signature/notarization verification outside the sandbox. Sandbox signature checks initially returned a false failure because trust services were unavailable. Never disable security checks to work around that.
 
-The user later reported Apple’s Intel-app compatibility warning and assigned another agent to reinstall and activate a compatible version. Installation was still in progress when this editorial review began. Do not assume 25.7.1280 remains installed. Check architecture separately from signature and successful launch: running under Rosetta does not make an app native to Apple silicon. [Apple recommends an Apple-silicon or Universal build for future compatibility](https://support.apple.com/en-us/102527).
+The user accepted the Intel build for this release after the separate installation task could not obtain an Apple-silicon version. Version 25.7.1280 completed the final native save/reopen checks. Do not repeat installation as a prerequisite for editing this schedule. Running through Rosetta does not make the app native to Apple silicon. The user can consider a compatible vendor release later.
 
 The course guide describes About > Enter Key activation. Do not put its institutional key into documentation, source code, logs, screenshots or commits. The guide is retained locally and ignored by Git. An account login is different from product-key activation. The user asked to defer login; later said “done”; only claim app capabilities demonstrated by actual open/save operations.
 
@@ -34,14 +34,12 @@ Earlier coursework and ZIPs are preserved in archive/. Bulky old build caches ar
 
 For a new assignment: confirm its live requirements and due date, select the right inputs, make the artifact self-contained, check assumptions, render and inspect, sanitize irrelevant metadata, run scripts/check_submissions.py, and package an explicit allowlist. Record the release in STATUS.md and CHANGELOG.md. Submission, grading, acceptance and local readiness are distinct states. Do not upload to LMS, send messages or invite collaborators without authorization.
 
-## Git handoff
+## Final release and delivery
 
-This work is on `approach/repo-cleanup-wbs-lab`. It is prepared as a local collaboration branch; no remote push is part of this task. Review the current branch and its release manifest before publishing. The default remote main branch still contains the previous structure until this branch is published and merged. Keep the institutional license guide and raw tutorial media out of remote commits.
+The lab package is complete at submissions/ClassMic_WBS_Lab.zip. It contains exactly the MPP, PDF, XML and CSV. A–C is complete at submissions/ClassMic_Initial_Phases.zip. All direct deliverables and both ZIPs passed the release checker. The native schedule reopened successfully after save and after restarting the app. Read DELIVERY.md for GitHub publication and Telegram delivery verification; do not confuse a review request with approval or an LMS submission.
 
-## Pending final save after editorial review
+The professor’s latest reminder requires Computer and/or AI resources on the sprint packages. Both Computer and AI tools are assigned to E.1 and E.2 alongside Temiko and Nurtore. They are cost resources using existing equipment/access, with no added student hours. Existing duration and effort estimates are allowed even though the lab does not assess them. Keep these required resource labels in the submission.
 
-The user twice confirmed that the separate installation task was still running. Do not interrupt that task. The cleaned A–C bundle is complete. The edited lab source is preserved in working/lab-review/ so another collaborator can finish without a local cache.
+The final XML uses a minimal cost-resource representation that this app imports. An earlier variant with extra optional cost/group fields triggered an input-format exception. Use the current builder and verify any future XML changes by opening them in the native app. The generator does not write MPP: after a schedule edit, import the XML, save the MPP, close and reopen it, then repackage. Keep the four released formats synchronized.
 
-Once Project Plan 365 is ready, open working/lab-review/ClassMic_WBS_and_Schedule.xml. Confirm the 19 rows and two seven-day sprints, then save to submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.mpp. Close and reopen the MPP. Copy the matching XML, CSV and PDF from working/lab-review/ into submissions/lab-2026-09-17/. Run the metadata cleaner, package with --only lab, and run the complete submission checker. Finally remove the pending status from STATUS.md and EDITORIAL_REVIEW.md.
-
-The earlier lab ZIP and its four source files remain mutually consistent while this save is pending. The stricter checker flags their old repetitive schedule note, which the new XML replaces with task-specific content. Do not weaken that check to call the older MPP reviewed.
+The user authorized the GitHub push and one Telegram delivery to Lourinser (@realnurtore) asking for review. This does not authorize a course submission, further messages, public posting elsewhere or invitations. Keep the institutional license guide and raw tutorial media local. The completed cleanup branch is approach/repo-cleanup-wbs-lab; check the remote and current worktree before future changes.

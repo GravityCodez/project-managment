@@ -9,6 +9,6 @@ The complete team list above is the latest confirmed list. The lab announcement 
 
 Course: BUS 2010, Fall 2026/2027 Project Management, section BUS-2010-01, LMS course 2660. The course instructor is the assessed-deliverable acceptance authority. No named external sponsor, financial authority, signed charter or institutional deployment approval has been established.
 
-Telegram is the selected quick-coordination channel. Notion is intended for the PRD and decisions; the user said it was set up on September 10, but a project page URL is not recorded. Do not create duplicate spaces or infer account permissions. No collaborator GitHub username or invitation authorization is recorded.
+Telegram is the selected quick-coordination channel. Notion is intended for the PRD and decisions; the user said it was set up on September 10, but a project page URL is not recorded. Do not create duplicate spaces or infer account permissions. Lourinser is the existing ClassMic coordination contact; the profile username is @realnurtore. This contact shared GitHub account Borborisovich777 in the project conversation, verified September 17. No new invitation is authorized or claimed.
 
 Source context: the project task “Update project charter deliverables” (September 10), task ID 01a087b2-9952-78b2-b89d-26765318a924. Identity and planning roles are different facts; preserve that distinction.

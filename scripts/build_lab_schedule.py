@@ -78,16 +78,25 @@ resources=el(p,'Resources')
 for uid,name,initials in [(1,TM,'TM'),(2,NA,'NA')]:
     r=el(resources,'Resource')
     for k,v in [('UID',uid),('ID',uid),('Name',name),('Type',1),('IsNull',0),('Initials',initials),('MaxUnits',1),('StandardRate',0),('StandardRateFormat',2),('CalendarUID',1)]:el(r,k,v)
+# Existing equipment/software are non-labour cost resources, with no added cash cost.
+for uid,name,initials in [(3,'Computer','PC'),(4,'AI tools','AI')]:
+    resource=el(resources,'Resource')
+    for k,v in [('UID',uid),('ID',uid),('Name',name),('Type',2),('IsNull',0),('Initials',initials),('MaxUnits',1),('StandardRate',0),('StandardRateFormat',2),('CalendarUID',1),('IsCostResource',1)]:el(resource,k,v)
 assignments=el(p,'Assignments')
 for r in leaves:
     for resource,work in [(1,r['tm']),(2,r['na'])]:
         a=el(assignments,'Assignment')
         for k,v in [('UID',r['id']*10+resource),('TaskUID',r['id']),('ResourceUID',resource),('PercentWorkComplete',0),('Work',f'PT{work}H0M0S'),('Units',work/(r['days']*8)),('Start',f"{r['start']}T08:00:00"),('Finish',f"{r['finish']}T17:00:00")]:el(a,k,v)
+for r in leaves:
+    if r['wbs'] not in {'E.1','E.2'}:continue
+    for resource in [3,4]:
+        assignment=el(assignments,'Assignment')
+        for k,v in [('UID',r['id']*10+resource),('TaskUID',r['id']),('ResourceUID',resource),('PercentWorkComplete',0),('Work','PT0H0M0S'),('Units',0),('Start',f"{r['start']}T08:00:00"),('Finish',f"{r['finish']}T17:00:00")]:el(assignment,k,v)
 ET.indent(p,space='  ')
 xml=OUT/'ClassMic_WBS_and_Schedule.xml';ET.ElementTree(p).write(xml,encoding='utf-8',xml_declaration=True)
 with (OUT/'ClassMic_WBS_and_Schedule.csv').open('w',newline='') as f:
-    w=csv.writer(f,lineterminator="\n");w.writerow(['ID','WBS','Task','Summary','Duration days','Start','Finish','Predecessor FS','Temiko Machavariani hours','Nurtore Arynuruly hours','Total work hours'])
-    for r in rows:w.writerow([r['id'],r['wbs'],r['name'],r['summary'],r['days'],r['start'],r['finish'],r['pred'] or '',r['tm'],r['na'],r['tm']+r['na']])
+    w=csv.writer(f,lineterminator="\n");w.writerow(['ID','WBS','Task','Summary','Duration days','Start','Finish','Predecessor FS','Temiko Machavariani hours','Nurtore Arynuruly hours','Total student hours','Resources'])
+    for r in rows:w.writerow([r['id'],r['wbs'],r['name'],r['summary'],r['days'],r['start'],r['finish'],r['pred'] or '',r['tm'],r['na'],r['tm']+r['na'],TEAM + ('; Computer; AI tools' if r['wbs'] in {'0','E','E.1','E.2'} else '')])
 # Standalone, readable coursework. 19 WBS elements; dependency logic on leaf tasks.
 W,H=landscape(A4);c=canvas.Canvas(str(OUT/'ClassMic_WBS_and_Schedule.pdf'),pagesize=(W,H))
 c.setTitle('ClassMic WBS and Schedule');c.setAuthor(TEAM);c.setCreator('');c.setProducer('')
@@ -121,9 +130,9 @@ for a,b in zip(leaves,leaves[1:]):
     c.line(x2,yb,x2+3,yb+2);c.line(x2,yb,x2+3,yb-2)
 c.setFont('Helvetica',9);c.setFillColor(colors.black)
 c.drawString(32,75,'19 WBS elements: one project root, six phases and 12 work packages. Dependencies are finish-to-start with zero lag.')
-c.drawString(32,59,'The calendar includes all seven days of the week. Each development sprint lasts seven days.')
-c.drawString(32,43,'Estimated effort: 100 student hours across 30 calendar days.')
-c.showPage();header('Work estimates and deadlines',2)
+c.drawString(32,59,'Both sprints use Temiko Machavariani, Nurtore Arynuruly, Computer and AI tools.')
+c.drawString(32,43,'Estimated student effort: 100 hours. The seven-day calendar gives each sprint seven consecutive days.')
+c.showPage();header('Student effort and sprint resources',2)
 cols=[32,61,109,365,412,460,508,556,623,685,810]
 headers=['ID','WBS','Work package','Days','Start','Finish','Pred','Temiko h','Nurtore h','Total h']
 y=H-110;c.setFillColor(navy);c.rect(32,y-3,W-64,23,fill=1,stroke=0);c.setFillColor(colors.white);c.setFont('Helvetica-Bold',9)
@@ -132,11 +141,11 @@ for i,r in enumerate(leaves):
     yy=y-25-i*22;c.setFillColor(gray if i%2==0 else colors.white);c.rect(32,yy-4,W-64,22,fill=1,stroke=0);c.setFillColor(colors.black);c.setFont('Helvetica',9)
     vals=[str(r['id']),r['wbs'],r['name'],str(r['days']),r['start'].strftime('%d %b'),r['finish'].strftime('%d %b'),str(r['pred'] or '-'),str(r['tm']),str(r['na']),str(r['tm']+r['na'])]
     for x,t in zip(cols,vals):c.drawString(x+4,yy+4,t)
-yy=y-25-len(leaves)*22;c.setFont('Helvetica-Bold',9);c.drawString(113,yy+4,'Total effort');c.drawString(560,yy+4,'54');c.drawString(627,yy+4,'46');c.drawString(689,yy+4,'100')
+yy=y-25-len(leaves)*22;c.setFont('Helvetica-Bold',9);c.drawString(113,yy+4,'Total student effort');c.drawString(560,yy+4,'54');c.drawString(627,yy+4,'46');c.drawString(689,yy+4,'100')
 style=ParagraphStyle('body',fontName='Helvetica',fontSize=9,leading=12,textColor=colors.black)
 text=[
  '<b>Dependencies.</b> The phases follow A, B, C, D, E and F. Within each phase, package 1 precedes package 2. The final package in each phase must finish before the next phase begins. A delay on this sequence delays the planned finish.',
- '<b>Calendar and effort.</b> Working windows are 08:00-12:00 and 13:00-17:00 every day. Each duration day represents eight scheduling hours. Estimated work is allocated separately: 54 hours for Temiko and 46 for Nurtore, distributed across those windows.',
+ '<b>Resources and calendar.</b> Temiko and Nurtore provide 100 estimated student hours. Computer and AI tools are assigned to both sprint packages, E.1 and E.2, using existing equipment and tool access. Duration uses eight-hour calendar days; student work is estimated separately.',
  '<b>Deadlines.</b> The plan review target is 18 September. Course deadlines are 22 September for planning, 3 October for the product report, 4 October for execution evidence and 10 October for the final presentation, all at 00:00.',
  '<b>Assumptions.</b> The team can provide the estimated hours, equipment and volunteer reviewers are available, and the instructor accepts the proposed sequence. New spending or live classroom use would require separate approval.'
 ]
@@ -146,8 +155,12 @@ for txt in text:
 c.save()
 # Meaningful structural and arithmetic checks.
 assert len(rows)==19 and len(leaves)==12
+assert len(resources)==4
+for sprint in [15,16]:
+    assigned={a.find('{'+NS+'}ResourceUID').text for a in assignments if a.find('{'+NS+'}TaskUID').text==str(sprint)}
+    assert assigned=={'1','2','3','4'},(sprint,assigned)
 assert sum(r['tm'] for r in leaves)==54 and sum(r['na'] for r in leaves)==46
 for a,b in zip(leaves,leaves[1:]):assert a['finish']+timedelta(days=1)==b['start'] and b['pred']==a['id']
 assert [r['days'] for r in leaves if r['wbs'].startswith('E.')]==[7,7]
 assert next(r for r in leaves if r['wbs']=='E.2')['finish']==date(2026,10,2)
-print('Created XML, CSV and 2-page PDF; verified 19 WBS elements, 11 FS links, 100 hours and two full weekly sprints.')
+print('Created XML, CSV and 2-page PDF; verified 19 WBS elements, 11 FS links, 100 student hours, four resources and both sprint allocations.')

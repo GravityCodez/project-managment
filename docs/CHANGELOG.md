@@ -14,4 +14,8 @@ Added portable builders, metadata cleanup, release checks and explicit-allowlist
 
 ## 17 September 2026 editorial follow-up
 
-Reviewed all current coursework text, slide notes and Office/PDF metadata. Replaced awkward wording and repeated caveats, clarified the requirements, and removed stale thumbnails, template dates and generic conversion labels. Rebuilt and checked the A–C bundle. The lab wording changes preserve all scheduling data and are staged in working/lab-review/ pending native export after the other agent’s installation task.
+Reviewed all current coursework text, slide notes and Office/PDF metadata. Replaced awkward wording and repeated caveats, clarified the requirements, and removed stale thumbnails, template dates and generic conversion labels. Rebuilt and checked the A–C bundle. The lab wording changes preserve its scheduling baseline. The revised native MPP has now been saved and reopened.
+
+## 17 September 2026 final resource and delivery pass
+
+Added Computer and AI tools to both sprint packages, retaining the 100 student-hour estimate and the existing-equipment assumption. Corrected the XML encoding for this Intel app, saved the MPP and verified it after reopening and restarting the app. Rebuilt the four-file lab ZIP, strengthened resource checks, and removed duplicate staging copies after confirming they matched the released files. Updated current status, decisions, deadlines and future-agent guidance. GitHub publication and Telegram review delivery are recorded separately in DELIVERY.md.

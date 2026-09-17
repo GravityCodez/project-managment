@@ -1,20 +1,20 @@
-ID,WBS,Task,Summary,Duration days,Start,Finish,Predecessor FS,Temiko hours,Nurtore hours,Total work hours
-1,0,ClassMic,True,30,2026-09-10,2026-10-09,,54,46,100
-2,A,A Aspiration,True,2,2026-09-10,2026-09-11,,2,6,8
-3,A.1,Opportunity and stakeholders,False,1,2026-09-10,2026-09-10,,1,3,4
-4,A.2,Value proposition and success measures,False,1,2026-09-11,2026-09-11,3,1,3,4
-5,B,B Business Case,True,2,2026-09-12,2026-09-13,,4,4,8
-6,B.1,Alternatives and feasibility,False,1,2026-09-12,2026-09-12,4,2,2,4
-7,B.2,Investment recommendation,False,1,2026-09-13,2026-09-13,6,2,2,4
-8,C,C Charter,True,2,2026-09-14,2026-09-15,,4,4,8
-9,C.1,Objectives and project boundaries,False,1,2026-09-14,2026-09-14,7,2,2,4
-10,C.2,Roles and decision authority,False,1,2026-09-15,2026-09-15,9,2,2,4
-11,D,D Develop Plans,True,3,2026-09-16,2026-09-18,,8,8,16
-12,D.1,Requirements and linked work plan,False,2,2026-09-16,2026-09-17,10,4,4,8
-13,D.2,Risk cost quality and plan review,False,1,2026-09-18,2026-09-18,12,4,4,8
-14,E,E Execute,True,14,2026-09-19,2026-10-02,,32,16,48
-15,E.1,Sprint 1 sessions queue and controls,False,7,2026-09-19,2026-09-25,13,18,6,24
-16,E.2,Sprint 2 audio testing and product report,False,7,2026-09-26,2026-10-02,15,14,10,24
-17,F,F Finish,True,7,2026-10-03,2026-10-09,,4,8,12
-18,F.1,Evaluation and lessons learned,False,3,2026-10-03,2026-10-05,16,2,4,6
-19,F.2,Final recommendation and presentation,False,4,2026-10-06,2026-10-09,18,2,4,6
+ID,WBS,Task,Summary,Duration days,Start,Finish,Predecessor FS,Temiko Machavariani hours,Nurtore Arynuruly hours,Total student hours,Resources
+1,0,ClassMic,True,30,2026-09-10,2026-10-09,,54,46,100,Temiko Machavariani and Nurtore Arynuruly; Computer; AI tools
+2,A,A Aspiration,True,2,2026-09-10,2026-09-11,,2,6,8,Temiko Machavariani and Nurtore Arynuruly
+3,A.1,Opportunity and stakeholders,False,1,2026-09-10,2026-09-10,,1,3,4,Temiko Machavariani and Nurtore Arynuruly
+4,A.2,Value proposition and success measures,False,1,2026-09-11,2026-09-11,3,1,3,4,Temiko Machavariani and Nurtore Arynuruly
+5,B,B Business Case,True,2,2026-09-12,2026-09-13,,4,4,8,Temiko Machavariani and Nurtore Arynuruly
+6,B.1,Alternatives and feasibility,False,1,2026-09-12,2026-09-12,4,2,2,4,Temiko Machavariani and Nurtore Arynuruly
+7,B.2,Investment recommendation,False,1,2026-09-13,2026-09-13,6,2,2,4,Temiko Machavariani and Nurtore Arynuruly
+8,C,C Charter,True,2,2026-09-14,2026-09-15,,4,4,8,Temiko Machavariani and Nurtore Arynuruly
+9,C.1,Objectives and project boundaries,False,1,2026-09-14,2026-09-14,7,2,2,4,Temiko Machavariani and Nurtore Arynuruly
+10,C.2,Roles and decision authority,False,1,2026-09-15,2026-09-15,9,2,2,4,Temiko Machavariani and Nurtore Arynuruly
+11,D,D Develop Plans,True,3,2026-09-16,2026-09-18,,8,8,16,Temiko Machavariani and Nurtore Arynuruly
+12,D.1,Requirements and schedule,False,2,2026-09-16,2026-09-17,10,4,4,8,Temiko Machavariani and Nurtore Arynuruly
+13,D.2,"Risk, quality and resource planning",False,1,2026-09-18,2026-09-18,12,4,4,8,Temiko Machavariani and Nurtore Arynuruly
+14,E,E Execute,True,14,2026-09-19,2026-10-02,,32,16,48,Temiko Machavariani and Nurtore Arynuruly; Computer; AI tools
+15,E.1,Sprint 1 - Sessions and speaker queue,False,7,2026-09-19,2026-09-25,13,18,6,24,Temiko Machavariani and Nurtore Arynuruly; Computer; AI tools
+16,E.2,Sprint 2 - Audio and acceptance tests,False,7,2026-09-26,2026-10-02,15,14,10,24,Temiko Machavariani and Nurtore Arynuruly; Computer; AI tools
+17,F,F Finish,True,7,2026-10-03,2026-10-09,,4,8,12,Temiko Machavariani and Nurtore Arynuruly
+18,F.1,Evaluation and lessons learned,False,3,2026-10-03,2026-10-05,16,2,4,6,Temiko Machavariani and Nurtore Arynuruly
+19,F.2,Final recommendation and presentation,False,4,2026-10-06,2026-10-09,18,2,4,6,Temiko Machavariani and Nurtore Arynuruly

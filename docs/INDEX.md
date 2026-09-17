@@ -1,6 +1,6 @@
 # Repository index
 
-The A–C package includes the latest editorial pass. The lab package is the preceding consistent release while the revised native MPP save is pending. See [current status](STATUS.md).
+Both packages include the final editorial pass. The lab also includes the professor’s Computer and AI resource requirement. See [current status](STATUS.md).
 
 ## Current coursework
 
@@ -17,7 +17,7 @@ The A–C package includes the latest editorial pass. The lab package is the pre
 
 ## Internal records
 
-- [Current status](STATUS.md), [deadlines](DEADLINES.md) and [handoff](AGENT_HANDOFF.md)
+- [Current status](STATUS.md), [deadlines](DEADLINES.md), [handoff](AGENT_HANDOFF.md) and [delivery record](DELIVERY.md)
 - [Team identities](TEAM.md) and [decisions](DECISIONS.md)
 - [Submission standard](SUBMISSION_STANDARD.md), [validation](VALIDATION.md), [editorial review](EDITORIAL_REVIEW.md), [change log](CHANGELOG.md)
 - [Tutorial notes](TUTORIAL_NOTES.md) and [setup and maintenance](SETUP.md)
@@ -31,4 +31,4 @@ working/phase-d/ contains the September 10 drafts, including the integrated plan
 
 archive/ preserves old versions. The ignored .local-archive/ preserves bulky generated build history. Neither is a source of current instructions or a submission destination.
 
-The latest lab wording revision is held in [working/lab-review/](../working/lab-review/) pending the native MPP save after installation. The currently published lab ZIP is the preceding consistent release.
+The reviewed lab staging copies were removed after byte-for-byte promotion to the final submission folder. Previous releases remain in the dated archive and Git history.

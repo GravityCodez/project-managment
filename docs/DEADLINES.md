@@ -15,3 +15,5 @@ Checked live in Safari on **17 September 2026**, approximately **20:10 Asia/Duba
 The separate final product report deadline was absent from the old planning notes and is earlier than the E deadline. The revised proposed schedule ends sprint 2 on October 2. Future D work must reconcile its older dates and review the report's own requirements before release.
 
 This is the Project Management course target list, not a claim that every course on the user's LMS has been audited.
+
+The professor’s reminder, relayed by the user on September 17, asks for submission by end of day and no later than Thursday for QA before Friday’s class. It also requires Computer and/or AI resources assigned to sprint packages. The current lab includes both; existing duration and effort estimates are permitted. The live LMS cutoff above remains the upload target.

@@ -15,7 +15,9 @@
 | D011 | 2026-09-17 | Complete the mandatory ABCDEF WBS/schedule lab only among current upcoming assignments. | Current user request. D/E/F and the product report remain future tasks. |
 | D012 | 2026-09-17 | The lab title says Pluto, while its instructions require team ABCDEF packages; use ClassMic for this team's schedule. | Current LMS lab body and adjacent group-project template; no separate Pluto project brief supplied. |
 | D013 | 2026-09-17 | Move the planning review target to September 18 and plan sprints September 19–25 and September 26–October 2. | Proposed revised baseline to finish two full weeks before the newly observed product-report cutoff of October 3 00:00. Replaces September 19 / September 20–26 / September 27–October 3. Team capacity and instructor acceptance remain assumptions. |
-
-| D014 | 2026-09-17 | Keep the editorial file review separate from the other agent’s Project Plan 365 reinstall. | User reported the Intel-app/Rosetta warning and said installation was still in progress. Refresh and reopen the MPP only after the app is ready. |
+| D014 | 2026-09-17 | Keep the editorial file review separate from the other agent’s Project Plan 365 reinstall. | User reported the Intel-app/Rosetta warning and said installation was still in progress. Superseded operationally by D015 once the user reported the app ready. |
+| D015 | 2026-09-17 | Use the available Intel Project Plan 365 build for this release. | Explicit user acceptance after the separate installation task could not obtain an Apple-silicon build; native save/reopen verified. |
+| D016 | 2026-09-17 | Allocate Computer and AI tools to both E.1 and E.2, alongside both students. | Professor reminder relayed by the user. Non-labour cost resources use existing access at no additional cash cost; student effort stays 100 hours. Duration, cost and effort estimates are optional for this lab. |
+| D017 | 2026-09-17 | Publish the completed repository and send the lab package to Telegram contact Lourinser (@realnurtore) for review. | Explicit user instruction. Sending a review request is not LMS submission, teammate approval or authority to invite collaborators. |
 
 Record future decisions with date, source, status and any replaced decision. Do not silently turn a selected baseline into a verified result or agreement.

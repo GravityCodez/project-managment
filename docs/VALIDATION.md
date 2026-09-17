@@ -1,6 +1,6 @@
 # Verification record
 
-Completed 17 September 2026 for the first release. The subsequent [editorial review](EDITORIAL_REVIEW.md) updates A–C and stages the lab wording changes; the new native MPP save remains pending while the other agent reinstalls the app.
+Completed 17 September 2026, including the final [editorial review](EDITORIAL_REVIEW.md), professor’s resource reminder and refreshed native MPP.
 
 ## Preservation and repository organization
 
@@ -20,13 +20,15 @@ The XML and CSV contain 19 elements: one project root, six summaries and twelve 
 
 Arithmetic checks confirm 54 estimated hours for Temiko, 46 for Nurtore and 100 total. The seven-day calendar has eight scheduling hours per day, distinct from assigned effort. Both execution sprints span seven consecutive calendar days. The second ends October 2; the last project package ends October 9. All completion percentages remain zero because this is a proposed baseline, not a claimed execution record.
 
-Project Plan 365 25.7.1280 imported the final XML without an error, displayed the ClassMic root and ABCDEF hierarchy, and saved the native MPP. The saved MPP was closed and reopened from disk; all 19 rows and both seven-day sprints remained visible. This establishes native Project Plan 365 open/save/reopen behavior. Microsoft Project itself was not run.
+Project Plan 365 25.7.1280 imported the final XML without an error, displayed the ClassMic root and ABCDEF hierarchy, and saved the native MPP. The saved MPP was closed and reopened from disk; the hierarchy, both seven-day sprints and four assigned resources per sprint were retained. The native file also reopened after restarting the app. This establishes native Project Plan 365 open/save/reopen behavior. Microsoft Project itself was not run.
 
-The standalone two-page PDF was rendered and inspected after the final root and timeline-label correction. It contains the names, hierarchy, Gantt view, dates, predecessor IDs, effort allocation and schedule assumptions. It is a readable report of the schedule, not a simulated application screenshot. No lab submission to LMS is claimed.
+Computer and AI tools are non-labour cost resources allocated to E.1 and E.2, with zero additional cash cost under the existing-access assumption. Their assignments do not inflate the 100 student hours. An XML variant with optional cost/group fields failed to import; the minimal resource encoding imported successfully. The generator’s final XML was structurally identical to the imported source.
+
+The standalone two-page PDF was rendered and inspected after the final resource update. It contains the names, hierarchy, Gantt view, dates, predecessor IDs, effort allocation and schedule assumptions. It is a readable report of the schedule, not a simulated application screenshot. No lab submission to LMS is claimed.
 
 ## Release checks
 
-scripts/check_submissions.py checks all direct deliverables and each ZIP member. It scans Office text, notes and metadata; external file relationships; comments and tracked changes; PDF text and page counts; deck slide counts; XML/CSV content; MPP container and identity markers; package integrity; and prohibited internal filenames/content. These checks supplement visual review and native open/save/reopen verification, and do not certify academic approval or exhaustively parse the MPP binary format.
+scripts/check_submissions.py checks all direct deliverables and each ZIP member. It scans Office text, notes and metadata; external file relationships; comments and tracked changes; PDF text and page counts; deck slide counts; XML/CSV content; MPP container, identity and required-resource markers; XML sprint assignments and durations; CSV sprint resource names; package integrity; and prohibited internal filenames/content. These checks supplement visual review and native open/save/reopen verification, and do not certify academic approval or exhaustively parse the MPP binary format.
 
 The package builder confirms every ZIP member matches its source byte for byte. release-manifest.json records final hashes. The initial-phase ZIP has 9 files; the lab ZIP has 4 files.
 

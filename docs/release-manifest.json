@@ -6,8 +6,8 @@
   },
   {
     "path": "submissions/ClassMic_WBS_Lab.zip",
-    "bytes": 98318,
-    "sha256": "c39120d481b87e7926b6a234d8ecc5a6d62dbce82874c2889b69aba8e3c84d75"
+    "bytes": 100534,
+    "sha256": "580891112973b5e202d73e57da0966a7984e4dffe43dae8f51faa82155d4898e"
   },
   {
     "path": "submissions/initial-phases/A_Aspiration/ClassMic_A2_Aspiration.docx",
@@ -56,22 +56,22 @@
   },
   {
     "path": "submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.csv",
-    "bytes": 1430,
-    "sha256": "f6d818dcda5b947b6944117e50a54d991428a49702ead770bdcd0fd2c73e71db"
+    "bytes": 2337,
+    "sha256": "5894eb0c369bb04e24d2c1528903a968e0fce2a9844efaef38990890f181ac25"
   },
   {
     "path": "submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.mpp",
-    "bytes": 1133056,
-    "sha256": "cb5e7dfd18e7b5a51ec6f6fec82e7ee9ef60f137625fb42b4e004c696bbf6e22"
+    "bytes": 1134592,
+    "sha256": "caa9d911d6858f05c052264ca1469b76611d930a2496012b7d71a2c3e0a6f6a3"
   },
   {
     "path": "submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.pdf",
-    "bytes": 6343,
-    "sha256": "0b7ccbfc85454cb1f22d5185f8c950e3c7ac200615db1626d9b7ad3f17c59392"
+    "bytes": 6223,
+    "sha256": "254ea77bfe3e798e31a247ac4e296692b6fdde00982ab29daa40643eb8c333fc"
   },
   {
     "path": "submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.xml",
-    "bytes": 35815,
-    "sha256": "61cce993bae07ce5edc213f5829276cd14e0da6868fa8d45fa588ee86ca85bb7"
+    "bytes": 36670,
+    "sha256": "d64558dcfc88e2bb5cecc1053edbe2500bffa2826c005bc8a8a191f2bb25a5eb"
   }
 ]

@@ -4,20 +4,20 @@ Updated 17 September 2026, Asia/Dubai.
 
 ## Editorial follow-up
 
-The A–C bundle has passed an additional wording, layout and metadata review. The lab wording revision is staged in working/lab-review/ while another agent reinstalls Project Plan 365. Its MPP refresh is pending; the currently published lab package remains the previous consistent release. See [editorial review](EDITORIAL_REVIEW.md).
+The A–C bundle and WBS lab have passed the final wording, layout and metadata review. The lab includes Computer and AI tools assigned to both sprints, as requested in the professor’s latest reminder. The native MPP was saved, closed and reopened successfully in the Intel app. See [editorial review](EDITORIAL_REVIEW.md).
 
 ## This work
 
 - Repository initialized with AGENTS.md, README.md, CONTRIBUTING.md, ignore rules, a file index, recurring decisions, confirmed identities and an agent handoff.
 - Previous files preserved in dated archives with original hashes. Bulky renders, caches and old build directories moved to ignored local storage. Shared Git history is unchanged.
 - A2, B2 and C1 refreshed as self-contained coursework: 2 / 4 / 2 pages, respectively, and three editable slides each. Internal preparation notes and cross-references removed from the active deliverables. Relevant project assumptions and required academic sources remain.
-- The WBS lab contains one ClassMic root, six ABCDEF phases and twelve work packages. Eleven finish-to-start links connect the leaf packages across all phase boundaries. Both team members are named. Two seven-day sprints, 100 estimated hours, and the revised report cutoff are represented consistently.
+- The WBS lab contains one ClassMic root, six ABCDEF phases and twelve work packages. Eleven finish-to-start links connect the leaf packages across all phase boundaries. Both team members are named. Two seven-day sprints, 100 estimated student hours, Computer and AI tools, and the revised report cutoff are represented consistently.
 - Project Plan 365 opened the final XML, saved it as MPP, then closed and reopened the saved MPP successfully. It displays the 19-element hierarchy and both seven-day sprints.
 - The five-minute tutorial was downloaded and transcribed locally with Whisper. TUTORIAL_NOTES.md records the requirements that influenced the final schedule.
 
 ## Submission state
 
-The current task prepares local deliverables. **No new LMS submission or resubmission has been performed.** The lab is due September 18 at 00:00 (tonight, September 17). Use submissions/ClassMic_WBS_Lab.zip, or its individual MPP and PDF files as the upload form permits.
+The current task prepares coursework and a collaborator review package. **No new LMS submission or resubmission has been performed.** The lab is due September 18 at 00:00 (tonight, September 17). Use submissions/ClassMic_WBS_Lab.zip, or its individual MPP and PDF files as the upload form permits.
 
 C1 already shows Submitted for grading. Refreshed A–C files are a new local revision; they have not replaced the existing LMS upload. B also shows Submitted for grading, but the recorded prior file was CampusCrew. No approval or grade is inferred from submission status.
 
@@ -31,4 +31,4 @@ The user reported Notion setup in September 10 context, but a project page URL i
 
 ## Git state
 
-The cleanup and deliverables are saved on the local branch `approach/repo-cleanup-wbs-lab`. They have not been pushed to GitHub. Existing remote main and existing LMS submissions remain unchanged.
+The user authorized publishing the completed work to GitHub and sending ClassMic_WBS_Lab.zip to Telegram contact Lourinser (@realnurtore) with a review request. Delivery results are recorded in DELIVERY.md after verification. No collaborator invitation or LMS upload is included in that authorization.
