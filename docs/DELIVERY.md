@@ -10,4 +10,6 @@ GitHub publication: completed. The release commit `f18c8b2` was pushed successfu
 
 Telegram delivery: verified in the Lourinser conversation as an outgoing message sent at **22:01 Asia/Dubai**. The attachment is **ClassMic_WBS_Lab.zip**, displayed as **98.1 KB**. The caption asks him to review the WBS, dependencies and sprint resources before submission, and notes the required Computer and AI tools allocations. The message was marked **Not seen** at verification; no review or approval is claimed.
 
-No LMS submission or resubmission was performed. A review request is not a received approval.
+Lourinser then explicitly approved the lab at 22:24. After the user’s direct submission instruction, the MPP and PDF were submitted on LMS at 22:50, and the complete ZIP was added at 22:55. The status is Submitted for grading and Not graded; the receipt reports 1 hour 4 minutes early. See [review outcome](REVIEW_MONITOR.md) and [submission receipt](lab-submission-receipt.json). The monitoring automation is paused. No A–C resubmission was performed.
+
+At the user’s separate request, a concise Telegram note to Nurtore (Lourinser) was verified as sent at 22:56. It identifies the MPP, PDF and ZIP as the upload files, with XML/CSV inside the ZIP. No professor email was sent.

@@ -19,3 +19,9 @@ Reviewed all current coursework text, slide notes and Office/PDF metadata. Repla
 ## 17 September 2026 final resource and delivery pass
 
 Added Computer and AI tools to both sprint packages, retaining the 100 student-hour estimate and the existing-equipment assumption. Corrected the XML encoding for this Intel app, saved the MPP and verified it after reopening and restarting the app. Rebuilt the four-file lab ZIP, strengthened resource checks, and removed duplicate staging copies after confirming they matched the released files. Updated current status, decisions, deadlines and future-agent guidance. GitHub publication and Telegram review delivery are recorded separately in DELIVERY.md.
+
+## 17 September 2026 approved LMS submission
+
+Recorded explicit teammate approval and the user’s direct submission authorization. Submitted the approved MPP and PDF to assignment 39658 at 22:50, then added the full ZIP at 22:55 after resolving a native file-picker focus issue. Verified Submitted for grading, Not graded, and all three attachments. LMS reports 1 hour 4 minutes early. The reviewed deliverables were unchanged. Saved source hashes and receipt details, updated the handoff and stopped the monitor.
+
+Sent the user-requested short Telegram upload guide to Nurtore at 22:56. Corrected the earlier interpretation of the disabled Upload button; it was not a confirmed LMS format restriction.

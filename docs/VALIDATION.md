@@ -24,7 +24,7 @@ Project Plan 365 25.7.1280 imported the final XML without an error, displayed th
 
 Computer and AI tools are non-labour cost resources allocated to E.1 and E.2, with zero additional cash cost under the existing-access assumption. Their assignments do not inflate the 100 student hours. An XML variant with optional cost/group fields failed to import; the minimal resource encoding imported successfully. The generator’s final XML was structurally identical to the imported source.
 
-The standalone two-page PDF was rendered and inspected after the final resource update. It contains the names, hierarchy, Gantt view, dates, predecessor IDs, effort allocation and schedule assumptions. It is a readable report of the schedule, not a simulated application screenshot. No lab submission to LMS is claimed.
+The standalone two-page PDF was rendered and inspected after the final resource update. It contains the names, hierarchy, Gantt view, dates, predecessor IDs, effort allocation and schedule assumptions. It is a readable report of the schedule, not a simulated application screenshot. The approved native MPP, PDF and complete ZIP were later submitted on LMS by 22:55 Dubai; see lab-submission-receipt.json.
 
 ## Release checks
 
@@ -37,3 +37,5 @@ The tutorial was transcribed locally with faster-whisper 1.2.1 using base.en and
 Git attributes disable text normalization for archive/reference originals and CSV deliverables so their checked-in bytes retain the recorded hashes across clones. Internal documentation links and authoring-helper syntax were also checked.
 
 Final publication checks confirmed that tracked files exclude candidate key strings from the local institutional guide, release hashes match every current file, internal documentation links resolve, authoring helpers parse, and no runtime symlinks or files over 50 MB remain in the tracked working tree. Delivery results are in DELIVERY.md.
+
+The submitted source files were checked against the unchanged approved ZIP before upload. LMS subsequently showed all three filenames (MPP, PDF and ZIP), Submitted for grading, Not graded, and submission 1 hour 4 minutes early. No remote-byte hash comparison is claimed; recorded hashes are for the selected local source files. The scheduled monitor is paused.

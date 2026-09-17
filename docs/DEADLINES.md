@@ -4,7 +4,7 @@ Checked live in Safari on **17 September 2026**, approximately **20:10 Asia/Duba
 
 | Assignment | LMS due time | Practical target | Latest visible status | Current scope |
 | --- | --- | --- | --- | --- |
-| [Lab – Create Pluto WBS and Schedule](https://lms.mbzuai.ac.ae/mod/assign/view.php?id=39658) | 18 Sep 2026 00:00 | Tonight, 17 Sep before midnight; Thursday for comments | No submission at initial check | Complete this lab |
+| [Lab – Create Pluto WBS and Schedule](https://lms.mbzuai.ac.ae/mod/assign/view.php?id=39658) | 18 Sep 2026 00:00 | Tonight, 17 Sep before midnight; Thursday for comments | Submitted for grading, 17 Sep 22:55; Not graded | Complete |
 | [D – Develop Plans](https://lms.mbzuai.ac.ae/mod/assign/view.php?id=38962) | 22 Sep 2026 00:00 | 21 Sep evening | No submission | Future |
 | [Execution Phase Final Product Report](https://lms.mbzuai.ac.ae/mod/assign/view.php?id=39728) | 3 Oct 2026 00:00 | 2 Oct evening | No submission | Future |
 | [E – Execution Phase](https://lms.mbzuai.ac.ae/mod/assign/view.php?id=38965) | 4 Oct 2026 00:00 | 3 Oct evening | No submission | Future |
@@ -17,3 +17,5 @@ The separate final product report deadline was absent from the old planning note
 This is the Project Management course target list, not a claim that every course on the user's LMS has been audited.
 
 The professor’s reminder, relayed by the user on September 17, asks for submission by end of day and no later than Thursday for QA before Friday’s class. It also requires Computer and/or AI resources assigned to sprint packages. The current lab includes both; existing duration and effort estimates are permitted. The live LMS cutoff above remains the upload target.
+
+Final lab submission status was checked live again at approximately 22:55 Dubai on September 17. LMS shows the MPP, PDF and ZIP attached and reports submission 1 hour 4 minutes early. Other assignment statuses above retain their earlier check time.

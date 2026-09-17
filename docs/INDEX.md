@@ -17,7 +17,7 @@ Both packages include the final editorial pass. The lab also includes the profes
 
 ## Internal records
 
-- [Current status](STATUS.md), [deadlines](DEADLINES.md), [handoff](AGENT_HANDOFF.md) and [delivery record](DELIVERY.md) and [review follow-up](REVIEW_MONITOR.md)
+- [Current status](STATUS.md), [deadlines](DEADLINES.md), [handoff](AGENT_HANDOFF.md) and [delivery record](DELIVERY.md) and [review outcome](REVIEW_MONITOR.md) and [LMS receipt](lab-submission-receipt.json)
 - [Team identities](TEAM.md) and [decisions](DECISIONS.md)
 - [Submission standard](SUBMISSION_STANDARD.md), [validation](VALIDATION.md), [editorial review](EDITORIAL_REVIEW.md), [change log](CHANGELOG.md)
 - [Tutorial notes](TUTORIAL_NOTES.md) and [setup and maintenance](SETUP.md)

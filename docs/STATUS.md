@@ -17,7 +17,7 @@ The A–C bundle and WBS lab have passed the final wording, layout and metadata 
 
 ## Submission state
 
-The current task prepares coursework and a collaborator review package. **No new LMS submission or resubmission has been performed.** The lab is due September 18 at 00:00 (tonight, September 17). Use submissions/ClassMic_WBS_Lab.zip, or its individual MPP and PDF files as the upload form permits.
+**The WBS lab is submitted for grading.** LMS records September 17 at **22:55 Asia/Dubai**, **1 hour 4 minutes early**, with ClassMic_WBS_and_Schedule.mpp, ClassMic_WBS_and_Schedule.pdf and ClassMic_WBS_Lab.zip attached. The ZIP includes the matching XML and CSV. Lourinser approved the unchanged lab at 22:24, and the user directly authorized submission. The grade is not yet available. See [submission receipt](lab-submission-receipt.json).
 
 C1 already shows Submitted for grading. Refreshed A–C files are a new local revision; they have not replaced the existing LMS upload. B also shows Submitted for grading, but the recorded prior file was CampusCrew. No approval or grade is inferred from submission status.
 
@@ -31,8 +31,10 @@ The user reported Notion setup in September 10 context, but a project page URL i
 
 ## Git state
 
-The completed cleanup and coursework were pushed to GitHub main and approach/repo-cleanup-wbs-lab. The lab ZIP and review request were verified as sent to Telegram contact Lourinser (@realnurtore) at 22:01. See [delivery record](DELIVERY.md) for the package hash and receipt. No collaborator invitation, LMS upload or received review is claimed.
+The completed cleanup and coursework were pushed to GitHub main and approach/repo-cleanup-wbs-lab. The lab ZIP and review request were verified as sent to Telegram contact Lourinser (@realnurtore) at 22:01. See [delivery record](DELIVERY.md) for the package hash and receipt. The lab was subsequently approved and submitted on LMS as recorded above. No collaborator invitation was made.
 
 ## Authorized review follow-up
 
-The user subsequently requested one hour of Telegram monitoring, implementation of lab feedback, and direct LMS submission if Lourinser approves. The window ends 23:05 Dubai on September 17. See [review monitor](REVIEW_MONITOR.md) for current feedback, approval and submission state.
+The one-hour review follow-up completed early after Lourinser approved the lab and its LMS submission was verified. The monitor is paused. See [review outcome](REVIEW_MONITOR.md) for approval and submission details.
+
+Nurtore also received a short Telegram note at 22:56 explaining which three files to upload, as separately requested by the user. The native file-picker focus issue was corrected; no additional email to the professor was needed.

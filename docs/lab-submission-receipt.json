@@ -1,0 +1,45 @@
+{
+  "assignment": "Lab - Create Pluto WBS and Schedule",
+  "course": "Fall 2026/2027 Project Management (BUS-2010-01)",
+  "assignment_url": "https://lms.mbzuai.ac.ae/mod/assign/view.php?id=39658",
+  "student": "Temiko Machavariani",
+  "reviewer_approval_time": "2026-09-17T22:24:00+04:00",
+  "reviewer_approval": "Ready to submit",
+  "user_direct_authorization": "Submit the lab now",
+  "lms_status": "Submitted for grading",
+  "grading_status": "Not graded",
+  "lms_last_modified_display": "Thursday, 17 September 2026, 10:55 PM",
+  "timezone": "Asia/Dubai",
+  "lms_timeliness_display": "Assignment was submitted 1 hour 4 mins early",
+  "verification": "Status, timestamp and attached filenames read back from the LMS; source hashes below describe the exact local files selected for upload.",
+  "files": [
+    {
+      "filename": "ClassMic_WBS_and_Schedule.mpp",
+      "source_path": "submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.mpp",
+      "source_bytes": 1134592,
+      "source_sha256": "caa9d911d6858f05c052264ca1469b76611d930a2496012b7d71a2c3e0a6f6a3"
+    },
+    {
+      "filename": "ClassMic_WBS_and_Schedule.pdf",
+      "source_path": "submissions/lab-2026-09-17/ClassMic_WBS_and_Schedule.pdf",
+      "source_bytes": 6223,
+      "source_sha256": "254ea77bfe3e798e31a247ac4e296692b6fdde00982ab29daa40643eb8c333fc"
+    },
+    {
+      "filename": "ClassMic_WBS_Lab.zip",
+      "source_path": "submissions/ClassMic_WBS_Lab.zip",
+      "source_bytes": 100534,
+      "source_sha256": "580891112973b5e202d73e57da0966a7984e4dffe43dae8f51faa82155d4898e"
+    }
+  ],
+  "approved_zip_sha256": "580891112973b5e202d73e57da0966a7984e4dffe43dae8f51faa82155d4898e",
+  "monitor_status": "PAUSED",
+  "first_submission_time": "2026-09-17T22:50:00+04:00",
+  "final_submission_time": "2026-09-17T22:55:00+04:00",
+  "file_picker_resolution": "The disabled Upload button was a native file-chooser focus issue, not a confirmed LMS format restriction. Focusing the chooser and selecting the reviewed ZIP enabled upload.",
+  "teammate_upload_note": {
+    "contact": "Lourinser (@realnurtore)",
+    "sent_at": "2026-09-17T22:56:00+04:00",
+    "scope": "Upload the MPP and PDF extracted from the approved ZIP, plus the ZIP itself; XML and CSV are included inside. User explicitly requested this follow-up."
+  }
+}
