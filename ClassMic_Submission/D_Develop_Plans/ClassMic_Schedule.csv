@@ -1,0 +1,8 @@
+﻿ID,Activity,Start,Finish,Calendar days,Predecessors,Owner,On controlling path
+S1,"A2, B2 and charter review",2026-09-10,2026-09-12,3,,Both,Yes
+S2,Requirements and stakeholder input,2026-09-13,2026-09-15,3,S1,Nurtore,Yes
+S3,Technical approach and device access,2026-09-13,2026-09-15,3,S1,Temiko,Yes
+S4,Integrated D plan and review,2026-09-16,2026-09-19,4,S2;S3,Both,Yes
+S5,Sprint 1 session and control workflow,2026-09-20,2026-09-26,7,S4,Both,Yes
+S6,Sprint 2 audio integration and evaluation,2026-09-27,2026-10-03,7,S5,Both,Yes
+S7,Closeout and final presentation,2026-10-04,2026-10-09,6,S6,Both,Yes

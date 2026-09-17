@@ -1,0 +1,195 @@
+{
+  "objectives": [
+    [
+      "O1",
+      "Complete the five priority user stories",
+      "All Must acceptance checks pass by the E submission. No open critical defect."
+    ],
+    [
+      "O2",
+      "Make joining and speaking practical",
+      "At least 9 of 10 setup trials finish within 2 minutes. At least 27 of 30 approved speaking trials become audible within 3 seconds."
+    ],
+    [
+      "O3",
+      "Test whether listeners hear questions more easily",
+      "At least 75% positive feedback from at least 5 volunteer reviewers. Report counts and the small sample."
+    ],
+    [
+      "O4",
+      "Keep microphone use under explicit control",
+      "Zero unauthorized transmissions in misuse tests. No saved audio or transcripts. An alternative speaking route remains available."
+    ]
+  ],
+  "requirements": [
+    {
+      "id": "R1",
+      "epic": "Session access",
+      "feature": "Temporary browser session and QR or code join",
+      "story": "As a student, I want to join a temporary room session without installing an app so that I can participate quickly.",
+      "persona": "Student",
+      "priority": "Must",
+      "acceptance": "A valid code joins the correct session. An expired or ended session rejects joining. Denying microphone permission leaves the interface usable. At least 9 of 10 timed setup trials finish within 2 minutes.",
+      "objective": "O1; O2; O4",
+      "status": "Proposed - stakeholder validation pending",
+      "evidence": "ClassMic in-class SMART note; prior ClassMic charter",
+      "sprint": "1"
+    },
+    {
+      "id": "R2",
+      "epic": "Instructor control",
+      "feature": "Speaking queue with approval, mute, removal and end controls",
+      "story": "As an instructor, I want to choose and stop speakers so that I can manage classroom discussion.",
+      "persona": "Instructor",
+      "priority": "Must",
+      "acceptance": "One request appears once in the queue. Only the approved student may transmit. Mute, removal, timeout and end session stop transmission. Concurrent requests never create two active speakers. All control and misuse checks pass.",
+      "objective": "O1; O4",
+      "status": "Proposed - stakeholder validation pending",
+      "evidence": "ClassMic in-class SMART note; prior ClassMic charter",
+      "sprint": "1 and 2"
+    },
+    {
+      "id": "R3",
+      "epic": "Classroom audio",
+      "feature": "One approved phone transmits to a laptop and connected speaker",
+      "story": "As a student, I want to speak through my phone after approval so that other people in the room can hear my question.",
+      "persona": "Student speaker and listener",
+      "priority": "Must",
+      "acceptance": "Microphone notice and permission precede capture. Audio transmits only during approved push to talk and stops on release or revocation. At least 27 of 30 scripted trials become audible within 3 seconds of approval when the tester is ready to speak. Report median and 95th percentile one-way audio delay separately. The 95th percentile must not exceed 150 milliseconds. No sustained feedback is acceptable.",
+      "objective": "O1; O2; O3; O4",
+      "status": "Proposed - device and AV validation pending",
+      "evidence": "ClassMic SMART note; prior charter; technical feasibility still untested",
+      "sprint": "2"
+    },
+    {
+      "id": "R4",
+      "epic": "Access and recovery",
+      "feature": "Clear permission, connection and alternative participation paths",
+      "story": "As a participant who cannot use a phone microphone, I want another way to contribute so that I am not excluded.",
+      "persona": "Student with device or access barrier",
+      "priority": "Must",
+      "acceptance": "Permission denial and disconnection show a clear next step. The instructor can repeat a question or provide an available physical microphone. Keyboard navigation and readable control labels pass the agreed review. Rejoining never restores a previous speaking approval.",
+      "objective": "O1; O4",
+      "status": "Proposed - accessibility feedback pending",
+      "evidence": "Prior ClassMic charter and plan; user validation pending",
+      "sprint": "1 and 2"
+    },
+    {
+      "id": "R5",
+      "epic": "Evaluation",
+      "feature": "Test record and anonymous feedback without stored speech",
+      "story": "As the project manager, I want a record of test outcomes and feedback so that I can recommend whether further testing is worthwhile.",
+      "persona": "Project manager",
+      "priority": "Must",
+      "acceptance": "The report covers every Must check, 10 setup trials, 30 speaking trials and feedback from at least 5 volunteers. At least 75% report easier audibility. Save results and minimal test metadata only. Report failures, sample limits and open defects. No audio or transcript is saved.",
+      "objective": "O1; O2; O3; O4",
+      "status": "Proposed - evaluation protocol pending",
+      "evidence": "ClassMic SMART note and prior charter; sample sizes proposed for course feasibility",
+      "sprint": "2"
+    }
+  ],
+  "schedule": [
+    [
+      "S1",
+      "A2, B2 and charter review",
+      "2026-09-10",
+      "2026-09-12",
+      "3",
+      "",
+      "Both",
+      "Yes"
+    ],
+    [
+      "S2",
+      "Requirements and stakeholder input",
+      "2026-09-13",
+      "2026-09-15",
+      "3",
+      "S1",
+      "Nurtore",
+      "Yes"
+    ],
+    [
+      "S3",
+      "Technical approach and device access",
+      "2026-09-13",
+      "2026-09-15",
+      "3",
+      "S1",
+      "Temiko",
+      "Yes"
+    ],
+    [
+      "S4",
+      "Integrated D plan and review",
+      "2026-09-16",
+      "2026-09-19",
+      "4",
+      "S2;S3",
+      "Both",
+      "Yes"
+    ],
+    [
+      "S5",
+      "Sprint 1 session and control workflow",
+      "2026-09-20",
+      "2026-09-26",
+      "7",
+      "S4",
+      "Both",
+      "Yes"
+    ],
+    [
+      "S6",
+      "Sprint 2 audio integration and evaluation",
+      "2026-09-27",
+      "2026-10-03",
+      "7",
+      "S5",
+      "Both",
+      "Yes"
+    ],
+    [
+      "S7",
+      "Closeout and final presentation",
+      "2026-10-04",
+      "2026-10-09",
+      "6",
+      "S6",
+      "Both",
+      "Yes"
+    ]
+  ],
+  "effort": [
+    [
+      "Initiation and D planning",
+      18,
+      22,
+      40
+    ],
+    [
+      "Sprint 1",
+      18,
+      6,
+      24
+    ],
+    [
+      "Sprint 2",
+      14,
+      10,
+      24
+    ],
+    [
+      "Closing and presentation",
+      4,
+      8,
+      12
+    ],
+    [
+      "Total hours",
+      54,
+      46,
+      100
+    ]
+  ]
+}

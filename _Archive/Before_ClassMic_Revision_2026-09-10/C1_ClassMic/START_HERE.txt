@@ -1,0 +1,24 @@
+C1 — Develop the Project Charter
+ClassMic draft package
+
+CONTENTS
+02_Group_Charter: The two-page draft charter and items requiring confirmation.
+03_Slides: Three slides for a team presentation.
+04_Human_Evidence: A form for genuine brainstorming images and discussion captions.
+
+Individual student submissions are handled separately, as requested. Blank individual-input forms are omitted from this ZIP.
+
+BEFORE UPLOADING
+1. Add genuine photos of the team discussing the charter and complete their captions.
+2. Link and reconcile the approved ClassMic A2 aspiration and B2 business case. Their repository location is awaiting clarification. The Phase B document currently visible in this workspace describes CampusCrew, a different project.
+3. Confirm the draft charter’s appointments, budget, timing, room availability and success measures. Resolve or retain explicitly labeled confirmation items as instructed by your course.
+4. Update the three slides if the agreed charter changes, then re-create the ZIP.
+
+The original ClassMic charter supplies the proposed scope, objectives, roles, 14-week schedule, three-classroom pilot and AED 60,000 ceiling. These remain draft information until reconciled with the approved project sources. No approval signatures or missing business-case results have been invented.
+
+LAB READING AS PROVIDED IN THE C1 INSTRUCTIONS
+Chapter 5, “AI-Assisted Project Initiation,” pages 147–155.
+Chapter 2, selected stakeholder sections, pages 37–53.
+
+SUBMISSION LIMITS
+Keep the group charter within two pages and the presentation within three slides. The ZIP includes the group files and a human-evidence form. Individual submissions are handled separately.

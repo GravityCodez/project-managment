@@ -1,0 +1,152 @@
+LABS 
+Generic Project Case Study Template
+Every team will adapt this template for their own project which we will do in the  labs.
+Business Analysis, Requirements, Planning, Prototype Delivery, and Value Realization
+CAREER | CONNECT | SUSTAIN
+Improve how people discover, prepare for, access, or manage career and experiential-learning opportunities. | Strengthen meaningful person-to-person interaction through shared interests, hobbies, activities, travel, learning, or experiences. | Improve environmental or social sustainability through practical changes in behavior, services, or resource use.
+A → B → C → D → E → F
+Aspiration  •  Business Case  •  Charter  •  Develop Plans  •  Execute  •  Finish
+ 
+NOTE | Instructor Design
+This template is designed as a progressive integrated case. Teams select a theme, identify a genuine problem or opportunity, and carry one project through the entire project life cycle. The project topic can change from year to year while the course architecture remains stable.
+Progressive-release rule During the labs ,   f ocus on one assignment at a time .   
+Lab Style The episode  (theory)  is introduced first followed by lab assignment .  The presentation will occur during the regular lecture class time.
+Theme Selection
+Each team chooses one theme. The theme is intentionally broad: it is a problem space, not a prescribed solution. Teams must investigate before deciding what should be built or changed.
+Theme | What it means | Illustrative directions
+CONNECT | Help people form meaningful real-world connections around shared interests or experiences. | Joint hobbies; travel; student activities; interest groups; peer learning; local events. 
+SUSTAIN | Improve environmental or social sustainability through measurable behavior or service changes. | Waste reduction; reuse; cleanups; energy; transportation; community initiatives; resource sharing.
+CONNECT —  Theme Create a product, service, or experience that helps people form meaningful real-world connections through shared interests, hobbies, activities, travel, learning, or experiences. The emphasis is on facilitating human interaction rather than simply creating another social-media platform.
+Generic Case Introduction
+Your team has identified an opportunity in one of the approved themes. The need is real enough to justify investigation, but the solution is not yet known. Your team will act as project management consultants, business analysts, and prototype developers. Your responsibility is to investigate the problem, engage stakeholders, recommend a solution, plan it, prototype selected components, and evaluate whether the proposed project can create value. Every team will be working on a unique product.
+A | ASPIRATION — The Opportunity
+Episode 1 — Understand the Problem Space
+Do not begin by proposing an app. Begin by investigating the people, activities, frustrations, unmet needs, and opportunities within your chosen theme.
+Examples of useful questions:
+What opportunity exists to streamline life for you or a new person at college.
+Who experiences the problem or opportunity?
+What workarounds are people using?
+What evidence shows that the problem matters?
+What would “better” look like?
+What value could be created if the problem were addressed?
+Group Assignment A
+Problem/Opportunity Statement
+Value Proposition
+Major Stakeholders
+Initial Success Measures
+30-second Executive Pitch
+Deliverable Word document: approximately 2 pages. Presentation: 3 slides.
+B | BUSINESS CASE — Should We Invest?
+Episode 2 — Evaluate Alternatives
+Leadership agrees that the opportunity deserves investigation. However, recognizing a problem does not automatically justify a technology investment. Your team must compare alternatives. What happens if the organization does nothing?
+Alternative | Description | Questions to evaluate
+1. Improve Current Process  (no new project)  | Improve existing practices and tools without introducing a major new platform. | Cost? Scalability? User burden? How long would this remain viable?
+2. Commercial Solution  (new project) | Buy or  adapt  an existing product or service. | Fit? Speed? Configuration? Data/privacy? Vendor dependency?
+3. Custom Solution  (new project) | Design and build a solution for the organization. | Control? Differentiation? Cost? Time? Maintenance? Risk?
+Business-Case Criteria
+Strategic alignment
+Expected benefits
+Cost/Profit (If for profit)
+Feasibility
+Schedule
+Security/privacy and implementation risk
+Operational support
+Stakeholder adoption
+Group Assignment B
+Present your business case and recommend GO / REVISE / NO-GO.
+Explain what evidence supports your recommendation.
+Deliverable Word document: approximately  2-4  pages. Presentation:  3- 6 slides.
+C | CHARTER & GOVERNANCE — Authorize the Project
+Episode 3 — Charter the Project
+The sponsor/ leadership likes the business case and authorizes the project. Your team must create a project charter with clear objectives, stakeholders, and governance decision framework.
+Typical Stakeholder Categories
+Executive sponsor
+Program or business owner
+Primary users
+Secondary users
+Operations/support
+IT or technical specialists
+Cybersecurity/privacy/legal
+Finance/procurement
+External partners or vendors
+Note: Your list will differ because each project has its own stakeholders.
+Group Assignment C
+Project Charter
+Stakeholder Register
+Governance Structure
+Communication approach
+Escalation rules for scope, budget, schedule, and major risk/security exceptions
+Deliverable Word document: approximately  3  pages. Presentation:  3  slides.   See template in  Kanabar/Warburton  workbook .
+D | DEVELOP THE PLANS —  Scope, WBS, Schedule, Cost & Risk
+Episode 4 — Integrated Planning
+Your project now needs an integrated plan. The exact deliverables will depend on the selected theme and solution. The planning challenge is to ensure that scope, schedule, cost, resources, risk, quality, procurement, and stakeholders fit together.
+Planning Lab 1 — Scope and MVP
+Stakeholders will request more features and capabilities than the first release can reasonably contain. Use evidence from your research to determine what belongs in the MVP or Release 1.
+Product/project scope
+Out-of-scope statement
+WBS
+Major work packages
+MVP or Release 1
+MoSCoW classification: Must / Should / Could / Wont-Have (will go in Future)
+Top 3–5 user stories to prototype
+Prototype discipline Research and requirements come first; prototype second. The prototype should be traceable to actual stakeholder evidence, not generated from a generic “build me an app” prompt.
+Planning Lab 2 — WBS & Schedule
+Develop a schedule that reflects real dependencies. Use MS Project or equivalent scheduling logic. Identify the critical path and major milestones. Explain where management attention is most important if timing becomes threatened.
+Planning Lab 3 — Cost
+Develop a realistic estimate. Then assume management asks for a materially lower budget. Do not simply change the number. Explain what must change in scope, schedule, resources, sourcing, delivery approach, contingency, or release strategy.
+Planning Lab 4 — Risk
+Develop a risk register containing at least ten meaningful project risks. Express risks as Cause → Risk Event → Effect and assess probability, impact, priority, response, owner, and trigger.
+Planning Lab 5 — Quality and Procurement (optional)
+Define what “good enough” means for the project. Identify acceptance criteria, major quality measures, and whether any capabilities should be made internally or obtained externally. 
+Note: Your project might not involve procurement, so you can skip it. Only focus on quality.
+Group Assignment D
+Scope, WBS, MVP/Release 1, and user stories
+Schedule and critical path
+Cost estimate and budget trade-off recommendation
+Risk register
+Quality/acceptance approach
+Procurement or make-or-buy analysis where relevant
+Deliverable Scope statement , Gantt Chart, Cost and Risk Register.
+E | EXECUTE — Research,  Create  backlog of  Requirements, and Prototype  (using Scrum sprints)
+Episode 5 — Do the Business Analysis
+Execution in this course does not mean building the entire production system. It means conducting serious business analysis, translating evidence into requirements, and prototyping selected high-value interactions.
+Phase 1: Requirements Gathering
+Peer or user interviews: ask your team or classmates to comment 
+Stakeholder sessions: prepare questions, assign note takers, and look for conflicting needs.
+Create Product Backlog.
+Create User stories.
+Phase 2:  Prototype
+Use an AI-assisted prototyping tool such as Lovable, ChatGPT, Claude, or another approved tool. Scope the prototype to 3–5 user stories. A focused workflow is preferable to a shallow simulation of the entire solution.
+Evidence standard For every important  feature  or prototype capability, your team should be able to answer: “Which requirement does this implement, and what stakeholder evidence supports that requirement?”
+Group Assignment E
+Conduct and document research.
+Translate findings into backlog of requirements.
+Create 3–5 traceable user stories.
+Develop a focused low-fidelity or functional prototype.
+Demonstrate how the prototype reflects the evidence.
+Deliverable Prototype demonstration plus supporting requirements  backlog.
+F | FINISH — Evaluate Delivery and Learn
+Episode 6 — Project Completion
+At the end of the project, prepare a final presentation to leadership. Evaluate what your team delivered, what worked, what did not, and what a future team should do differently.
+Final Presentation
+A — Aspiration: What opportunity did you pursue and what value should it create?
+B — Business Case: Should the organization invest, and in what solution?
+C — Charter: How should the project be authorized, organized, and governed?
+D — Develop Plans: How should scope, schedule, cost, risk, quality, resources, and procurement be managed?
+E — Execute: Demonstrate the prototype and the research/requirements evidence behind it.
+F — Finish: Did the team meet its project goals? What did you learn? What recommendations would you give next year’s team?
+Deliverable Comprehensive  presentation.  R euse selected slides from prior milestone presentations.   Walk through  the complete case.  Conclude with lessons learned.
+FLOW | The Complete Case
+ASPIRATIONFind a genuine problem or opportunity
+↓
+BUSINESS CASEImprove / Buy / Build / Hybrid
+↓
+CHARTER & GOVERNANCEAuthorize, organize, and define decision rights
+↓
+PLANScope → WBS → Schedule → Cost → Risk → Quality → Procurement
+↓
+EXECUTEResearch → Requirements → User Stories → Prototype
+↓
+FINISHEvaluate delivery → Lessons → Recommendations
+↓
+VALUEDid the project identify value that is delivered?

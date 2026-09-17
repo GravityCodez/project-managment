@@ -1,0 +1,155 @@
+CONNECT THEME
+ClassMic Phase D Integrated Project Plan
+Scope Schedule Cost Risk Quality and Procurement
+Team members  Temiko Machavariani and Nurtore Arynuruly
+EXECUTIVE SPONSOR Dean of Academic Affairs | PROJECT MANAGER Nurtore Arynuruly
+TECHNICAL LEAD Temiko Machavariani | PLANNING BASELINE 14 weeks  |  3 classrooms  |  AED 59,800
+1 Integrated plan summary
+This plan converts the approved ClassMic charter into a controlled 14-week delivery baseline. The team will define and build a browser-based, instructor-controlled phone microphone, validate it in three equipped classrooms, operate a six-week pilot, and present evidence for the Dean of Academic Affairs to close, revise, or continue the project.
+Management focus. The critical management points are the privacy and architecture gate at the end of Week 3, classroom AV integration in Week 6, pilot-readiness approval at the end of Week 8, and support performance during the six-week pilot.
+2 Scope statement
+Product scope | Project scope
+A temporary browser session reached by QR code; microphone permission notice; request-to-speak queue; instructor approval, mute, and end controls; one active push-to-talk microphone; room-speaker output; automatic session timeout; operational event logging without stored audio. | Confirm requirements; design and build the focused MVP; review privacy, security, accessibility, browser, network, and AV controls; train pilot instructors; run the three-classroom pilot; measure performance and adoption; provide a final recommendation.
+3 Scope boundaries
+Included in Release 1 | Excluded from Release 1
+Three pilot classrooms; up to six instructors and 150 students; latest supported mobile browsers; basic instructor dashboard; user guidance; physical-microphone fallback; performance, support, and satisfaction measurement. | Continuous or secret recording; stored audio or transcripts; voice identification; attendance or grading from speech; simultaneous microphones; remote learning; permanent profiles; campus-wide rollout; production service-level commitments.
+4 Constraints assumptions and dependencies
+Type | Planning statement
+Constraints | Finish within 14 weeks and AED 60,000; use three equipped classrooms; store no audio or transcript; retain a physical-microphone fallback; do not begin the live pilot with unresolved critical security, privacy, or safety defects.
+Assumptions | Rooms have stable Wi-Fi and a computer connected to speakers; most participants have compatible phones; instructors will control the queue; IT, AV, accessibility, and privacy specialists can support planned reviews.
+Dependencies | Room access, browser microphone permission, Wi-Fi capacity, AV output compatibility, control-owner availability, instructor participation, and sponsor decisions at the planned gates.
+5 MVP and Release 1 priorities
+Release 1 is the smallest complete classroom workflow that can test audibility, reliability, adoption, operational effort, and privacy controls. Optional features cannot delay the pilot-readiness gate.
+Priority | Capabilities
+Must have | QR or one-time-code join; explicit microphone permission; instructor session start and end; request queue; approve, mute, and remove; one active microphone; push to talk; room-speaker output; session timeout; no stored audio; basic event and incident logs; physical-mic fallback.
+Should have | Pre-session device and network check; clear reconnect message; instructor view of connection health; anonymous end-of-session feedback; simple pilot metrics; short instructor and student help screens.
+Could have | Ephemeral live captions after privacy approval; additional language cues; richer device diagnostics; configurable speaking timer; branded room display.
+Will not have | Recording or transcript storage; voice recognition; attendance or grading; public profiles; simultaneous student microphones; remote-learning mode; external users; automated disciplinary decisions; campus-wide production deployment.
+6 Priority user stories to prototype
+ID | User story | Release 1 acceptance criteria
+US1 | As an instructor, I want to start a temporary room session and display a QR code so students can join quickly. | Session and QR appear within 10 seconds; code expires when the instructor ends the session; a new session uses a different code.
+US2 | As a student, I want to understand and grant microphone permission only when I choose to participate. | Purpose and no-recording notice appear before permission; denial leaves the student in listen-only status; permission can be revoked through the browser.
+US3 | As a student, I want to request the microphone and use push to talk after approval so my question reaches the room speakers. | Request enters the queue once; approval is visibly confirmed; audio transmits only while push to talk is held; the microphone closes when released or timed out.
+US4 | As an instructor, I want to see the queue and approve, mute, remove, or end speakers so discussion remains controlled. | Only one student can transmit; every control acts within 2 seconds under the test network; end session disconnects all phone microphones.
+US5 | As a pilot owner, I want non-audio performance and support data so I can evaluate reliability without recording speech. | Logs contain session time, connection status, latency, failures, and control events; no audio or transcript is stored; the pilot summary reports agreed success measures.
+7 Release 1 completion definition
+Release 1 is complete only when all Must-have capabilities pass functional tests, the pilot-readiness quality thresholds are met, security and privacy owners approve the data flow, instructors can operate the workflow after the planned briefing, and no critical defect or risk exception remains unresolved.
+8 Work breakdown structure
+The WBS is deliverable-oriented. Each lowest-level work package has one accountable owner and a clear exit result; task-level estimates roll up to the schedule and cost baseline.
+WBS | Work package | Output or exit result | Owner
+1.0 | Project control | Approved baseline, decisions, status, and controlled changes | Nurtore
+1.1 | Kickoff and baseline | Team roles, repositories, plan, and gate calendar confirmed | Nurtore
+1.2 | Status issue and change control | Weekly status, action, issue, and change records maintained | Nurtore
+2.0 | Requirements and design | Accepted classroom, control, privacy, and accessibility needs | Nurtore
+2.1 | Classroom workflow definition | Current and target speaking workflow agreed with instructors and students | Nurtore
+2.2 | Control requirements | Privacy, security, accessibility, support, and evidence rules approved | Nurtore plus control owners
+2.3 | Interaction and technical design | Student and instructor flows, data flow, and architecture ready | Temiko
+3.0 | Solution build | Integrated ClassMic Release 1 candidate | Temiko
+3.1 | Session service | Temporary sessions, access code, queue state, and timeout working | Temiko
+3.2 | Student browser flow | Join, permission, request, approval state, and push to talk working | Temiko
+3.3 | Instructor controls | Start, queue, approve, mute, remove, and end functions working | Temiko
+3.4 | Audio and AV integration | One active microphone reaches room speakers without unsafe feedback | Temiko plus AV
+4.0 | Validation and readiness | Release 1 approved for controlled pilot | Project team
+4.1 | Functional and integration test | Must-have tests passed and defects triaged | Temiko
+4.2 | Security privacy accessibility review | Control evidence accepted; no critical exception open | Control owners
+4.3 | User acceptance and training | Pilot instructors accept workflow and complete briefing | Nurtore plus instructors
+5.0 | Pilot and support | Six-week evidence-producing classroom pilot | Nurtore
+5.1 | Participant onboarding | Rooms, instructors, students, notices, and fallback ready | Nurtore
+5.2 | Live pilot operations | Sessions supported; incidents, defects, and metrics recorded | Nurtore plus IT and AV
+5.3 | Measurement and evaluation | Performance, adoption, support, and satisfaction results analyzed | Nurtore
+6.0 | Closeout and decision | Final recommendation, decision, and archived evidence | Team and sponsor
+9 Responsibility summary
+Role | Accountability | Key approvals or handoffs
+Nurtore Arynuruly  Project manager | Integrated baseline, business analysis, coordination, status, change control, pilot operations, and evaluation. | Business requirements, UAT readiness, status, and sponsor recommendations.
+Temiko Machavariani  Technical lead | Architecture, build, AV integration, technical testing, defect correction, and technical evidence. | Release candidate, test evidence, and technical readiness.
+Dean of Academic Affairs  Sponsor | Funding and resource authorization, major exceptions, and final disposition. | Baseline changes, risk exceptions, and close revise or continue decision.
+10 Schedule and critical path
+The baseline uses 14 teaching weeks. Dark cells are critical-path work, light-blue cells are planned parallel work, and green cells are approval milestones.
+Work package | W1 | W2 | W3 | W4 | W5 | W6 | W7 | W8 | W9 | W10 | W11 | W12 | W13 | W14
+Project control and reporting | X | X | X | X | X | X | X | X | X | X | X | X | X | X
+Workflow requirements | X | X |  |  |  |  |  |  |  |  |  |  |  | 
+Privacy accessibility and architecture |  | X | X |  |  |  |  |  |  |  |  |  |  | 
+Interaction prototype |  | X | X |  |  |  |  |  |  |  |  |  |  | 
+Design and control gate |  |  | M |  |  |  |  |  |  |  |  |  |  | 
+Audio and session core |  |  |  | X | X |  |  |  |  |  |  |  |  | 
+Student browser interface |  |  |  | X | X |  |  |  |  |  |  |  |  | 
+Instructor queue and controls |  |  |  | X | X | X |  |  |  |  |  |  |  | 
+Classroom AV integration |  |  |  |  |  | X |  |  |  |  |  |  |  | 
+Security device and system tests |  |  |  |  |  |  | X |  |  |  |  |  |  | 
+User acceptance and instructor training |  |  |  |  |  |  |  | X |  |  |  |  |  | 
+Live classroom pilot and support |  |  |  |  |  |  |  |  | X | X | X | X | X | X
+Outcome analysis and sponsor decision |  |  |  |  |  |  |  |  |  |  |  |  |  | M
+Critical path
+Workflow requirements  ->  privacy accessibility and architecture  ->  design gate  ->  audio and instructor controls  ->  AV integration  ->  system tests  ->  user acceptance  ->  six-week pilot  ->  outcome decision.
+A delay to any critical-path activity moves the pilot or final sponsor decision unless recovered within the same stage. The student interface and interaction prototype have limited float, but both must be integrated before system testing in Week 7.
+Gate | Due | Entry evidence | Decision | Decision owner
+Design gate | End Week 3 | Accepted requirements, data flow, architecture, interaction prototype | Approve build or revise design | Project manager plus control owners
+Pilot readiness | End Week 8 | Must-have tests, UAT, AV test, training, privacy and security approval | Start, delay, or cancel pilot | Business owner; sponsor for exception
+Outcome gate | End Week 14 | Performance, adoption, support, incidents, cost, and satisfaction results | Close, revise, or continue | Dean of Academic Affairs
+11 Cost estimate and budget baseline
+The estimate combines planned labor effort and direct pilot costs. It is a planning baseline, not a vendor quotation, and remains below the AED 60,000 charter ceiling.
+Cost element | AED | Estimation basis
+Requirements and classroom design | 6,000 | Project manager and stakeholder workshops
+Interaction and technical design | 5,500 | Technical design, data flow, and prototype
+Web application development | 20,000 | Student interface, session service, instructor controls
+Audio AV integration and testing | 8,000 | Room setup, device matrix, feedback and latency tests
+Security privacy and accessibility validation | 5,500 | Control reviews, remediation, and readiness evidence
+Pilot training operations and support | 7,000 | Three rooms, six instructors, six-week support allowance
+Hosting monitoring and tools | 2,000 | Pilot-only environment and operational tooling
+Contingency reserve | 5,800 | About 10.7% of AED 54,000 base estimate
+Total baseline | 59,800 | AED 200 below the authorization ceiling
+12 Materially lower budget scenario
+If management reduces the ceiling by about 25% to AED 45,000, the team should revise the evidence ambition rather than preserve the same promise with an unrealistic number. Security, privacy, and accessibility controls remain protected.
+Change | Reduced plan | Saving AED | Consequence
+Pilot size and duration | 1 classroom for 3 weeks | 6,500 | Smaller sample and weaker evidence about different rooms, instructors, and support demand.
+Device coverage | Latest Safari and Chrome only | 2,000 | More students may need the physical-mic fallback; general compatibility remains unproven.
+Product scope | Remove rich metrics, diagnostics, and interface polish | 2,500 | Core workflow remains, but troubleshooting and evaluation are more manual.
+Support model | Scheduled pilot sessions only | 1,800 | Unplanned classes receive no immediate support; adoption evidence is less natural.
+Hosting and relay allowance | Use internal environment only | 800 | Pilot stops if network tests show an external relay is necessary.
+Contingency | Reduce reserve by AED 1,200 | 1,200 | Less ability to absorb rework; scope must be cut sooner if a risk occurs.
+Total reduction | Revised ceiling AED 45,000 | 14,800 | The result is a feasibility test, not sufficient evidence for campus-wide investment.
+Budget control
+Nurtore maintains the forecast and reports variance weekly. Forecast variance above 5% requires recovery options; any forecast above AED 60,000, use of management reserve for a new scope item, or external commitment outside the approved plan requires the Dean's approval before spending.
+13 Risk register
+Scoring uses probability and impact from 1 to 5; priority equals probability multiplied by impact. Scores 10 to 25 are High, 5 to 9 are Medium, and 1 to 4 are Low.
+ID | Cause  ->  risk event  ->  effect | P I score | Response | Owner | Trigger
+R1 | Room speakers feed phone microphones  ->  echo or feedback occurs  ->  speech becomes unusable and class is disrupted. | 4 4 16 High | Use one active microphone, push to talk, echo controls, pre-pilot room tuning, and immediate physical-mic fallback. | Temiko | Feedback in more than 10% of test requests
+R2 | Busy classroom Wi-Fi adds loss or delay  ->  audio becomes late or breaks up  ->  users abandon ClassMic. | 3 5 15 High | Test peak load, prioritize local routing, monitor latency and loss, reduce cohort, and use fallback when thresholds fail. | IT lead | Median delay above 700 ms or loss above 3% in two tests
+R3 | Room AV systems differ  ->  the receiver cannot route cleanly to speakers  ->  a pilot room misses readiness. | 3 4 12 High | Inventory rooms in Week 1, standardize adapters and levels, test each room, and keep a substitute room. | AV lead | No stable speaker output by Week 6
+R4 | Mobile browsers and permissions vary  ->  some phones cannot join or transmit  ->  access and adoption fall. | 3 3 9 Medium | Publish supported devices, run a pre-check, test the agreed matrix, provide reconnect help, and offer a loaner or physical mic. | Temiko | More than 10% of test devices fail
+R5 | A QR code is shared outside the room  ->  an unauthorized user enters a session  ->  classroom control or privacy is harmed. | 2 5 10 High | Use short-lived codes, instructor admission or removal, one active mic, session timeout, and security logs. | Temiko | Unknown participant or repeated invalid joins
+R6 | Audio handling is configured incorrectly  ->  speech is recorded, retained, or exposed  ->  a serious privacy incident occurs. | 2 5 10 High | Store no audio, review data flow and configuration, restrict logs, test deletion, and stop the affected feature on suspicion. | Privacy lead | Any stored audio, transcript, or unauthorized access
+R7 | Instructors see extra classroom effort  ->  they avoid the controls  ->  the pilot produces little adoption evidence. | 3 4 12 High | Co-design the queue, keep setup under two minutes, provide a short guide, observe sessions, and correct friction weekly. | Business owner | Fewer than four of six instructors use it twice
+R8 | Students are unsure about permission or value  ->  few request the microphone  ->  outcome measures are inconclusive. | 3 3 9 Medium | Use clear notices, demonstrate the flow, collect anonymous feedback, and let instructors prompt participation without forcing it. | Nurtore | Voluntary use below 50% of eligible sessions after Week 2
+R9 | Some students lack a compatible phone or cannot use push to talk  ->  access is unequal  ->  the pilot excludes participants. | 2 4 8 Medium | Provide a loaner or physical-mic path, review accessibility, support keyboard and screen-reader flows, and never require phone use. | Accessibility lead | A participant cannot access an equivalent speaking path
+R10 | Support demand is underestimated  ->  incidents consume the team  ->  schedule and classroom trust deteriorate. | 3 3 9 Medium | Use runbooks, scheduled support coverage, triage severity, known-issue guidance, and a stop rule for repeated failures. | Nurtore | Support exceeds 4 hours per room per week
+R11 | Stakeholders request captions, recording, analytics, or more rooms  ->  scope expands  ->  cost or schedule exceeds the baseline. | 4 3 12 High | Apply MoSCoW boundaries, log requests, assess impact, freeze additions after Week 3, and require sponsor approval for change. | Nurtore | Any request alters a baseline or adds stored data
+R12 | Critical technical tasks slip  ->  readiness moves beyond Week 8  ->  the six-week pilot or outcome decision is shortened. | 3 4 12 High | Review critical path weekly, protect integration time, use acceptance gates, and cut optional work before compressing tests. | Nurtore | Critical milestone forecast more than 5 business days late
+R13 | Rework or AV purchases exceed allowance  ->  forecast rises above plan  ->  the project breaches its authorization ceiling. | 2 4 8 Medium | Maintain weekly forecast, use contingency only for realized risks, seek alternatives, and stop new commitments before the ceiling. | Nurtore | Forecast variance above 5%
+R14 | Too few valid sessions or survey responses are collected  ->  evaluation is biased  ->  the sponsor cannot make a confident decision. | 3 3 9 Medium | Define measures before pilot, track sample sufficiency weekly, combine logs and surveys, and report uncertainty openly. | Nurtore | Fewer than 20 valid sessions or 60% survey response
+14 Quality and acceptance approach
+Quality means the Release 1 workflow is safe, usable, measurable, and reliable enough for a controlled pilot. Passing tests is necessary, but the business owner and control owners must also accept the evidence at the readiness gate.
+Quality area | Acceptance criterion | Verification method | Acceptance owner
+Setup and operability | At least 90% of observed sessions start within 2 minutes; instructor completes start approve mute and end without live help after briefing. | Timed scenario test and UAT observation | Business owner
+Functional control | Only one student transmits; request approve mute remove timeout and end controls behave as specified; all Must-have tests pass. | Functional and integration test suite | Nurtore and Temiko
+Performance and reliability | At least 90% of approved requests become audible within 3 seconds; median audio delay is 700 ms or less; at least 95% of pilot sessions finish without a ClassMic-caused stop. | Event logs, network test, and session log | Temiko and IT
+Audio usefulness | Speech is intelligible in every pilot room at normal listening position, with no sustained feedback or unsafe volume. | Room checklist and instructor rating | AV lead and instructors
+Privacy and security | No stored audio or transcript; codes expire; unauthorized users can be removed; access and retention controls pass review; no unresolved critical finding. | Data-flow review, configuration check, misuse test | Privacy and security owners
+Compatibility and accessibility | Agreed iOS and Android browser matrix passes; denied permission has a clear recovery path; an equivalent physical or loaner microphone is always available. | Device matrix and accessibility review | Accessibility and IT leads
+Stakeholder value | At least 75% of surveyed students and instructors say questions were easier to hear, and at least four of six instructors use ClassMic in two or more sessions. | Anonymous survey and usage evidence | Business owner
+Defect threshold | Zero open critical defects; high defects resolved or explicitly accepted by the correct control owner and sponsor; medium defects have documented workarounds. | Defect review at Week 8 gate | Project manager
+15 Make or buy and procurement approach
+Capability | Decision | Reason | Control
+ClassMic classroom workflow | Build | Instructor approval, one-mic control, no-audio-storage rule, and pilot metrics are the differentiated scope. | Temiko owns design; change control protects scope.
+Browser microphone transport | Reuse | Standard browser media and real-time communication capabilities reduce custom device software. | Compatibility and security tests before pilot.
+Hosting and monitoring | Reuse internal | Existing institutional environment minimizes new vendor access and pilot cost. | IT approves configuration, access, logs, and deletion.
+Classroom speakers and adapters | Reuse then buy commodity items | Rooms already provide speakers; low-cost adapters may standardize receiver output. | AV validates safety and compatibility; Finance approves purchase.
+Relay service if required | Conditional buy | Only needed if network testing shows direct or local routing is unreliable. | Privacy, security, IT, and Finance review before data is sent to a vendor.
+Survey and reporting tools | Reuse existing | Current institutional tools can collect anonymous feedback and summarize pilot measures. | Collect only agreed data and apply pilot retention rules.
+Procurement rule
+No external provider may receive live audio, identifiers, or session data without documented security and privacy approval. Nurtore may place approved purchases already inside the cost baseline; a new vendor, commitment above AED 5,000, or any change that could store or process audio outside the institution requires Finance review and the Dean's approval.
+16 Phase D baseline approval
+Approval role | Name and signature | Date
+Dean of Academic Affairs | ________________________________ | ____________
+Project manager | Nurtore Arynuruly  ____________________ | ____________
+Technical lead | Temiko Machavariani  __________________ | ____________

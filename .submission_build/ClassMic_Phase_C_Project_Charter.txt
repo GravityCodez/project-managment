@@ -1,0 +1,78 @@
+CONNECT THEME
+ClassMic Classroom Microphone Pilot Project Charter
+Phase C Authorization and Governance
+Team members  Temiko Machavariani and Nurtore Arynuruly
+SPONSOR Dean of Academic Affairs | PROJECT MANAGER Nurtore Arynuruly
+TECHNICAL LEAD Temiko Machavariani | AUTHORIZATION 14 weeks  |  3 classrooms  |  AED 60,000 ceiling
+1 Project purpose and authorization
+ClassMic will test whether a student's own phone can work as a secure, instructor-controlled wireless microphone in a classroom. Students join a temporary browser session by QR code, request permission to speak, and use push to talk; only one approved phone transmits audio to the classroom sound system at a time.
+This charter authorizes a limited pilot, not a campus-wide rollout. The project aims to make student questions easier to hear without passing a physical microphone, while protecting privacy through explicit microphone permission, no recording, no persistent audio storage, and instructor control.
+2 SMART objective
+Element | ClassMic response
+Specific | Develop and pilot an instructor-controlled, browser-based system that lets students use a phone as a push-to-talk classroom microphone in three equipped classrooms.
+Measurable | Success requires 90% of sessions to start within 2 minutes, 90% of approved requests to become audible within 3 seconds, median delay of 700 ms or less, 75% positive audibility feedback, and zero critical privacy or security incidents.
+Achievable | The limited pilot reuses student phones, existing Wi-Fi, classroom speakers, and standard browsers, while one active microphone and a physical-mic fallback keep the solution realistic for the team and available resources.
+Relevant | ClassMic supports inclusive participation and teaching quality by helping the whole room hear student questions without disrupting discussion to pass around a physical microphone.
+Time-bound | The project will complete discovery, prototype development, testing, and a six-week classroom pilot within 14 weeks, followed by the Dean's decision to close, revise, or continue.
+3 Scope and boundaries
+In scope | Out of scope
+Browser-based QR join; temporary classroom session; request-to-speak queue; instructor approve, mute, and end controls; one active microphone; push to talk; classroom speaker output; basic support guide; three-classroom pilot and evaluation. | Continuous or secret recording; saved audio or transcripts; voice identification; attendance or grading from speech; simultaneous student microphones; remote-learning use; campus-wide production deployment; permanent student profiles.
+4 Major deliverables and milestones
+Timing | Milestone | Approval or evidence
+Week 1 | Charter approved and project kickoff | Dean's authorization
+Weeks 2 to 3 | Classroom, privacy, accessibility, and technical needs confirmed | Business owner and control-owner sign-off
+Weeks 4 to 6 | Working prototype and instructor controls completed | Project manager acceptance
+Weeks 7 to 8 | AV, network, browser, misuse, and user acceptance tests passed | IT, AV, privacy, and pilot instructors
+Weeks 9 to 14 | Six-week live pilot and final evaluation completed | Dean's decision on close, revise, or continue
+5 Stakeholder register
+The register identifies who is affected, who can approve or block work, and how the team will engage each group during the pilot.
+Stakeholder | Role and interest | Influence | Engagement
+Dean of Academic Affairs | Executive sponsor who authorizes the pilot, funding ceiling, exceptions, and final decision. | High | Chair governance reviews; approve gates and changes.
+Teaching and Learning lead | Business owner accountable for classroom value and user acceptance. | High | Confirm needs; accept pilot readiness and outcomes.
+Temiko Machavariani | Technical lead and prototype coordinator; owns technical quality. | High | Lead design, testing, fixes, and technical evidence.
+Nurtore Arynuruly | Project manager and business analyst; controls delivery and reporting. | High | Coordinate team, decisions, issues, and stakeholder work.
+Pilot instructors | Primary operators who manage the speaking queue and room session. | Med high | Co-design controls; test; provide weekly feedback.
+Students | Primary speakers and listeners; need simple access, audibility, and privacy. | Medium | Short briefing, consent notice, pulse surveys, support channel.
+IT and classroom AV | Validate network, browser, sound-system compatibility, and supportability. | High | Technical review before pilot; on-call during pilot sessions.
+Cybersecurity and privacy | Review microphone permissions, data flow, access, retention, and incidents. | High | Mandatory design and pre-pilot control gates.
+Accessibility services | Ensure students with hearing, speech, mobility, or device barriers are included. | Medium | Review interaction design and fallback process.
+Finance and procurement | Monitor the authorization ceiling and any external service commitments. | Medium | Review purchases and forecast exceptions.
+6 Governance structure and decision rights
+The Dean of Academic Affairs retains accountability for authorization and exceptions. The project manager may run day-to-day delivery inside the approved purpose, scope, 14-week window, and AED 60,000 ceiling.
+Governance body or role | Decision rights | Cadence
+Dean of Academic Affairs | Approves charter, funding ceiling, material changes, risk exceptions, and final disposition. | Kickoff, stage gates, and escalations
+Steering group | Sponsor, business owner, project manager, technical lead, IT or AV, and privacy representative review status and recommend decisions. | Every two weeks
+Business owner | Prioritizes business needs, accepts classroom workflow, and confirms benefits evidence. | Weekly with project manager
+Project manager | Controls work, assignments, issue log, and minor clarifications that do not alter baselines or controls. | Continuous; weekly report
+Technical and control owners | Technical lead proposes designs; IT, AV, privacy, and security approve readiness in their control areas. | Design gate and pre-pilot gate
+7 Governance decision framework
+Decision | Recommends | Approves | Required record
+Routine work and issue response | Project team | Project manager | Task or issue log
+Requirement priority within scope | Instructors and students | Business owner | Decision log
+Technical design within controls | Technical lead | Project manager plus control owner | Test or review record
+Baseline change or major exception | Steering group | Dean of Academic Affairs | Signed change decision
+8 Communication approach
+Audience | Purpose and content | Frequency | Owner and channel
+Project team | Actions, blockers, test evidence, and next priorities. | Weekly and as needed | Nurtore; team meeting and action log
+Business owner and pilot instructors | Workflow decisions, readiness, adoption, and classroom feedback. | Weekly | Nurtore; short review and decision log
+Steering group | Status against scope, time, budget, success targets, major risks, and decisions required. | Every two weeks | Nurtore; one-page status update
+IT, AV, security, and privacy | Architecture, permission, data-flow, test, and incident evidence. | At design and pre-pilot gates; immediately for incidents | Temiko; review session and control record
+Students | Purpose, how to join, microphone permission, no-recording rule, support, and feedback route. | At first use and end of session | Pilot instructor; on-screen notice and survey
+Dean of Academic Affairs | Exceptions, stage-gate recommendation, and final pilot outcome. | At gates or escalation | Nurtore; decision brief
+9 Escalation rules
+Every escalation is logged with the issue, impact, options, owner, decision deadline, and final decision. No team member may trade away an approved privacy or security control to recover time or cost.
+Area | Trigger | Immediate action | Decision authority
+Scope | Change adds a user group, classroom, core feature, stored data, or alters the approved purpose. | Project manager pauses the change, documents impact on value, cost, time, and risk, and takes it to governance. | Business owner recommends; Dean approves
+Budget | Forecast exceeds the current plan by more than 5%, or any commitment would exceed AED 60,000. | Freeze nonessential commitments and prepare recovery or trade-off options before spending. | Project manager within 5%; Dean above 5% or ceiling
+Schedule | A milestone is forecast more than 5 business days late, or the six-week pilot window is threatened. | Replan dependencies and resources; escalate within one business day with recovery choices. | Business owner up to 5 days; Dean beyond 5 days
+Security or privacy | Suspected unauthorized recording, access, audio retention, data exposure, or bypass of instructor control. | Stop the affected session or feature immediately; preserve evidence; notify security and privacy within 1 hour. | Security or privacy owner clears restart; Dean accepts any major exception
+Major operational risk | Two failed classroom sessions, serious feedback or echo, support above 4 hours per room per week, or adoption below 50% after week 2. | Use the physical-room fallback, investigate cause, and review corrective action within one business day. | Steering group recommends; Dean may pause or end pilot
+10 Constraints assumptions and principal risks
+Constraints. The pilot must remain within 14 weeks, three equipped classrooms, and AED 60,000; use supported student browsers; provide a physical microphone or instructor-repeat fallback; and store no audio or transcript. The authorization ceiling is not an itemized cost baseline.
+Assumptions. Pilot rooms have stable Wi-Fi and a computer connected to room speakers; most participants have a compatible phone; instructors will control the queue; IT and privacy specialists can review the pilot; and participants receive clear notice before microphone access.
+Principal risks. Audio feedback, network delay, misuse, incompatible devices, low instructor adoption, and unequal phone access could reduce value. Controls include one active microphone, push to talk, pre-pilot room tests, instructor mute and end controls, a loaner or physical-mic fallback, training, and incident procedures.
+11 Project authorization
+Approval authorizes the team to begin the ClassMic pilot within this charter. Any material change or major control exception requires the escalation and decision process above before implementation.
+Approval role | Name and signature | Date
+Dean of Academic Affairs | ________________________________ | ____________
+Project manager | Nurtore Arynuruly  ____________________ | ____________
