@@ -35,3 +35,5 @@ The package builder confirms every ZIP member matches its source byte for byte. 
 The tutorial was transcribed locally with faster-whisper 1.2.1 using base.en and CPU int8. All new package releases were restricted by uv's native exclude-newer cutoff to September 15, 2026 at 00:00 UTC, more than 48 hours before installation. The local transcript informed the project-root hierarchy and the use of ClassMic instead of the demonstration name Pluto.
 
 Git attributes disable text normalization for archive/reference originals and CSV deliverables so their checked-in bytes retain the recorded hashes across clones. Internal documentation links and authoring-helper syntax were also checked.
+
+Final publication checks confirmed that tracked files exclude candidate key strings from the local institutional guide, release hashes match every current file, internal documentation links resolve, authoring helpers parse, and no runtime symlinks or files over 50 MB remain in the tracked working tree. Delivery results are in DELIVERY.md.

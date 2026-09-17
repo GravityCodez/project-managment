@@ -31,4 +31,4 @@ The user reported Notion setup in September 10 context, but a project page URL i
 
 ## Git state
 
-The user authorized publishing the completed work to GitHub and sending ClassMic_WBS_Lab.zip to Telegram contact Lourinser (@realnurtore) with a review request. Delivery results are recorded in DELIVERY.md after verification. No collaborator invitation or LMS upload is included in that authorization.
+The completed cleanup and coursework were pushed to GitHub main and approach/repo-cleanup-wbs-lab. The lab ZIP and review request were verified as sent to Telegram contact Lourinser (@realnurtore) at 22:01. See [delivery record](DELIVERY.md) for the package hash and receipt. No collaborator invitation, LMS upload or received review is claimed.
